@@ -1,4 +1,5 @@
-﻿using StatisticsAnalysisTool.Enumerations;
+﻿using Serilog;
+using StatisticsAnalysisTool.Enumerations;
 using StatisticsAnalysisTool.GameFileData;
 using StatisticsAnalysisTool.Localization;
 using System;
@@ -66,6 +67,8 @@ public sealed class ClusterInfo
 
     public void SetClusterInfo(MapType mapType, Guid? mapGuid, string clusterIndex, string instanceName, string worldMapDataType, byte[] dungeonInformation, string mainClusterIndex, Tier mistsDungeonTier)
     {
+        // [CLUSTER-TRACE] logs commented out - cluster identification already verified
+
         Entered = DateTime.UtcNow;
         MapType = mapType;
         //Guid = mapGuid;
@@ -87,14 +90,23 @@ public sealed class ClusterInfo
 
     public void SetJoinClusterInfo(string index, string mainClusterIndex, Guid? mapGuid)
     {
+        // [CLUSTER-TRACE] logs commented out - cluster identification already verified
+
         Guid = mapGuid;
         MainClusterIndex ??= mainClusterIndex;
-        WorldJsonType = WorldData.GetWorldJsonTypeByIndex(index) ?? WorldData.GetWorldJsonTypeByIndex(mainClusterIndex) ?? string.Empty;
-        File = WorldData.GetFileByIndex(index) ?? WorldData.GetFileByIndex(mainClusterIndex) ?? string.Empty;
+
+        var worldJsonTypeByIndex = WorldData.GetWorldJsonTypeByIndex(index);
+        var worldJsonTypeByMain = WorldData.GetWorldJsonTypeByIndex(mainClusterIndex);
+        WorldJsonType = worldJsonTypeByIndex ?? worldJsonTypeByMain ?? string.Empty;
+
+        var fileByIndex = WorldData.GetFileByIndex(index);
+        var fileByMain = WorldData.GetFileByIndex(mainClusterIndex);
+        File = fileByIndex ?? fileByMain ?? string.Empty;
 
         Tier = GetTier(File);
         ClusterMode = GetClusterType(WorldJsonType);
         AvalonTunnelType = GetTunnelType(WorldJsonType);
+
         ClusterHistoryString();
     }
 

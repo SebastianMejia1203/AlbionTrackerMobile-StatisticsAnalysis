@@ -17,6 +17,7 @@ using StatisticsAnalysisTool.StorageHistory;
 using StatisticsAnalysisTool.Trade;
 using StatisticsAnalysisTool.Trade.Mails;
 using StatisticsAnalysisTool.Trade.Market;
+using StatisticsAnalysisTool.MobileServer;
 using StatisticsAnalysisTool.ViewModels;
 using StatisticsAnalysisTool.Views;
 using System;
@@ -56,6 +57,11 @@ public class TrackingController : ITrackingController
     public readonly GuildController GuildController;
     private readonly List<LoggingFilterType> _notificationTypesFilters = [];
 
+    // Mobile Server
+    public MobileServerManager? MobileServer { get; private set; }
+    public MobileBroadcastService? MobileBroadcast { get; private set; }
+    private MobileDataProvider? _mobileDataProvider;
+
     public TrackingController(MainWindowViewModel mainWindowViewModel)
     {
         _mainWindowViewModel = mainWindowViewModel;
@@ -74,6 +80,11 @@ public class TrackingController : ITrackingController
         PartyController = new PartyController(this, mainWindowViewModel);
         GuildController = new GuildController(this, mainWindowViewModel);
         LiveStatsTracker = new LiveStatsTracker(this, mainWindowViewModel);
+
+        // Initialize mobile server components
+        _mobileDataProvider = new MobileDataProvider(this, mainWindowViewModel);
+        MobileServer = new MobileServerManager(_mobileDataProvider, SettingsController.CurrentSettings.MobileServerPort);
+        MobileBroadcast = new MobileBroadcastService(MobileServer, _mobileDataProvider, mainWindowViewModel, this);
 
         _ = InitTrackingAsync();
     }
@@ -131,6 +142,22 @@ public class TrackingController : ITrackingController
 
             _networkManager.Start();
             _mainWindowViewModel.IsTrackingActive = true;
+
+            // Start mobile server if enabled
+            try
+            {
+                if (SettingsController.CurrentSettings.IsMobileServerEnabled)
+                {
+                    await (MobileServer?.StartAsync() ?? Task.CompletedTask);
+                    MobileBroadcast?.Start();
+                    _mainWindowViewModel.IsMobileServerActive = true;
+                    Log.Information("Mobile server started on {Url}", MobileServer?.GetConnectionUrl());
+                }
+            }
+            catch (Exception mobileEx)
+            {
+                Log.Warning(mobileEx, "Failed to start mobile server — continuing without it");
+            }
         }
         catch (Exception ex)
         {
@@ -210,9 +237,42 @@ public class TrackingController : ITrackingController
         LootController.UnregisterEvents();
         ClusterController.UnregisterEvents();
 
+        // Stop mobile server
+        MobileBroadcast?.Stop();
+        MobileServer?.StopAsync().GetAwaiter().GetResult();
+
         _mainWindowViewModel.IsTrackingActive = false;
 
         Debug.Print("Stopped tracking");
+    }
+
+    /// <summary>
+    /// Toggle the mobile server on or off at runtime — no app restart required.
+    /// </summary>
+    public async Task ToggleMobileServerAsync(bool enable)
+    {
+        try
+        {
+            if (enable)
+            {
+                if (MobileServer?.IsRunning == true) return;
+                await (MobileServer?.StartAsync() ?? Task.CompletedTask);
+                MobileBroadcast?.Start();
+                Log.Information("Mobile server started on {Url}", MobileServer?.GetConnectionUrl());
+            }
+            else
+            {
+                MobileBroadcast?.Stop();
+                if (MobileServer?.IsRunning == true)
+                    await MobileServer.StopAsync();
+                Log.Information("Mobile server stopped");
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Warning(ex, "ToggleMobileServer failed (enable={Enable})", enable);
+            throw;
+        }
     }
 
     public async Task SaveDataAsync()
@@ -291,6 +351,19 @@ public class TrackingController : ITrackingController
 
         await RemovesUnnecessaryNotificationsAsync();
         await SetNotificationTypesAsync();
+
+        // Broadcast to mobile clients
+        if (MobileBroadcast != null)
+        {
+            var dto = new StatisticsAnalysisTool.MobileServer.Dtos.LoggingNotificationDto
+            {
+                Type = item.Type.ToString(),
+                DateTime = item.DateTime.ToString("o"),
+                FragmentType = item.Fragment?.GetType().Name ?? string.Empty,
+                Fragment = MobileDataProvider.MapLoggingFragment(item)
+            };
+            await MobileBroadcast.BroadcastLoggingNotificationAsync(dto);
+        }
     }
 
     private async Task RemovesUnnecessaryNotificationsAsync()

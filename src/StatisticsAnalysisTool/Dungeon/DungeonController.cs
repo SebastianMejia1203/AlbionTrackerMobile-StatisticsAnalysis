@@ -56,16 +56,34 @@ public sealed class DungeonController
         _mainWindowViewModel?.DungeonBindings?.Stats.Set(_mainWindowViewModel?.DungeonBindings?.Dungeons);
     }
 
-    public async Task AddDungeonAsync(MapType mapType, Guid? mapGuid)
+    public async Task AddDungeonAsync(MapType mapType, Guid? mapGuid, string mainMapIndex = null)
     {
+        // Use mainMapIndex from JoinResponse directly to avoid race condition with ChangeClusterResponse
+        var effectiveMainMapIndex = mainMapIndex ?? ClusterController.CurrentCluster.MainClusterIndex;
+
+        Log.Information("[DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===");
+        Log.Information("[DUNGEON-TRACE] Input: mapType={MapType}, mapGuid={MapGuid}, mainMapIndex='{MainMapIndex}'", mapType, mapGuid, mainMapIndex);
+        Log.Information("[DUNGEON-TRACE] EffectiveMainMapIndex='{EffectiveMainMapIndex}' (from {Source})",
+            effectiveMainMapIndex, mainMapIndex != null ? "JoinResponse" : "CurrentCluster");
+        Log.Information("[DUNGEON-TRACE] State: _currentGuid={CurrentGuid}, _lastMapGuid={LastMapGuid}", _currentGuid, _lastMapGuid);
+        Log.Information("[DUNGEON-TRACE] CurrentCluster: Index='{Index}', MainClusterIndex='{MainClusterIndex}', MapType={ClusterMapType}, Guid={ClusterGuid}",
+            ClusterController.CurrentCluster.Index, ClusterController.CurrentCluster.MainClusterIndex, ClusterController.CurrentCluster.MapType, ClusterController.CurrentCluster.Guid);
+
         if (!_trackingController.IsTrackingAllowedByMainCharacter())
         {
+            Log.Information("[DUNGEON-TRACE] SKIPPED: Tracking not allowed by main character");
             return;
         }
 
         UpdateDungeonSaveTimerUi();
 
         _currentGuid = mapGuid;
+
+        var isDungeonCluster = IsDungeonCluster(mapType, mapGuid);
+        var existLastDungeon = ExistDungeon(_lastMapGuid);
+        var existCurrentDungeon = ExistDungeon(_currentGuid);
+        Log.Information("[DUNGEON-TRACE] Evaluation: IsDungeonCluster={IsDungeon}, ExistDungeon(_lastMapGuid)={ExistLast}, ExistDungeon(_currentGuid)={ExistCurrent}",
+            isDungeonCluster, existLastDungeon, existCurrentDungeon);
 
         // Last map is a dungeon, add new map
         if (IsDungeonCluster(mapType, mapGuid)
@@ -75,8 +93,11 @@ public sealed class DungeonController
             && mapType is not MapType.Mists
             && mapType is not MapType.MistsDungeon)
         {
+            Log.Information("[DUNGEON-TRACE] BRANCH: ADD FLOOR to existing dungeon (lastMapGuid={LastGuid})", _lastMapGuid);
             if (AddClusterToExistDungeon(mapGuid, _lastMapGuid, out var currentDungeon))
             {
+                Log.Information("[DUNGEON-TRACE] Floor added. Dungeon GuidList count: {Count}, MainMapIndex='{MainMapIndex}', MainMapName='{MainMapName}'",
+                    currentDungeon?.GuidList?.Count, currentDungeon?.MainMapIndex, currentDungeon?.MainMapName);
                 currentDungeon.AddTimer(DateTime.UtcNow);
             }
         }
@@ -87,6 +108,9 @@ public sealed class DungeonController
                  || (IsDungeonCluster(mapType, mapGuid)
                  && mapType is MapType.CorruptedDungeon or MapType.HellGate or MapType.Mists or MapType.MistsDungeon or MapType.AbyssalDepths))
         {
+            Log.Information("[DUNGEON-TRACE] BRANCH: CREATE NEW dungeon. mapType={MapType}, effectiveMainMapIndex='{MainMapIndex}'",
+                mapType, effectiveMainMapIndex);
+
             UpdateDungeonSaveTimerUi(mapType);
 
             if (mapType is MapType.CorruptedDungeon or MapType.HellGate or MapType.Mists or MapType.MistsDungeon or MapType.AbyssalDepths)
@@ -97,7 +121,9 @@ public sealed class DungeonController
 
             _mainWindowViewModel.DungeonBindings.Dungeons.Where(x => x.Status != DungeonStatus.Done).ToList().ForEach(x => x.Status = DungeonStatus.Done);
 
-            var newDungeon = CreateNewDungeon(mapType, ClusterController.CurrentCluster.MainClusterIndex, mapGuid);
+            var newDungeon = CreateNewDungeon(mapType, effectiveMainMapIndex, mapGuid);
+            Log.Information("[DUNGEON-TRACE] New dungeon created: Type={DunType}, Mode={Mode}, MainMapIndex='{MainMapIndex}', MainMapName='{MainMapName}', Tier={Tier}, Faction={Faction}",
+                newDungeon?.GetType().Name, newDungeon?.Mode, newDungeon?.MainMapIndex, newDungeon?.MainMapName, newDungeon?.Tier, newDungeon?.Faction);
             await Application.Current.Dispatcher.InvokeAsync(() =>
             {
                 _mainWindowViewModel.DungeonBindings.Dungeons.Insert(0, newDungeon);
@@ -110,23 +136,34 @@ public sealed class DungeonController
                  || IsDungeonCluster(mapType, mapGuid)
                  && mapType is MapType.CorruptedDungeon or MapType.HellGate or MapType.Mists or MapType.MistsDungeon or MapType.AbyssalDepths)
         {
+            Log.Information("[DUNGEON-TRACE] BRANCH: REACTIVATE existing dungeon (currentGuid={CurrentGuid})", _currentGuid);
             UpdateDungeonSaveTimerUi(mapType);
 
             var currentDungeon = GetDungeon(_currentGuid);
+            Log.Information("[DUNGEON-TRACE] Reactivated: Type={DunType}, Mode={Mode}, MainMapName='{MainMapName}', Tier={Tier}",
+                currentDungeon?.GetType().Name, currentDungeon?.Mode, currentDungeon?.MainMapName, currentDungeon?.Tier);
             currentDungeon.Status = DungeonStatus.Active;
             currentDungeon.AddTimer(DateTime.UtcNow);
         }
         // Make last dungeon done
         else if (mapGuid == null && ExistDungeon(_lastMapGuid))
         {
+            Log.Information("[DUNGEON-TRACE] BRANCH: CLOSE dungeon (lastMapGuid={LastGuid}) - exited to open world", _lastMapGuid);
             var lastDungeon = GetDungeon(_lastMapGuid);
+            Log.Information("[DUNGEON-TRACE] Closed: Type={DunType}, Mode={Mode}, MainMapName='{MainMapName}', Tier={Tier}, Fame={Fame}, Silver={Silver}",
+                lastDungeon?.GetType().Name, lastDungeon?.Mode, lastDungeon?.MainMapName, lastDungeon?.Tier, lastDungeon?.Fame, lastDungeon?.Silver);
             lastDungeon.EndTimer();
             lastDungeon.Status = DungeonStatus.Done;
             await SaveInFileAfterExceedingLimit(NumberOfDungeonsUntilSaved);
             _lastGuidWithRecognizedLevel = [];
         }
+        else
+        {
+            Log.Information("[DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken");
+        }
 
         _lastMapGuid = mapGuid;
+        Log.Information("[DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to {LastMapGuid} ===", _lastMapGuid);
 
         await RemoveDungeonsAfterCertainNumberAsync(_mainWindowViewModel.DungeonBindings.Dungeons, MaxDungeons);
         await Application.Current.Dispatcher.InvokeAsync(_mainWindowViewModel.DungeonBindings.UpdateFilteredDungeonsAsync);
@@ -134,8 +171,12 @@ public sealed class DungeonController
 
     private static DungeonBaseFragment CreateNewDungeon(MapType mapType, string mainMapIndex, Guid? guid)
     {
+        Log.Information("[DUNGEON-TRACE] === STEP 2: CreateNewDungeon ===");
+        Log.Information("[DUNGEON-TRACE] Input: mapType={MapType}, mainMapIndex='{MainMapIndex}', guid={Guid}", mapType, mainMapIndex, guid);
+
         if (guid == null)
         {
+            Log.Information("[DUNGEON-TRACE] ABORT: guid is null");
             return null;
         }
 
@@ -144,32 +185,43 @@ public sealed class DungeonController
         {
             case MapType.RandomDungeon:
                 var dungeonMode = DungeonData.GetDungeonMode(mainMapIndex);
+                Log.Information("[DUNGEON-TRACE] RandomDungeon: DungeonData.GetDungeonMode('{MainMapIndex}') = {DungeonMode}", mainMapIndex, dungeonMode);
                 newDungeon = new RandomDungeonFragment((Guid) guid, mapType, dungeonMode, mainMapIndex);
                 break;
             case MapType.CorruptedDungeon:
+                Log.Information("[DUNGEON-TRACE] CorruptedDungeon: mode=Corrupted");
                 newDungeon = new CorruptedFragment((Guid) guid, mapType, DungeonMode.Corrupted, mainMapIndex);
                 break;
             case MapType.HellGate:
+                Log.Information("[DUNGEON-TRACE] HellGate: mode=HellGate");
                 newDungeon = new HellGateFragment((Guid) guid, mapType, DungeonMode.HellGate, mainMapIndex);
                 break;
             case MapType.Expedition:
+                Log.Information("[DUNGEON-TRACE] Expedition: mode=Expedition");
                 newDungeon = new ExpeditionFragment((Guid) guid, mapType, DungeonMode.Expedition, mainMapIndex);
                 break;
             case MapType.Mists:
                 var tier = (Tier) Enum.ToObject(typeof(Tier), MistsData.GetTier(ClusterController.CurrentCluster.WorldMapDataType));
+                Log.Information("[DUNGEON-TRACE] Mists: WorldMapDataType='{WorldMapDataType}', MistsRarity={MistsRarity}, tier={Tier}",
+                    ClusterController.CurrentCluster.WorldMapDataType, ClusterController.CurrentCluster.MistsRarity, tier);
                 newDungeon = new MistsFragment((Guid) guid, mapType, DungeonMode.Mists, mainMapIndex, ClusterController.CurrentCluster.MistsRarity, tier);
                 break;
             case MapType.MistsDungeon:
+                Log.Information("[DUNGEON-TRACE] MistsDungeon: MistsDungeonTier={MistsDungeonTier}", ClusterController.CurrentCluster.MistsDungeonTier);
                 newDungeon = new MistsDungeonFragment((Guid) guid, mapType, DungeonMode.MistsDungeon, mainMapIndex, ClusterController.CurrentCluster.MistsDungeonTier);
                 break;
             case MapType.AbyssalDepths:
+                Log.Information("[DUNGEON-TRACE] AbyssalDepths: mode=AbyssalDepths");
                 newDungeon = new AbyssalDepthsFragment((Guid) guid, mapType, DungeonMode.AbyssalDepths, mainMapIndex);
                 break;
             default:
+                Log.Information("[DUNGEON-TRACE] UNKNOWN mapType={MapType} - returning null", mapType);
                 newDungeon = null;
                 break;
         }
 
+        Log.Information("[DUNGEON-TRACE] === STEP 2 RESULT: Type={DunType}, MainMapIndex='{MainMapIndex}', MainMapName='{MainMapName}', ClusterType={ClusterType} ===",
+            newDungeon?.GetType().Name, newDungeon?.MainMapIndex, newDungeon?.MainMapName, newDungeon?.ClusterType);
         return newDungeon;
     }
 
@@ -355,18 +407,28 @@ public sealed class DungeonController
                 return;
             }
 
+            Log.Information("[DUNGEON-TRACE] === STEP 3: SetDungeonEventInformationAsync ===");
+            Log.Information("[DUNGEON-TRACE] Event id={Id}, uniqueName='{UniqueName}'", id, uniqueName);
+
             var eventObject = new PointOfInterest(id, uniqueName);
             await Application.Current.Dispatcher.InvokeAsync(() => { dun.Events?.Add(eventObject); });
 
             if (dun.Faction == Faction.Unknown)
             {
-                dun.Faction = DungeonData.GetFaction(uniqueName);
+                var detectedFaction = DungeonData.GetFaction(uniqueName);
+                Log.Information("[DUNGEON-TRACE] Faction detection: DungeonData.GetFaction('{UniqueName}') = {Faction}", uniqueName, detectedFaction);
+                dun.Faction = detectedFaction;
             }
 
             if (dun.Mode == DungeonMode.Unknown)
             {
-                dun.Mode = DungeonData.GetDungeonMode(uniqueName);
+                var detectedMode = DungeonData.GetDungeonMode(uniqueName);
+                Log.Information("[DUNGEON-TRACE] Mode detection: DungeonData.GetDungeonMode('{UniqueName}') = {Mode}", uniqueName, detectedMode);
+                dun.Mode = detectedMode;
             }
+
+            Log.Information("[DUNGEON-TRACE] Dungeon after event: Faction={Faction}, Mode={Mode}, Events count={EventCount}",
+                dun.Faction, dun.Mode, dun.Events?.Count);
         }
         catch (Exception e)
         {
@@ -483,7 +545,14 @@ public sealed class DungeonController
                     return;
                 }
 
-                randomDungeon.Level = randomDungeon.Level < 0 ? MobsData.GetMobLevelByIndex((int) mobIndex, hitPointsMax) : randomDungeon.Level;
+                var recognizedLevel = MobsData.GetMobLevelByIndex((int) mobIndex, hitPointsMax);
+                // [DUNGEON-TRACE] Step 4 commented - too noisy (fires per mob)
+                // Log.Information("[DUNGEON-TRACE] === STEP 4: AddLevelToCurrentDungeon ===");
+                // Log.Information("[DUNGEON-TRACE] mobIndex={MobIndex}, hitPointsMax={HP}, recognizedLevel={RecognizedLevel}, currentLevel={CurrentLevel}", mobIndex, hitPointsMax, recognizedLevel, randomDungeon.Level);
+
+                randomDungeon.Level = randomDungeon.Level < 0 ? recognizedLevel : randomDungeon.Level;
+
+                // Log.Information("[DUNGEON-TRACE] After update: Level={Level}, LevelString='{LevelString}'", randomDungeon.Level, randomDungeon.LevelString);
 
                 if (randomDungeon.Level > 0)
                 {
@@ -523,12 +592,19 @@ public sealed class DungeonController
             {
                 var mobTier = (Tier) MobsData.GetMobTierByIndex((int) mobIndex);
                 var dun = _mainWindowViewModel.DungeonBindings.Dungeons?.FirstOrDefault(x => x.GuidList.Contains(currentGuid) && x.Status == DungeonStatus.Active);
+
+                // [DUNGEON-TRACE] Step 5 commented - too noisy (fires per mob)
+                // Log.Information("[DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===");
+                // Log.Information("[DUNGEON-TRACE] mobIndex={MobIndex}, mobTier={MobTier}, dunFound={Found}, currentTier={CurrentTier}", mobIndex, mobTier, dun != null, dun?.Tier);
+
                 if (dun == null || dun.Tier >= mobTier)
                 {
+                    // Log.Information("[DUNGEON-TRACE] Tier NOT updated");
                     return;
                 }
 
                 dun.SetTier(mobTier);
+                Log.Information("[DUNGEON-TRACE] Tier UPDATED to {NewTier}", dun.Tier);
             });
         }
         catch

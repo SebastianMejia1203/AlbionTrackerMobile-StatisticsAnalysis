@@ -1,4 +1,5 @@
-﻿using StatisticsAnalysisTool.Network.Manager;
+﻿using Serilog;
+using StatisticsAnalysisTool.Network.Manager;
 using StatisticsAnalysisTool.Network.Operations.Responses;
 using System.Threading.Tasks;
 
@@ -15,6 +16,8 @@ public class ChangeClusterResponseHandler : ResponsePacketHandler<ChangeClusterR
 
     protected override async Task OnActionAsync(ChangeClusterResponse value)
     {
+        // [CLUSTER-TRACE] logs commented out - cluster identification already verified
+
         _trackingController.ClusterController.ChangeClusterInformation(
             value.MapType, value.Guid, value.Index, value.IslandName,
             value.WorldMapDataType, value.DungeonInformation, value.MainClusterIndex,

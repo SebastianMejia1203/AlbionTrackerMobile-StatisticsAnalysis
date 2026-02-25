@@ -62,6 +62,8 @@ public class SettingsWindowViewModel : BaseViewModel
     private string _proxyUrlWithPort;
     private string _debugConsoleFilter;
     private bool _isOpenDebugConsoleWhenStartingTheToolChecked;
+    private bool _isMobileServerEnabled;
+    private int _mobileServerPort;
 
     public SettingsWindowViewModel()
     {
@@ -127,6 +129,10 @@ public class SettingsWindowViewModel : BaseViewModel
 
         // Another app to start
         SetIconSourceToAnotherAppToStart();
+
+        // Mobile server
+        IsMobileServerEnabled = SettingsController.CurrentSettings.IsMobileServerEnabled;
+        MobileServerPort = SettingsController.CurrentSettings.MobileServerPort;
     }
 
     public void SaveSettings()
@@ -160,6 +166,9 @@ public class SettingsWindowViewModel : BaseViewModel
 
         SettingsController.CurrentSettings.IsSuggestPreReleaseUpdatesActive = IsSuggestPreReleaseUpdatesActive;
         SettingsController.CurrentSettings.ExactMatchPlayerNamesLineNumber = PlayerSelectionWithSameNameInDb;
+
+        SettingsController.CurrentSettings.IsMobileServerEnabled = IsMobileServerEnabled;
+        SettingsController.CurrentSettings.MobileServerPort = MobileServerPort;
 
         SetBackupStorageDirPathIfExist(BackupStorageDirectoryPath);
         SetAppSettingsAndTranslations();
@@ -901,6 +910,26 @@ public class SettingsWindowViewModel : BaseViewModel
     }
 
     public string ToolDirectory => AppDomain.CurrentDomain.BaseDirectory;
+
+    public bool IsMobileServerEnabled
+    {
+        get => _isMobileServerEnabled;
+        set
+        {
+            _isMobileServerEnabled = value;
+            OnPropertyChanged();
+        }
+    }
+
+    public int MobileServerPort
+    {
+        get => _mobileServerPort;
+        set
+        {
+            _mobileServerPort = value;
+            OnPropertyChanged();
+        }
+    }
 
     #endregion Bindings
 }

@@ -1,4 +1,5 @@
-﻿using StatisticsAnalysisTool.Common;
+﻿using Serilog;
+using StatisticsAnalysisTool.Common;
 using StatisticsAnalysisTool.Common.UserSettings;
 using StatisticsAnalysisTool.Enumerations;
 using StatisticsAnalysisTool.Models.BindingModel;
@@ -22,6 +23,9 @@ public class JoinResponseHandler(TrackingController trackingController) : Respon
         SetLocalUserData(value);
         _ = SetApiUserData(value);
 
+        Log.Information("[DUNGEON-TRACE] === JoinResponseHandler: MapIndex='{MapIndex}', MainMapIndex='{MainMapIndex}', MapType={MapType}, MapGuid={MapGuid} ===",
+            value.MapIndex, value.MainMapIndex, value.MapType, value.MapGuid);
+
         trackingController.ClusterController.SetJoinClusterInformation(value.MapIndex, value.MainMapIndex, value.MapGuid);
 
         _mainWindowViewModel.UserTrackingBindings.Username = value.Username;
@@ -44,7 +48,9 @@ public class JoinResponseHandler(TrackingController trackingController) : Respon
             ObjectSubType = GameObjectSubType.LocalPlayer
         });
 
-        trackingController.DungeonController?.AddDungeonAsync(value.MapType, value.MapGuid).ConfigureAwait(false);
+        Log.Information("[DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType={MapType}, mapGuid={MapGuid}, mainMapIndex='{MainMapIndex}') ===",
+            value.MapType, value.MapGuid, value.MainMapIndex);
+        trackingController.DungeonController?.AddDungeonAsync(value.MapType, value.MapGuid, value.MainMapIndex).ConfigureAwait(false);
 
         ResetFameCounterByMapChangeIfActive();
         SetTrackingActivityText();

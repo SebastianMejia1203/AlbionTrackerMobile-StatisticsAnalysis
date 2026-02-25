@@ -797,6 +797,7 @@
   <ItemGroup>
     <ProjectReference Include="..\StatisticAnalysisTool.Extractor\StatisticAnalysisTool.Extractor.csproj" />
     <ProjectReference Include="..\StatisticsAnalysisTool.Network\StatisticsAnalysisTool.Network.csproj" />
+    <ProjectReference Include="..\StatisticsAnalysisTool.MobileServer\StatisticsAnalysisTool.MobileServer.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Page Update="Styles\DashboardStyles.xaml">

@@ -129,6 +129,11 @@ public partial class MainWindow
         trackingController?.EntityController?.CopyPartyToClipboard();
     }
 
+    private void MobileServerToggle_Click(object sender, MouseButtonEventArgs e)
+    {
+        _mainWindowViewModel?.ToggleMobileServer();
+    }
+
     private void TatsDropDownOpenClose_PreviewMouseDown(object sender, RoutedEventArgs e)
     {
         _mainWindowViewModel?.SwitchStatsDropDownState();

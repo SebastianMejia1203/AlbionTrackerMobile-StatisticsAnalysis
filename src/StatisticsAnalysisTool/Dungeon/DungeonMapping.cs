@@ -1,4 +1,5 @@
-﻿using StatisticsAnalysisTool.Dungeon.Models;
+﻿using StatisticsAnalysisTool.Cluster;
+using StatisticsAnalysisTool.Dungeon.Models;
 using StatisticsAnalysisTool.Enumerations;
 using StatisticsAnalysisTool.Exceptions;
 using System.Linq;
@@ -91,7 +92,18 @@ public class DungeonMapping
             DungeonMode.Mists => new MistsFragment(dto),
             DungeonMode.MistsDungeon => new MistsDungeonFragment(dto),
             DungeonMode.AbyssalDepths => new AbyssalDepthsFragment(dto),
-            _ => throw new MappingException("Unknown dungeon mode")
+            // Unknown mode: resolve by MapType, fallback to RandomDungeonFragment
+            DungeonMode.Unknown => dto.MapType switch
+            {
+                MapType.CorruptedDungeon => new CorruptedFragment(dto),
+                MapType.HellGate => new HellGateFragment(dto),
+                MapType.Expedition => new ExpeditionFragment(dto),
+                MapType.Mists => new MistsFragment(dto),
+                MapType.MistsDungeon => new MistsDungeonFragment(dto),
+                MapType.AbyssalDepths => new AbyssalDepthsFragment(dto),
+                _ => new RandomDungeonFragment(dto)
+            },
+            _ => throw new MappingException($"Unknown dungeon mode: {dto.Mode}")
         };
     }
 

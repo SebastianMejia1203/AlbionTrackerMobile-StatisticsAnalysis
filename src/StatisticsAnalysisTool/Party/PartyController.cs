@@ -72,6 +72,7 @@ public class PartyController
             _mainWindowViewModel?.PartyBindings?.UpdatePartyBuilderPlayerConditions();
             _mainWindowViewModel?.PartyBindings?.UpdateAveragePartyIp(null, null);
         });
+        _ = _trackingController.MobileBroadcast?.BroadcastPartyAsync();
     }
 
     private PartyPlayer CreatePartyPlannerPlayer(PlayerGameObject playerGameObject)
@@ -165,6 +166,7 @@ public class PartyController
         bindingsParty.IsPlayerInspected = true;
         _mainWindowViewModel.PartyBindings.UpdatePartyBuilderPlayerConditions();
         _mainWindowViewModel.PartyBindings.UpdateAveragePartyIp(null, null);
+        _ = _trackingController.MobileBroadcast?.BroadcastPartyAsync();
     }
 
     #endregion

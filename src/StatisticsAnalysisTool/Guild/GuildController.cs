@@ -90,6 +90,7 @@ public class GuildController
                     = _mainWindowViewModel.GuildBindings?.SiphonedEnergyLastUpdate.Ticks <= 1 ? Visibility.Hidden : Visibility.Visible;
             });
         }
+        _ = _trackingController.MobileBroadcast?.BroadcastGuildAsync();
     }
 
     public void UpdateSiphonedEnergyOverview()

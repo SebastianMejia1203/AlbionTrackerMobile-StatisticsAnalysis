@@ -36,6 +36,7 @@ using System.Windows;
 using System.Windows.Data;
 using System.Windows.Media;
 using StatisticsAnalysisTool.Diagnostics;
+using StatisticsAnalysisTool.MobileServer;
 
 // ReSharper disable UnusedMember.Global
 
@@ -131,6 +132,9 @@ public class MainWindowViewModel : BaseViewModel
     private bool _isDataLoaded;
     private bool _isCloseButtonActive;
     private Visibility _loadIconVisibility = Visibility.Collapsed;
+    private bool _isMobileServerActive;
+    private string _mobileServerStatusText = "Mobile Server: OFF";
+    private Visibility _mobileServerInfoVisibility = Visibility.Collapsed;
 
     public MainWindowViewModel()
     {
@@ -768,6 +772,69 @@ public class MainWindowViewModel : BaseViewModel
             SettingsController.CurrentSettings.IsDamageMeterTrackingActive = _isDamageMeterTrackingActive;
             OnPropertyChanged();
         }
+    }
+
+    public bool IsMobileServerActive
+    {
+        get => _isMobileServerActive;
+        set
+        {
+            _isMobileServerActive = value;
+            MobileServerStatusText = value
+                ? $"Mobile Server: ON ({GetMobileServerIp()})" 
+                : "Mobile Server: OFF";
+            MobileServerInfoVisibility = value ? Visibility.Visible : Visibility.Collapsed;
+            OnPropertyChanged();
+        }
+    }
+
+    public string MobileServerStatusText
+    {
+        get => _mobileServerStatusText;
+        set
+        {
+            _mobileServerStatusText = value;
+            OnPropertyChanged();
+        }
+    }
+
+    public Visibility MobileServerInfoVisibility
+    {
+        get => _mobileServerInfoVisibility;
+        set
+        {
+            _mobileServerInfoVisibility = value;
+            OnPropertyChanged();
+        }
+    }
+
+    public async void ToggleMobileServer()
+    {
+        try
+        {
+            var trackingController = ServiceLocator.Resolve<TrackingController>();
+            if (trackingController == null) return;
+
+            var newState = !IsMobileServerActive;
+            await trackingController.ToggleMobileServerAsync(newState);
+            IsMobileServerActive = newState;
+            SettingsController.CurrentSettings.IsMobileServerEnabled = newState;
+        }
+        catch (Exception ex)
+        {
+            Log.Warning(ex, "Failed to toggle mobile server");
+            SetErrorBar(Visibility.Visible, $"Mobile server error: {ex.Message}");
+        }
+    }
+
+    private string GetMobileServerIp()
+    {
+        try
+        {
+            var tc = ServiceLocator.Resolve<TrackingController>();
+            return tc?.MobileServer?.GetConnectionUrl() ?? "?";
+        }
+        catch { return "?"; }
     }
 
     public bool IsShowOnlyItemsWithAlertOnActive

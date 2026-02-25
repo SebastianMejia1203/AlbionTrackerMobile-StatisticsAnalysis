@@ -205,6 +205,19 @@
                                 Margin="0,0,5,2" Height="24" MaxWidth="120" HorizontalAlignment="Left" VerticalAlignment="Center" Click="BackupNow_Click" />
                     </DockPanel>
 
+                    <!-- Mobile Server -->
+                    <DockPanel Margin="0,20,0,0">
+                        <Label Content="MOBILE SERVER" FontSize="14" Foreground="{StaticResource SolidColorBrush.Accent.Blue.2}" />
+                    </DockPanel>
+                    <DockPanel Margin="0,5,0,0">
+                        <Label Content="Enable mobile server" MinWidth="300" VerticalAlignment="Top" />
+                        <CheckBox IsChecked="{Binding IsMobileServerEnabled}" Height="21" VerticalContentAlignment="Center" />
+                    </DockPanel>
+                    <DockPanel Margin="0,5,0,0">
+                        <Label Content="Mobile server port" MinWidth="300" VerticalAlignment="Top" />
+                        <TextBox Text="{Binding MobileServerPort}" Height="26" Width="80" TextWrapping="NoWrap" VerticalAlignment="Top" Margin="0,0,5,0" />
+                    </DockPanel>
+
                     <!-- Debug -->
                     <DockPanel Margin="0,20,0,0">
                         <Label Content="{Binding Translation.Debug, FallbackValue='DEBUG'}" FontSize="14" Foreground="{StaticResource SolidColorBrush.Accent.Blue.2}" />

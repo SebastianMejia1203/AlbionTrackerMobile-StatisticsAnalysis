@@ -59,6 +59,7 @@ public class TradeController
         });
 
         await ServiceLocator.Resolve<SatNotificationManager>().ShowTradeAsync(trade);
+        _ = _trackingController.MobileBroadcast?.BroadcastTradesAsync();
     }
 
     private Trade _lastAddedTrade;

@@ -24,6 +24,10 @@ public class ChangeClusterResponse
     {
         try
         {
+            // [CLUSTER-TRACE] logs commented out - cluster identification already verified
+            // Log.Information("[CLUSTER-TRACE] === STEP 1: ChangeClusterResponse - Parsing network packet ===");
+            // Log.Information("[CLUSTER-TRACE] Raw parameters keys: {Keys}", string.Join(", ", parameters.Keys));
+
             if (parameters.ContainsKey(0))
             {
                 var clusterString = string.IsNullOrEmpty(parameters[0].ToString()) ? string.Empty : parameters[0].ToString();

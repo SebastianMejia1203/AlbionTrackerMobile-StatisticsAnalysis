@@ -1,3 +1,4 @@
+using Serilog;
 using StatisticsAnalysisTool.Common;
 using StatisticsAnalysisTool.Enumerations;
 using StatisticsAnalysisTool.GameFileData;
@@ -46,12 +47,16 @@ public sealed class ClusterController
 
     public void ChangeClusterInformation(MapType mapType, Guid? mapGuid, string clusterIndex, string instanceName, string worldMapDataType, byte[] dungeonInformation, string mainClusterIndex, Tier mistsDungeonTier)
     {
+        // [CLUSTER-TRACE] logs commented out - cluster identification already verified
+
         CurrentCluster.ClusterInfoFullyAvailable = false;
         CurrentCluster.SetClusterInfo(mapType, mapGuid, clusterIndex, instanceName, worldMapDataType, dungeonInformation, mainClusterIndex, mistsDungeonTier);
     }
 
     public void SetJoinClusterInformation(string index, string mainClusterIndex, Guid? mapGuid)
     {
+        // [CLUSTER-TRACE] logs commented out - cluster identification already verified
+
         CurrentCluster.SetJoinClusterInfo(index, mainClusterIndex, mapGuid);
         CurrentCluster.ClusterInfoFullyAvailable = true;
 
@@ -98,6 +103,8 @@ public sealed class ClusterController
 
     private async void UpdateClusterTracking(ClusterInfo currentCluster)
     {
+        // [CLUSTER-TRACE] logs commented out - cluster identification already verified
+
         await Application.Current.Dispatcher.InvokeAsync(() =>
         {
             var newCluster = new ClusterInfo(currentCluster);

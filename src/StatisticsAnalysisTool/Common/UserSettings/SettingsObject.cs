@@ -107,4 +107,8 @@ public class SettingsObject
     public bool IsOpenDebugConsoleWhenStartingTheToolChecked { get; set; } = false;
     public int NetworkDevice { get; set; } = -1;
     public bool IsNpcapInfoDialogShownOnStart { get; set; } = true;
+
+    // Mobile Server
+    public bool IsMobileServerEnabled { get; set; } = false;
+    public int MobileServerPort { get; set; } = 7777;
 }

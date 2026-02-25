@@ -82,6 +82,7 @@ public class GatheringController
 
         await SaveInFileAfterExceedingLimit(10);
         _mainWindowViewModel.GatheringBindings.UpdateStats();
+        _ = _trackingController.MobileBroadcast?.BroadcastGatheringAsync();
     }
 
     public async void AddGatheredToBindingCollection(Gathered gathered)
@@ -235,6 +236,7 @@ public class GatheringController
         await RemoveEntriesByAutoDeleteDateAsync();
         await SaveInFileAfterExceedingLimit(10);
         _mainWindowViewModel.GatheringBindings.UpdateStats();
+        _ = _trackingController.MobileBroadcast?.BroadcastGatheringAsync();
     }
 
     public class FishingEvent

@@ -1,4 +1,5 @@
-﻿using StatisticsAnalysisTool.Cluster;
+﻿using Serilog;
+using StatisticsAnalysisTool.Cluster;
 using StatisticsAnalysisTool.Common;
 using StatisticsAnalysisTool.Enumerations;
 using StatisticsAnalysisTool.GameFileData;
@@ -52,6 +53,9 @@ public abstract class DungeonBaseFragment : BaseViewModel
 
     protected DungeonBaseFragment(Guid guid, MapType mapType, DungeonMode mode, string mainMapIndex)
     {
+        Log.Information("[DUNGEON-TRACE] === DungeonBaseFragment CONSTRUCTOR ===");
+        Log.Information("[DUNGEON-TRACE] Input: guid={Guid}, mapType={MapType}, mode={Mode}, mainMapIndex='{MainMapIndex}'", guid, mapType, mode, mainMapIndex);
+
         AddTimer(DateTime.UtcNow);
         ClusterType = WorldData.GetClusterTypeByIndex(mainMapIndex);
         GuidList = new ObservableCollection<Guid>() { guid };
@@ -61,6 +65,9 @@ public abstract class DungeonBaseFragment : BaseViewModel
         EnterDungeonFirstTime = DateTime.UtcNow;
         Status = DungeonStatus.Active;
         Visibility = Visibility.Visible;
+
+        Log.Information("[DUNGEON-TRACE] After init: ClusterType={ClusterType}, MainMapName='{MainMapName}' (resolved from WorldData.GetUniqueNameOrDefault('{MainMapIndex}'))",
+            ClusterType, MainMapName, mainMapIndex);
     }
 
     protected DungeonBaseFragment(DungeonDto dto)

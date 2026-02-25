@@ -88,6 +88,50 @@
                     </Grid>
                     <Grid HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,5,0" Height="18">
                         <StackPanel Orientation="Horizontal">
+                            <!-- Mobile Server Toggle -->
+                            <Border Margin="0,0,12,0" CornerRadius="3" Padding="6,1" Cursor="Hand" 
+                                    PreviewMouseDown="MobileServerToggle_Click"
+                                    ToolTip="{Binding MobileServerStatusText}">
+                                <Border.Style>
+                                    <Style TargetType="Border">
+                                        <Setter Property="Background" Value="#44888888" />
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding IsMobileServerActive}" Value="True">
+                                                <Setter Property="Background" Value="#4400CC66" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Border.Style>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                    <fa5:ImageAwesome Height="11" Width="11" Margin="0,0,4,0" VerticalAlignment="Center">
+                                        <fa5:ImageAwesome.Style>
+                                            <Style TargetType="fa5:ImageAwesome">
+                                                <Setter Property="Icon" Value="Solid_MobileAlt" />
+                                                <Setter Property="Foreground" Value="{StaticResource SolidColorBrush.Text.6}" />
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding IsMobileServerActive}" Value="True">
+                                                        <Setter Property="Foreground" Value="{StaticResource SolidColorBrush.Accent.Green.4}" />
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </fa5:ImageAwesome.Style>
+                                    </fa5:ImageAwesome>
+                                    <TextBlock VerticalAlignment="Center" FontSize="10">
+                                        <TextBlock.Style>
+                                            <Style TargetType="TextBlock">
+                                                <Setter Property="Text" Value="OFF" />
+                                                <Setter Property="Foreground" Value="{StaticResource SolidColorBrush.Text.6}" />
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding IsMobileServerActive}" Value="True">
+                                                        <Setter Property="Text" Value="ON" />
+                                                        <Setter Property="Foreground" Value="{StaticResource SolidColorBrush.Accent.Green.4}" />
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </TextBlock.Style>
+                                    </TextBlock>
+                                </StackPanel>
+                            </Border>
                             <Label Style="{StaticResource HeaderStyle.Tracking.Content}" Content="{Binding MainTrackerTimer, FallbackValue=00:00:00}"/>
                         </StackPanel>
                     </Grid>
