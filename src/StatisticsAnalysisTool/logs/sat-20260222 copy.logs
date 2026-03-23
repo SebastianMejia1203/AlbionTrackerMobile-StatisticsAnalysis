@@ -1,0 +1,266 @@
+2026-02-22 22:17:06.913 -05:00 [INF] Tool started with v8.6.7.40064
+2026-02-22 22:17:07.361 -05:00 [INF] OS Version: Microsoft Windows 10.0.26200 - "X64" | Processor: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz | Video: NVIDIA GeForce GTX 1050 Ti | Is Admin: false | Is Debug: false | Active Networks: vEthernet (Default Switch), Ethernet, Loopback Pseudo-Interface 1, vSwitch (Default Switch)-Hyper-V Virtual Switch Extension Filter-0000, vEthernet (Default Switch)-WFP Native MAC Layer LightWeight Filter-0000, vEthernet (Default Switch)-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-Npcap Packet Driver (NPCAP)-0000, vEthernet (Default Switch)-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 8-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 8-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-QoS Packet Scheduler-0000, Conexión de área local* 9-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 9-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-QoS Packet Scheduler-0000, Ethernet-WFP Native MAC Layer LightWeight Filter-0000, Ethernet-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-Npcap Packet Driver (NPCAP)-0000, Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 10-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 10-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 10-QoS Packet Scheduler-0000, vEthernet (Default Switch)-Npcap Packet Driver (NPCAP)-0000, Ethernet-QoS Packet Scheduler-0000, vEthernet (Default Switch)-QoS Packet Scheduler-0000, Ethernet-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 10-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 8, Conexión de área local* 9, Conexión de área local* 10, vSwitch (Default Switch)
+2026-02-22 22:17:21.233 -05:00 [INF] Used packet provider: "Npcap"
+2026-02-22 22:17:21.873 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\ActiveAlerts.json. Returning default.
+2026-02-22 22:17:23.066 -05:00 [INF] Npcap[ID:0]: opening \Device\NPF_{5343C9D7-F0C0-4A5B-A191-24B731D7A11B}:WAN Miniport (Network Monitor) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-22 22:17:23.120 -05:00 [INF] Npcap[ID:0]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 22:17:23.120 -05:00 [INF] Npcap[ID:1]: opening \Device\NPF_{73F8FA3D-7CF5-47BF-8549-3C8DD7ABACBA}:WAN Miniport (IPv6) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-22 22:17:23.125 -05:00 [INF] Npcap[ID:1]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 22:17:23.125 -05:00 [INF] Npcap[ID:2]: opening \Device\NPF_{A085B40E-9803-42FD-ACDE-ECD6A3E558A7}:WAN Miniport (IP) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-22 22:17:23.126 -05:00 [INF] Npcap[ID:2]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 22:17:23.126 -05:00 [INF] Npcap[ID:3]: opening \Device\NPF_{D6D22DA1-562A-43CC-94BB-1ECD9FBE06AB}:TP-Link Wireless USB Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-22 22:17:23.126 -05:00 [INF] Npcap[ID:3]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 22:17:23.127 -05:00 [INF] Npcap[ID:4]: opening \Device\NPF_{5F29F162-0EF1-4AB5-A605-602675BB0EB0}:Realtek PCIe GbE Family Controller (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-22 22:17:23.127 -05:00 [INF] Npcap[ID:4]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 22:17:23.127 -05:00 [INF] Npcap[ID:5]: opening \Device\NPF_{35362FFE-C704-4C86-9976-1C92D6CAE34F}:Microsoft Wi-Fi Direct Virtual Adapter #2 (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-22 22:17:23.129 -05:00 [INF] Npcap[ID:5]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 22:17:23.129 -05:00 [INF] Npcap[ID:6]: opening \Device\NPF_{EE51732A-8659-4B13-85DB-A43A48A05DEB}:Microsoft Wi-Fi Direct Virtual Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-22 22:17:23.131 -05:00 [INF] Npcap[ID:6]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 22:17:23.132 -05:00 [INF] Npcap[ID:7]: opening \Device\NPF_{6FB708B1-6A9F-4341-986A-71A0DAC34D44}:Hyper-V Virtual Ethernet Adapter (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-22 22:17:23.133 -05:00 [INF] Npcap[ID:7]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 22:17:23.135 -05:00 [INF] Npcap[ID:8]: skip loopback \Device\NPF_Loopback:Adapter for loopback traffic capture
+2026-02-22 22:17:23.135 -05:00 [INF] Npcap[ID:9]: opening \Device\NPF_{E23C1357-44E7-4A11-99A2-D024BE8E7545}:Kaspersky VPN (Type="53", Flags="Up, Running, ConnectionStatusDisconnected")
+2026-02-22 22:17:23.137 -05:00 [INF] Npcap[ID:9]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 22:17:23.142 -05:00 [INF] Npcap: capture started on 9 device(s), filter: (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 22:17:23.201 -05:00 [INF] Npcap: locked to adapter(Device: Realtek PCIe GbE Family Controller) after 1 valid packets
+2026-02-22 22:17:23.667 -05:00 [INF] MobileServer started on port 7777. Local IP: 172.17.0.1
+2026-02-22 22:17:23.669 -05:00 [INF] MobileBroadcastService started
+2026-02-22 22:17:23.671 -05:00 [INF] Mobile server started on http://172.17.0.1:7777/mobilehub
+2026-02-22 22:17:42.662 -05:00 [INF] [CLUSTER-TRACE] === STEP 1: ChangeClusterResponse - Parsing network packet ===
+2026-02-22 22:17:42.666 -05:00 [INF] [CLUSTER-TRACE] Raw parameters keys: 0, 255, 253
+2026-02-22 22:17:42.667 -05:00 [INF] [CLUSTER-TRACE] param[0] raw clusterString: '2000'
+2026-02-22 22:17:42.667 -05:00 [INF] [CLUSTER-TRACE] param[0] splitName: [2000]
+2026-02-22 22:17:42.667 -05:00 [INF] [CLUSTER-TRACE] No '@' -> Index='2000'
+2026-02-22 22:17:42.667 -05:00 [INF] [CLUSTER-TRACE] === STEP 1 RESULT: Index='2000', MapType="Unknown", Guid=null, WorldMapDataType='null', IslandName='null', MainClusterIndex='null' ===
+2026-02-22 22:17:42.668 -05:00 [INF] [CLUSTER-TRACE] === STEP 2: ChangeClusterResponseHandler.OnActionAsync - Dispatching to ClusterController ===
+2026-02-22 22:17:42.669 -05:00 [INF] [CLUSTER-TRACE] Calling ChangeClusterInformation with: MapType="Unknown", Guid=null, Index='2000', IslandName='null', WorldMapDataType='null', MainClusterIndex='null', MistsDungeonTier="0"
+2026-02-22 22:17:42.669 -05:00 [INF] [CLUSTER-TRACE] === STEP 3: ClusterController.ChangeClusterInformation ===
+2026-02-22 22:17:42.669 -05:00 [INF] [CLUSTER-TRACE] Input: mapType="Unknown", mapGuid=null, clusterIndex='2000', instanceName='null', worldMapDataType='null', mainClusterIndex='null', mistsDungeonTier="0"
+2026-02-22 22:17:42.670 -05:00 [INF] [CLUSTER-TRACE] === STEP 3a: ClusterInfo.SetClusterInfo ===
+2026-02-22 22:17:42.670 -05:00 [INF] [CLUSTER-TRACE] Input: mapType="Unknown", clusterIndex='2000', instanceName='null', worldMapDataType='null', mainClusterIndex='null'
+2026-02-22 22:17:42.672 -05:00 [INF] [CLUSTER-TRACE] WorldData.GetUniqueNameOrNull('2000') = 'Bridgewatch'
+2026-02-22 22:17:42.672 -05:00 [INF] [CLUSTER-TRACE] WorldData.GetUniqueNameOrDefault('2000') -> UniqueClusterName = 'Bridgewatch'
+2026-02-22 22:17:42.673 -05:00 [INF] [CLUSTER-TRACE] GetMapTypeName("Unknown") = ''
+2026-02-22 22:17:42.673 -05:00 [INF] [CLUSTER-TRACE] MistsRarity = "Unknown"
+2026-02-22 22:17:42.673 -05:00 [INF] [CLUSTER-TRACE] After SetClusterInfo -> CurrentCluster: UniqueName='Bridgewatch', UniqueClusterName='Bridgewatch', MapTypeString='', MistsRarity="Unknown"
+2026-02-22 22:17:46.974 -05:00 [INF] [CLUSTER-TRACE] === STEP 4: ClusterController.SetJoinClusterInformation ===
+2026-02-22 22:17:46.975 -05:00 [INF] [CLUSTER-TRACE] Input: index='2000', mainClusterIndex='2211', mapGuid=null
+2026-02-22 22:17:46.975 -05:00 [INF] [CLUSTER-TRACE] === STEP 4a: ClusterInfo.SetJoinClusterInfo ===
+2026-02-22 22:17:46.976 -05:00 [INF] [CLUSTER-TRACE] Input: index='2000', mainClusterIndex='2211', mapGuid=null
+2026-02-22 22:17:46.976 -05:00 [INF] [CLUSTER-TRACE] WorldData.GetWorldJsonTypeByIndex('2000') = 'PLAYERCITY_SAFEAREA_01'
+2026-02-22 22:17:46.976 -05:00 [INF] [CLUSTER-TRACE] WorldData.GetWorldJsonTypeByIndex('2211') = 'SAFEAREA'
+2026-02-22 22:17:46.976 -05:00 [INF] [CLUSTER-TRACE] Final WorldJsonType = 'PLAYERCITY_SAFEAREA_01'
+2026-02-22 22:17:46.976 -05:00 [INF] [CLUSTER-TRACE] WorldData.GetFileByIndex('2000') = '2000_CTY_ST_AUTO_T1_NON.cluster.xml'
+2026-02-22 22:17:46.977 -05:00 [INF] [CLUSTER-TRACE] WorldData.GetFileByIndex('2211') = '2211_WRL_ST_AUTO_T4_UND_ROY.cluster.xml'
+2026-02-22 22:17:46.977 -05:00 [INF] [CLUSTER-TRACE] Final File = '2000_CTY_ST_AUTO_T1_NON.cluster.xml'
+2026-02-22 22:17:46.978 -05:00 [INF] [CLUSTER-TRACE] Derived: Tier="T1", ClusterMode="SafeArea", AvalonTunnelType="Unknown"
+2026-02-22 22:17:46.979 -05:00 [INF] [CLUSTER-TRACE] ClusterHistoryStrings: ['Zona segura', 'Bridgewatch', '']
+2026-02-22 22:17:46.979 -05:00 [INF] [CLUSTER-TRACE] === STEP 4 RESULT (CurrentCluster / currentMap) ===
+2026-02-22 22:17:46.979 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.Index='2000'
+2026-02-22 22:17:46.979 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.MainClusterIndex='2211'
+2026-02-22 22:17:46.979 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.UniqueName='Bridgewatch'
+2026-02-22 22:17:46.979 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.UniqueClusterName='Bridgewatch'
+2026-02-22 22:17:46.979 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.MapType="Unknown"
+2026-02-22 22:17:46.979 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.MapTypeString=''
+2026-02-22 22:17:46.979 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.ClusterMode="SafeArea"
+2026-02-22 22:17:46.980 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.Tier="T1", TierString='T1'
+2026-02-22 22:17:46.980 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.WorldJsonType='PLAYERCITY_SAFEAREA_01'
+2026-02-22 22:17:46.980 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.File='2000_CTY_ST_AUTO_T1_NON.cluster.xml'
+2026-02-22 22:17:46.980 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.AvalonTunnelType="Unknown"
+2026-02-22 22:17:46.980 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.MistsRarity="Unknown"
+2026-02-22 22:17:46.980 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.InstanceName='null'
+2026-02-22 22:17:46.980 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.Guid=null
+2026-02-22 22:17:46.980 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.ClusterHistoryString1='Zona segura'
+2026-02-22 22:17:46.980 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.ClusterHistoryString2='Bridgewatch'
+2026-02-22 22:17:46.980 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.ClusterHistoryString3=''
+2026-02-22 22:17:46.981 -05:00 [INF] [CLUSTER-TRACE] IsTrackingAllowedByMainCharacter=true -> Firing OnChangeCluster event
+2026-02-22 22:17:46.982 -05:00 [INF] [CLUSTER-TRACE] === STEP 5: UpdateClusterTracking - Saving to EnteredCluster (MapHistory) ===
+2026-02-22 22:17:46.982 -05:00 [INF] [CLUSTER-TRACE] Creating copy of cluster: Index='2000', MainClusterIndex='2211', UniqueName='Bridgewatch', ClusterMode="SafeArea", MapType="Unknown"
+2026-02-22 22:17:46.984 -05:00 [INF] [CLUSTER-TRACE] Inserted into EnteredCluster. Total entries: 1
+2026-02-22 22:17:47.016 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\Settings.json via tmp-swap.
+2026-02-22 22:17:47.020 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Vaults.json via tmp-swap.
+2026-02-22 22:17:47.021 -05:00 [INF] Vault saved
+2026-02-22 22:17:47.026 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Trades.json via tmp-swap.
+2026-02-22 22:17:47.027 -05:00 [INF] Trades saved
+2026-02-22 22:17:47.031 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\TreasureStats.json via tmp-swap.
+2026-02-22 22:17:47.032 -05:00 [INF] Treasure saved
+2026-02-22 22:17:47.035 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Stats.json via tmp-swap.
+2026-02-22 22:17:47.036 -05:00 [INF] Statistics saved
+2026-02-22 22:17:47.057 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-22 22:17:47.057 -05:00 [INF] Dungeons saved
+2026-02-22 22:17:47.059 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Gathering.json via tmp-swap.
+2026-02-22 22:17:47.060 -05:00 [INF] Gathering saved
+2026-02-22 22:17:47.063 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Guild.json via tmp-swap.
+2026-02-22 22:17:47.063 -05:00 [INF] Guild data saved
+2026-02-22 22:17:47.065 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DamageMeterSnapshots.json via tmp-swap.
+2026-02-22 22:17:47.066 -05:00 [INF] Damage Meter snapshots saved
+2026-02-22 22:17:47.068 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Market.json via tmp-swap.
+2026-02-22 22:17:47.068 -05:00 [INF] Market data saved
+2026-02-22 22:17:47.074 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\EstimatedMarketValues.json via tmp-swap.
+2026-02-22 22:17:47.075 -05:00 [INF] Estimated market values saved
+2026-02-22 22:17:47.077 -05:00 [INF] [CLUSTER-TRACE] === STEP 7: MobileBroadcastService.OnClusterChanged - Broadcasting to mobile ===
+2026-02-22 22:17:47.078 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2211' -> WorldData.GetUniqueNameOrDefault='Smoothfloor Cleft'
+2026-02-22 22:17:47.078 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Smoothfloor Cleft '
+2026-02-22 22:17:47.078 -05:00 [INF] [CLUSTER-TRACE] Broadcast snapshot: MapDisplayName='Smoothfloor Cleft ', ClusterIndex='2211', MapType=Unknown, ClusterMode=SafeArea, Tier='T1', InstanceName=''
+2026-02-22 22:17:47.081 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2211' -> WorldData.GetUniqueNameOrDefault='Smoothfloor Cleft'
+2026-02-22 22:17:47.081 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Smoothfloor Cleft '
+2026-02-22 22:17:47.081 -05:00 [INF] PlayerInfo after cluster change: Smoothfloor Cleft  (map=2211, type=Unknown, zone=SafeArea)
+2026-02-22 22:17:47.082 -05:00 [INF] [CLUSTER-TRACE] === STEP 6: MobileDataProvider.GetMapHistory - Building DTO ===
+2026-02-22 22:17:47.082 -05:00 [INF] [CLUSTER-TRACE] EnteredCluster has 1 entries, taking up to 200
+2026-02-22 22:17:47.083 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2211' -> WorldData.GetUniqueNameOrDefault='Smoothfloor Cleft'
+2026-02-22 22:17:47.083 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Smoothfloor Cleft '
+2026-02-22 22:17:47.083 -05:00 [INF] [CLUSTER-TRACE] MapHistory entry[0]: idx='2211', displayName='Smoothfloor Cleft ', MapType="Unknown", ClusterMode="SafeArea", Tier='T1', EnteredAt="2026-02-23T03:17:42.6705048Z", InstanceName='null'
+2026-02-22 22:17:47.084 -05:00 [INF] [CLUSTER-TRACE] === GetMapHistory RESULT: 1 entries in DTO ===
+2026-02-22 22:17:52.678 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2211' -> WorldData.GetUniqueNameOrDefault='Smoothfloor Cleft'
+2026-02-22 22:17:52.678 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Smoothfloor Cleft '
+2026-02-22 22:17:56.417 -05:00 [INF] [CLUSTER-TRACE] === STEP 1: ChangeClusterResponse - Parsing network packet ===
+2026-02-22 22:17:56.418 -05:00 [INF] [CLUSTER-TRACE] Raw parameters keys: 0, 255, 253
+2026-02-22 22:17:56.418 -05:00 [INF] [CLUSTER-TRACE] param[0] raw clusterString: '2211'
+2026-02-22 22:17:56.418 -05:00 [INF] [CLUSTER-TRACE] param[0] splitName: [2211]
+2026-02-22 22:17:56.418 -05:00 [INF] [CLUSTER-TRACE] No '@' -> Index='2211'
+2026-02-22 22:17:56.418 -05:00 [INF] [CLUSTER-TRACE] === STEP 1 RESULT: Index='2211', MapType="Unknown", Guid=null, WorldMapDataType='null', IslandName='null', MainClusterIndex='null' ===
+2026-02-22 22:17:56.418 -05:00 [INF] [CLUSTER-TRACE] === STEP 2: ChangeClusterResponseHandler.OnActionAsync - Dispatching to ClusterController ===
+2026-02-22 22:17:56.418 -05:00 [INF] [CLUSTER-TRACE] Calling ChangeClusterInformation with: MapType="Unknown", Guid=null, Index='2211', IslandName='null', WorldMapDataType='null', MainClusterIndex='null', MistsDungeonTier="0"
+2026-02-22 22:17:56.418 -05:00 [INF] [CLUSTER-TRACE] === STEP 3: ClusterController.ChangeClusterInformation ===
+2026-02-22 22:17:56.419 -05:00 [INF] [CLUSTER-TRACE] Input: mapType="Unknown", mapGuid=null, clusterIndex='2211', instanceName='null', worldMapDataType='null', mainClusterIndex='null', mistsDungeonTier="0"
+2026-02-22 22:17:56.419 -05:00 [INF] [CLUSTER-TRACE] === STEP 3a: ClusterInfo.SetClusterInfo ===
+2026-02-22 22:17:56.419 -05:00 [INF] [CLUSTER-TRACE] Input: mapType="Unknown", clusterIndex='2211', instanceName='null', worldMapDataType='null', mainClusterIndex='null'
+2026-02-22 22:17:56.419 -05:00 [INF] [CLUSTER-TRACE] WorldData.GetUniqueNameOrNull('2211') = 'Smoothfloor Cleft'
+2026-02-22 22:17:56.419 -05:00 [INF] [CLUSTER-TRACE] WorldData.GetUniqueNameOrDefault('2211') -> UniqueClusterName = 'Smoothfloor Cleft'
+2026-02-22 22:17:56.419 -05:00 [INF] [CLUSTER-TRACE] GetMapTypeName("Unknown") = ''
+2026-02-22 22:17:56.419 -05:00 [INF] [CLUSTER-TRACE] MistsRarity = "Unknown"
+2026-02-22 22:17:56.419 -05:00 [INF] [CLUSTER-TRACE] After SetClusterInfo -> CurrentCluster: UniqueName='Smoothfloor Cleft', UniqueClusterName='Smoothfloor Cleft', MapTypeString='', MistsRarity="Unknown"
+2026-02-22 22:18:00.463 -05:00 [INF] [CLUSTER-TRACE] === STEP 4: ClusterController.SetJoinClusterInformation ===
+2026-02-22 22:18:00.463 -05:00 [INF] [CLUSTER-TRACE] Input: index='2211', mainClusterIndex='2000', mapGuid=null
+2026-02-22 22:18:00.463 -05:00 [INF] [CLUSTER-TRACE] === STEP 4a: ClusterInfo.SetJoinClusterInfo ===
+2026-02-22 22:18:00.463 -05:00 [INF] [CLUSTER-TRACE] Input: index='2211', mainClusterIndex='2000', mapGuid=null
+2026-02-22 22:18:00.463 -05:00 [INF] [CLUSTER-TRACE] WorldData.GetWorldJsonTypeByIndex('2211') = 'SAFEAREA'
+2026-02-22 22:18:00.463 -05:00 [INF] [CLUSTER-TRACE] WorldData.GetWorldJsonTypeByIndex('2000') = 'PLAYERCITY_SAFEAREA_01'
+2026-02-22 22:18:00.463 -05:00 [INF] [CLUSTER-TRACE] Final WorldJsonType = 'SAFEAREA'
+2026-02-22 22:18:00.463 -05:00 [INF] [CLUSTER-TRACE] WorldData.GetFileByIndex('2211') = '2211_WRL_ST_AUTO_T4_UND_ROY.cluster.xml'
+2026-02-22 22:18:00.463 -05:00 [INF] [CLUSTER-TRACE] WorldData.GetFileByIndex('2000') = '2000_CTY_ST_AUTO_T1_NON.cluster.xml'
+2026-02-22 22:18:00.463 -05:00 [INF] [CLUSTER-TRACE] Final File = '2211_WRL_ST_AUTO_T4_UND_ROY.cluster.xml'
+2026-02-22 22:18:00.463 -05:00 [INF] [CLUSTER-TRACE] Derived: Tier="T4", ClusterMode="SafeArea", AvalonTunnelType="Unknown"
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] ClusterHistoryStrings: ['Zona segura', 'Smoothfloor Cleft', '']
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] === STEP 4 RESULT (CurrentCluster / currentMap) ===
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.Index='2211'
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.MainClusterIndex='2000'
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.UniqueName='Smoothfloor Cleft'
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.UniqueClusterName='Smoothfloor Cleft'
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.MapType="Unknown"
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.MapTypeString=''
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.ClusterMode="SafeArea"
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.Tier="T4", TierString='T4'
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.WorldJsonType='SAFEAREA'
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.File='2211_WRL_ST_AUTO_T4_UND_ROY.cluster.xml'
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.AvalonTunnelType="Unknown"
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.MistsRarity="Unknown"
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.InstanceName='null'
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.Guid=null
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.ClusterHistoryString1='Zona segura'
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.ClusterHistoryString2='Smoothfloor Cleft'
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] CurrentCluster.ClusterHistoryString3=''
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] IsTrackingAllowedByMainCharacter=true -> Firing OnChangeCluster event
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] === STEP 5: UpdateClusterTracking - Saving to EnteredCluster (MapHistory) ===
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] Creating copy of cluster: Index='2211', MainClusterIndex='2000', UniqueName='Smoothfloor Cleft', ClusterMode="SafeArea", MapType="Unknown"
+2026-02-22 22:18:00.464 -05:00 [INF] [CLUSTER-TRACE] Inserted into EnteredCluster. Total entries: 2
+2026-02-22 22:18:00.465 -05:00 [INF] [CLUSTER-TRACE] === STEP 7: MobileBroadcastService.OnClusterChanged - Broadcasting to mobile ===
+2026-02-22 22:18:00.465 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:18:00.465 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:18:00.465 -05:00 [INF] [CLUSTER-TRACE] Broadcast snapshot: MapDisplayName='Bridgewatch ', ClusterIndex='2000', MapType=Unknown, ClusterMode=SafeArea, Tier='T4', InstanceName=''
+2026-02-22 22:18:00.465 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:18:00.465 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:18:00.465 -05:00 [INF] PlayerInfo after cluster change: Bridgewatch  (map=2000, type=Unknown, zone=SafeArea)
+2026-02-22 22:18:00.466 -05:00 [INF] [CLUSTER-TRACE] === STEP 6: MobileDataProvider.GetMapHistory - Building DTO ===
+2026-02-22 22:18:00.466 -05:00 [INF] [CLUSTER-TRACE] EnteredCluster has 2 entries, taking up to 200
+2026-02-22 22:18:00.466 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:18:00.466 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:18:00.466 -05:00 [INF] [CLUSTER-TRACE] MapHistory entry[0]: idx='2000', displayName='Bridgewatch ', MapType="Unknown", ClusterMode="SafeArea", Tier='T4', EnteredAt="2026-02-23T03:17:56.4190839Z", InstanceName='null'
+2026-02-22 22:18:00.466 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2211' -> WorldData.GetUniqueNameOrDefault='Smoothfloor Cleft'
+2026-02-22 22:18:00.466 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Smoothfloor Cleft '
+2026-02-22 22:18:00.466 -05:00 [INF] [CLUSTER-TRACE] MapHistory entry[1]: idx='2211', displayName='Smoothfloor Cleft ', MapType="Unknown", ClusterMode="SafeArea", Tier='T1', EnteredAt="2026-02-23T03:17:42.6705048Z", InstanceName='null'
+2026-02-22 22:18:00.466 -05:00 [INF] [CLUSTER-TRACE] === GetMapHistory RESULT: 2 entries in DTO ===
+2026-02-22 22:18:04.683 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:18:04.684 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:18:10.671 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:18:10.671 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:18:16.674 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:18:16.675 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:18:22.685 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:18:22.686 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:18:28.689 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:18:28.690 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:18:34.677 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:18:34.678 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:18:40.676 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:18:40.677 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:18:46.684 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:18:46.684 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:18:52.681 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:18:52.681 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:18:58.671 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:18:58.672 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:19:04.682 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:19:04.682 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:19:10.672 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:19:10.673 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:19:16.680 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:19:16.680 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:19:22.676 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:19:22.676 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:19:28.683 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:19:28.684 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:19:34.678 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:19:34.678 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:19:40.686 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:19:40.686 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:19:46.684 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:19:46.685 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:19:52.670 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:19:52.670 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:19:58.675 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:19:58.675 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:20:04.676 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:20:04.676 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:20:10.680 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:20:10.680 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:20:16.676 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:20:16.676 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:20:22.683 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:20:22.683 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:20:28.673 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:20:28.674 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:20:34.683 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:20:34.683 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:20:40.683 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:20:40.683 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:20:46.673 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:20:46.673 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:20:52.676 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:20:52.676 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:20:58.683 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:20:58.683 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:21:04.676 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:21:04.677 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:21:10.682 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:21:10.682 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:21:16.683 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString: index='2000' -> WorldData.GetUniqueNameOrDefault='Bridgewatch'
+2026-02-22 22:21:16.683 -05:00 [INF] [CLUSTER-TRACE] ComposingMapInfoString RESULT: 'Bridgewatch '
+2026-02-22 22:21:18.106 -05:00 [INF] [CLUSTER-TRACE] === STEP 1: ChangeClusterResponse - Parsing network packet ===
+2026-02-22 22:21:18.106 -05:00 [INF] [CLUSTER-TRACE] Raw parameters keys: 0, 255, 253
+2026-02-22 22:21:18.106 -05:00 [INF] [CLUSTER-TRACE] param[0] raw clusterString: '2000'
+2026-02-22 22:21:18.107 -05:00 [INF] [CLUSTER-TRACE] param[0] splitName: [2000]
+2026-02-22 22:21:18.107 -05:00 [INF] [CLUSTER-TRACE] No '@' -> Index='2000'
+2026-02-22 22:21:18.107 -05:00 [INF] [CLUSTER-TRACE] === STEP 1 RESULT: Index='2000', MapType="Unknown", Guid=null, WorldMapDataType='null', IslandName='null', MainClusterIndex='null' ===
+2026-02-22 22:21:18.107 -05:00 [INF] [CLUSTER-TRACE] === STEP 2: ChangeClusterResponseHandler.OnActionAsync - Dispatching to ClusterController ===
+2026-02-22 22:21:18.129 -05:00 [INF] [CLUSTER-TRACE] Calling ChangeClusterInformation with: MapType="Unknown", Guid=null, Index='2000', IslandName='null', WorldMapDataType='null', MainClusterIndex='null', MistsDungeonTier="0"
+2026-02-22 22:21:18.130 -05:00 [INF] [CLUSTER-TRACE] === STEP 3: ClusterController.ChangeClusterInformation ===
+2026-02-22 22:21:18.130 -05:00 [INF] [CLUSTER-TRACE] Input: mapType="Unknown", mapGuid=null, clusterIndex='2000', instanceName='null', worldMapDataType='null', mainClusterIndex='null', mistsDungeonTier="0"
+2026-02-22 22:21:18.130 -05:00 [INF] [CLUSTER-TRACE] === STEP 3a: ClusterInfo.SetClusterInfo ===
+2026-02-22 22:21:18.130 -05:00 [INF] [CLUSTER-TRACE] Input: mapType="Unknown", clusterIndex='2000', instanceName='null', worldMapDataType='null', mainClusterIndex='null'
+2026-02-22 22:21:18.130 -05:00 [INF] [CLUSTER-TRACE] WorldData.GetUniqueNameOrNull('2000') = 'Bridgewatch'
+2026-02-22 22:21:18.130 -05:00 [INF] [CLUSTER-TRACE] WorldData.GetUniqueNameOrDefault('2000') -> UniqueClusterName = 'Bridgewatch'
+2026-02-22 22:21:18.130 -05:00 [INF] [CLUSTER-TRACE] GetMapTypeName("Unknown") = ''
+2026-02-22 22:21:18.130 -05:00 [INF] [CLUSTER-TRACE] MistsRarity = "Unknown"
+2026-02-22 22:21:18.130 -05:00 [INF] [CLUSTER-TRACE] After SetClusterInfo -> CurrentCluster: UniqueName='Bridgewatch', UniqueClusterName='Bridgewatch', MapTypeString='', MistsRarity="Unknown"
+

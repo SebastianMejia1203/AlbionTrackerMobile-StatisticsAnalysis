@@ -1,0 +1,86 @@
+2026-03-23 00:30:33.361 -05:00 [INF] Tool started with v8.6.7.876
+2026-03-23 00:30:33.524 -05:00 [INF] OS Version: Microsoft Windows 10.0.26200 - "X64" | Processor: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz | Video: NVIDIA GeForce RTX 5060 | Is Admin: false | Is Debug: false | Active Networks: Ethernet, Loopback Pseudo-Interface 1, Ethernet-WFP Native MAC Layer LightWeight Filter-0000, Ethernet-Kaspersky Lab NDIS 6 Filter-0000, Ethernet-Npcap Packet Driver (NPCAP)-0000, Ethernet-QoS Packet Scheduler-0000, Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 8-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 8-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 8-QoS Packet Scheduler-0000, Conexión de área local* 9-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 9-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 9-QoS Packet Scheduler-0000, Conexión de área local* 10-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 10-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 10-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 10-QoS Packet Scheduler-0000, Conexión de área local* 8, Conexión de área local* 9, Conexión de área local* 10
+2026-03-23 00:30:33.591 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\Settings.json. Returning default.
+2026-03-23 00:30:33.678 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\dist\SAT\Settings.json via tmp-swap.
+2026-03-23 00:31:02.049 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\dist\SAT\GameFiles\mobs-modified.json via tmp-swap.
+2026-03-23 00:31:02.078 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\dist\SAT\GameFiles\mists-modified.json via tmp-swap.
+2026-03-23 00:31:02.225 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\dist\SAT\GameFiles\world-modified.json via tmp-swap.
+2026-03-23 00:31:04.552 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\DamageMeterSnapshots.json. Returning default.
+2026-03-23 00:31:04.950 -05:00 [INF] Used packet provider: "Npcap"
+2026-03-23 00:31:04.952 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\EstimatedMarketValues.json. Returning default.
+2026-03-23 00:31:04.953 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\Stats.json. Returning default.
+2026-03-23 00:31:04.956 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\TreasureStats.json. Returning default.
+2026-03-23 00:31:04.957 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\DungeonRuns.json. Returning default.
+2026-03-23 00:31:04.978 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\Gathering.json. Returning default.
+2026-03-23 00:31:04.981 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\Vaults.json. Returning default.
+2026-03-23 00:31:04.981 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\Guild.json. Returning default.
+2026-03-23 00:31:04.983 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\DamageMeterSnapshots.json. Returning default.
+2026-03-23 00:31:04.984 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\Market.json. Returning default.
+2026-03-23 00:31:04.988 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\FavoriteItems.json. Returning default.
+2026-03-23 00:31:04.989 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\ActiveAlerts.json. Returning default.
+2026-03-23 00:31:05.659 -05:00 [INF] Npcap[ID:0]: opening \Device\NPF_{A6A20641-AD29-498F-9090-3F9A152EE26B}:WAN Miniport (Network Monitor) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-03-23 00:31:05.681 -05:00 [INF] Npcap[ID:0]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-03-23 00:31:05.681 -05:00 [INF] Npcap[ID:1]: opening \Device\NPF_{EDD0AC6C-9599-4C48-9DCD-6118DD27F1DD}:WAN Miniport (IPv6) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-03-23 00:31:05.684 -05:00 [INF] Npcap[ID:1]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-03-23 00:31:05.684 -05:00 [INF] Npcap[ID:2]: opening \Device\NPF_{4FB16395-CB3B-4149-85BE-0F7B0E71A1A6}:WAN Miniport (IP) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-03-23 00:31:05.684 -05:00 [INF] Npcap[ID:2]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-03-23 00:31:05.684 -05:00 [INF] Npcap[ID:3]: opening \Device\NPF_{C3BDA1C7-F168-4E94-9892-2F850DCE817E}:Realtek PCIe GbE Family Controller (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-03-23 00:31:05.685 -05:00 [INF] Npcap[ID:3]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-03-23 00:31:05.685 -05:00 [INF] Npcap[ID:4]: skip loopback \Device\NPF_Loopback:Adapter for loopback traffic capture
+2026-03-23 00:31:05.685 -05:00 [INF] Npcap[ID:5]: opening \Device\NPF_{C07923F2-B764-4F38-8DE0-DDC8212BFA08}:Kaspersky VPN (Type="53", Flags="Up, Running, ConnectionStatusDisconnected")
+2026-03-23 00:31:05.686 -05:00 [INF] Npcap[ID:5]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-03-23 00:31:05.688 -05:00 [INF] Npcap: capture started on 5 device(s), filter: (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-03-23 00:31:08.896 -05:00 [INF] UDP Discovery service listening on port 7778
+2026-03-23 00:31:08.896 -05:00 [INF] MobileServer started on port 7777. Local IP: 192.168.0.109
+2026-03-23 00:31:08.897 -05:00 [INF] MobileBroadcastService started
+2026-03-23 00:31:08.897 -05:00 [INF] Mobile server started on http://192.168.0.109:7777/mobilehub
+2026-03-23 00:31:15.059 -05:00 [INF] MobileBroadcastService stopped
+2026-03-23 00:31:29.828 -05:00 [INF] Tool started with v8.6.7.876
+2026-03-23 00:31:29.975 -05:00 [INF] OS Version: Microsoft Windows 10.0.26200 - "X64" | Processor: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz | Video: NVIDIA GeForce RTX 5060 | Is Admin: false | Is Debug: false | Active Networks: Ethernet, Loopback Pseudo-Interface 1, Ethernet-WFP Native MAC Layer LightWeight Filter-0000, Ethernet-Kaspersky Lab NDIS 6 Filter-0000, Ethernet-Npcap Packet Driver (NPCAP)-0000, Ethernet-QoS Packet Scheduler-0000, Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 8-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 8-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 8-QoS Packet Scheduler-0000, Conexión de área local* 9-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 9-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 9-QoS Packet Scheduler-0000, Conexión de área local* 10-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 10-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 10-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 10-QoS Packet Scheduler-0000, Conexión de área local* 8, Conexión de área local* 9, Conexión de área local* 10
+2026-03-23 00:31:57.012 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\DamageMeterSnapshots.json. Returning default.
+2026-03-23 00:31:57.427 -05:00 [INF] Used packet provider: "Npcap"
+2026-03-23 00:31:57.428 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\EstimatedMarketValues.json. Returning default.
+2026-03-23 00:31:57.431 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\Stats.json. Returning default.
+2026-03-23 00:31:57.435 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\TreasureStats.json. Returning default.
+2026-03-23 00:31:57.437 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\DungeonRuns.json. Returning default.
+2026-03-23 00:31:57.466 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\Gathering.json. Returning default.
+2026-03-23 00:31:57.468 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\Vaults.json. Returning default.
+2026-03-23 00:31:57.470 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\Guild.json. Returning default.
+2026-03-23 00:31:57.473 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\DamageMeterSnapshots.json. Returning default.
+2026-03-23 00:31:57.474 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\Market.json. Returning default.
+2026-03-23 00:31:57.480 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\FavoriteItems.json. Returning default.
+2026-03-23 00:31:57.482 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\ActiveAlerts.json. Returning default.
+2026-03-23 00:31:58.161 -05:00 [INF] Npcap[ID:0]: opening \Device\NPF_{A6A20641-AD29-498F-9090-3F9A152EE26B}:WAN Miniport (Network Monitor) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-03-23 00:31:58.200 -05:00 [INF] Npcap[ID:0]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-03-23 00:31:58.200 -05:00 [INF] Npcap[ID:1]: opening \Device\NPF_{EDD0AC6C-9599-4C48-9DCD-6118DD27F1DD}:WAN Miniport (IPv6) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-03-23 00:31:58.204 -05:00 [INF] Npcap[ID:1]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-03-23 00:31:58.204 -05:00 [INF] Npcap[ID:2]: opening \Device\NPF_{4FB16395-CB3B-4149-85BE-0F7B0E71A1A6}:WAN Miniport (IP) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-03-23 00:31:58.205 -05:00 [INF] Npcap[ID:2]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-03-23 00:31:58.206 -05:00 [INF] Npcap[ID:3]: opening \Device\NPF_{C3BDA1C7-F168-4E94-9892-2F850DCE817E}:Realtek PCIe GbE Family Controller (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-03-23 00:31:58.207 -05:00 [INF] Npcap[ID:3]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-03-23 00:31:58.208 -05:00 [INF] Npcap[ID:4]: skip loopback \Device\NPF_Loopback:Adapter for loopback traffic capture
+2026-03-23 00:31:58.208 -05:00 [INF] Npcap[ID:5]: opening \Device\NPF_{C07923F2-B764-4F38-8DE0-DDC8212BFA08}:Kaspersky VPN (Type="53", Flags="Up, Running, ConnectionStatusDisconnected")
+2026-03-23 00:31:58.209 -05:00 [INF] Npcap[ID:5]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-03-23 00:31:58.211 -05:00 [INF] Npcap: capture started on 5 device(s), filter: (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-03-23 00:32:05.190 -05:00 [INF] MobileBroadcastService stopped
+2026-03-23 00:32:05.225 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\dist\SAT\Settings.json via tmp-swap.
+2026-03-23 00:32:05.237 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\Vaults.json via tmp-swap.
+2026-03-23 00:32:05.238 -05:00 [INF] Vault saved
+2026-03-23 00:32:05.259 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\Trades.json via tmp-swap.
+2026-03-23 00:32:05.260 -05:00 [INF] Trades saved
+2026-03-23 00:32:05.274 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\TreasureStats.json via tmp-swap.
+2026-03-23 00:32:05.275 -05:00 [INF] Treasure saved
+2026-03-23 00:32:05.291 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\Stats.json via tmp-swap.
+2026-03-23 00:32:05.292 -05:00 [INF] Statistics saved
+2026-03-23 00:32:05.407 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\DungeonRuns.json via tmp-swap.
+2026-03-23 00:32:05.408 -05:00 [INF] Dungeons saved
+2026-03-23 00:32:05.412 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\Gathering.json via tmp-swap.
+2026-03-23 00:32:05.413 -05:00 [INF] Gathering saved
+2026-03-23 00:32:05.417 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\Guild.json via tmp-swap.
+2026-03-23 00:32:05.420 -05:00 [INF] Guild data saved
+2026-03-23 00:32:05.439 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\DamageMeterSnapshots.json via tmp-swap.
+2026-03-23 00:32:05.441 -05:00 [INF] Damage Meter snapshots saved
+2026-03-23 00:32:05.452 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\Market.json via tmp-swap.
+2026-03-23 00:32:05.452 -05:00 [INF] Market data saved
+2026-03-23 00:32:05.462 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\dist\SAT\UserData\EstimatedMarketValues.json via tmp-swap.
+2026-03-23 00:32:05.462 -05:00 [INF] Estimated market values saved

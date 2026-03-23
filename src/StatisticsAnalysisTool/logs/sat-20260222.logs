@@ -1,0 +1,304 @@
+2026-02-22 23:48:10.579 -05:00 [INF] Tool started with v8.6.7.42603
+2026-02-22 23:48:11.043 -05:00 [INF] OS Version: Microsoft Windows 10.0.26200 - "X64" | Processor: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz | Video: NVIDIA GeForce GTX 1050 Ti | Is Admin: false | Is Debug: false | Active Networks: vEthernet (Default Switch), Ethernet, Loopback Pseudo-Interface 1, vSwitch (Default Switch)-Hyper-V Virtual Switch Extension Filter-0000, vEthernet (Default Switch)-WFP Native MAC Layer LightWeight Filter-0000, vEthernet (Default Switch)-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-Npcap Packet Driver (NPCAP)-0000, vEthernet (Default Switch)-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 8-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 8-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-QoS Packet Scheduler-0000, Conexión de área local* 9-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 9-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-QoS Packet Scheduler-0000, Ethernet-WFP Native MAC Layer LightWeight Filter-0000, Ethernet-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-Npcap Packet Driver (NPCAP)-0000, Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 10-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 10-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 10-QoS Packet Scheduler-0000, vEthernet (Default Switch)-Npcap Packet Driver (NPCAP)-0000, Ethernet-QoS Packet Scheduler-0000, vEthernet (Default Switch)-QoS Packet Scheduler-0000, Ethernet-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 10-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 8, Conexión de área local* 9, Conexión de área local* 10, vSwitch (Default Switch)
+2026-02-22 23:48:30.905 -05:00 [INF] Used packet provider: "Npcap"
+2026-02-22 23:48:31.430 -05:00 [ERR] StatisticsAnalysisTool.Dungeon.DungeonController+<LoadDungeonFromFileAsync>d__39
+StatisticsAnalysisTool.Exceptions.MappingException: Unknown dungeon mode
+   at StatisticsAnalysisTool.Dungeon.DungeonMapping.Mapping(DungeonDto dto) in G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\Dungeon\DungeonMapping.cs:line 94
+   at StatisticsAnalysisTool.Dungeon.DungeonController.LoadDungeonFromFileAsync() in G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\Dungeon\DungeonController.cs:line 793
+2026-02-22 23:48:31.469 -05:00 [ERR] StatisticsAnalysisTool.Dungeon.DungeonController+<LoadDungeonFromFileAsync>d__39
+StatisticsAnalysisTool.Exceptions.MappingException: Unknown dungeon mode
+   at StatisticsAnalysisTool.Dungeon.DungeonMapping.Mapping(DungeonDto dto) in G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\Dungeon\DungeonMapping.cs:line 94
+   at StatisticsAnalysisTool.Dungeon.DungeonController.LoadDungeonFromFileAsync() in G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\Dungeon\DungeonController.cs:line 793
+2026-02-22 23:48:31.521 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\ActiveAlerts.json. Returning default.
+2026-02-22 23:48:33.400 -05:00 [INF] Npcap[ID:0]: opening \Device\NPF_{5343C9D7-F0C0-4A5B-A191-24B731D7A11B}:WAN Miniport (Network Monitor) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-22 23:48:33.474 -05:00 [INF] Npcap[ID:0]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 23:48:33.475 -05:00 [INF] Npcap[ID:1]: opening \Device\NPF_{73F8FA3D-7CF5-47BF-8549-3C8DD7ABACBA}:WAN Miniport (IPv6) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-22 23:48:33.482 -05:00 [INF] Npcap[ID:1]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 23:48:33.483 -05:00 [INF] Npcap[ID:2]: opening \Device\NPF_{A085B40E-9803-42FD-ACDE-ECD6A3E558A7}:WAN Miniport (IP) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-22 23:48:33.484 -05:00 [INF] Npcap[ID:2]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 23:48:33.484 -05:00 [INF] Npcap[ID:3]: opening \Device\NPF_{D6D22DA1-562A-43CC-94BB-1ECD9FBE06AB}:TP-Link Wireless USB Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-22 23:48:33.485 -05:00 [INF] Npcap[ID:3]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 23:48:33.485 -05:00 [INF] Npcap[ID:4]: opening \Device\NPF_{5F29F162-0EF1-4AB5-A605-602675BB0EB0}:Realtek PCIe GbE Family Controller (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-22 23:48:33.486 -05:00 [INF] Npcap[ID:4]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 23:48:33.486 -05:00 [INF] Npcap[ID:5]: opening \Device\NPF_{35362FFE-C704-4C86-9976-1C92D6CAE34F}:Microsoft Wi-Fi Direct Virtual Adapter #2 (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-22 23:48:33.490 -05:00 [INF] Npcap[ID:5]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 23:48:33.491 -05:00 [INF] Npcap[ID:6]: opening \Device\NPF_{EE51732A-8659-4B13-85DB-A43A48A05DEB}:Microsoft Wi-Fi Direct Virtual Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-22 23:48:33.493 -05:00 [INF] Npcap[ID:6]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 23:48:33.494 -05:00 [INF] Npcap[ID:7]: opening \Device\NPF_{6FB708B1-6A9F-4341-986A-71A0DAC34D44}:Hyper-V Virtual Ethernet Adapter (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-22 23:48:33.495 -05:00 [INF] Npcap[ID:7]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 23:48:33.497 -05:00 [INF] Npcap[ID:8]: skip loopback \Device\NPF_Loopback:Adapter for loopback traffic capture
+2026-02-22 23:48:33.497 -05:00 [INF] Npcap[ID:9]: opening \Device\NPF_{E23C1357-44E7-4A11-99A2-D024BE8E7545}:Kaspersky VPN (Type="53", Flags="Up, Running, ConnectionStatusDisconnected")
+2026-02-22 23:48:33.498 -05:00 [INF] Npcap[ID:9]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 23:48:33.512 -05:00 [INF] Npcap: capture started on 9 device(s), filter: (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-22 23:48:34.122 -05:00 [INF] MobileServer started on port 7777. Local IP: 172.17.0.1
+2026-02-22 23:48:34.125 -05:00 [INF] MobileBroadcastService started
+2026-02-22 23:48:34.127 -05:00 [INF] Mobile server started on http://172.17.0.1:7777/mobilehub
+2026-02-22 23:48:34.130 -05:00 [INF] Npcap: locked to adapter(Device: Realtek PCIe GbE Family Controller) after 1 valid packets
+2026-02-22 23:48:51.009 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2004', MainMapIndex='2000', MapType="Unknown", MapGuid=null ===
+2026-02-22 23:48:51.039 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\Settings.json via tmp-swap.
+2026-02-22 23:48:51.044 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Vaults.json via tmp-swap.
+2026-02-22 23:48:51.045 -05:00 [INF] Vault saved
+2026-02-22 23:48:51.070 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Trades.json via tmp-swap.
+2026-02-22 23:48:51.071 -05:00 [INF] Trades saved
+2026-02-22 23:48:51.074 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\TreasureStats.json via tmp-swap.
+2026-02-22 23:48:51.074 -05:00 [INF] Treasure saved
+2026-02-22 23:48:51.079 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Stats.json via tmp-swap.
+2026-02-22 23:48:51.079 -05:00 [INF] Statistics saved
+2026-02-22 23:48:51.097 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-22 23:48:51.097 -05:00 [INF] Dungeons saved
+2026-02-22 23:48:51.099 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Gathering.json via tmp-swap.
+2026-02-22 23:48:51.099 -05:00 [INF] Gathering saved
+2026-02-22 23:48:51.101 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Guild.json via tmp-swap.
+2026-02-22 23:48:51.101 -05:00 [INF] Guild data saved
+2026-02-22 23:48:51.103 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DamageMeterSnapshots.json via tmp-swap.
+2026-02-22 23:48:51.103 -05:00 [INF] Damage Meter snapshots saved
+2026-02-22 23:48:51.105 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Market.json via tmp-swap.
+2026-02-22 23:48:51.106 -05:00 [INF] Market data saved
+2026-02-22 23:48:51.112 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\EstimatedMarketValues.json via tmp-swap.
+2026-02-22 23:48:51.113 -05:00 [INF] Estimated market values saved
+2026-02-22 23:48:51.115 -05:00 [INF] ClusterChanged broadcast: Bridgewatch Market (index=2004, mainIndex=2000, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-22 23:48:51.148 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null) ===
+2026-02-22 23:48:51.151 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-22 23:48:51.151 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null
+2026-02-22 23:48:51.152 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-22 23:48:51.152 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2004', MainClusterIndex='2000', MapType="Unknown", Guid=null
+2026-02-22 23:48:51.153 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-22 23:48:51.153 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-22 23:48:51.153 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-22 23:49:47.983 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2000', MainMapIndex='2004', MapType="Unknown", MapGuid=null ===
+2026-02-22 23:49:47.985 -05:00 [INF] ClusterChanged broadcast: Bridgewatch (index=2000, mainIndex=2004, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-22 23:49:47.987 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null) ===
+2026-02-22 23:49:47.988 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-22 23:49:47.988 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null
+2026-02-22 23:49:47.988 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-22 23:49:47.988 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2000', MainClusterIndex='2004', MapType="Unknown", Guid=null
+2026-02-22 23:49:47.988 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-22 23:49:47.988 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-22 23:49:47.988 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-22 23:50:00.541 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2211', MainMapIndex='2000', MapType="Unknown", MapGuid=null ===
+2026-02-22 23:50:00.542 -05:00 [INF] ClusterChanged broadcast: Smoothfloor Cleft (index=2211, mainIndex=2000, type=Unknown, zone=SafeArea, tier=T4)
+2026-02-22 23:50:00.542 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null) ===
+2026-02-22 23:50:00.543 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-22 23:50:00.543 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null
+2026-02-22 23:50:00.543 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-22 23:50:00.543 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2211', MainClusterIndex='2000', MapType="Unknown", Guid=null
+2026-02-22 23:50:00.543 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-22 23:50:00.543 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-22 23:50:00.543 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-22 23:50:40.152 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='@RANDOMDUNGEON@df2c0d8a-3519-44e5-a3be-0866dc21b889', MainMapIndex='2211', MapType="RandomDungeon", MapGuid="df2c0d8a-3519-44e5-a3be-0866dc21b889" ===
+2026-02-22 23:50:40.153 -05:00 [INF] ClusterChanged broadcast: Smoothfloor Cleft (index=2211, mainIndex=2000, type=Unknown, zone=Unknown, tier=T4)
+2026-02-22 23:50:40.153 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="RandomDungeon", mapGuid="df2c0d8a-3519-44e5-a3be-0866dc21b889") ===
+2026-02-22 23:50:40.153 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-22 23:50:40.153 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="RandomDungeon", mapGuid="df2c0d8a-3519-44e5-a3be-0866dc21b889"
+2026-02-22 23:50:40.153 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-22 23:50:40.153 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2211', MainClusterIndex='2000', MapType="Unknown", Guid="df2c0d8a-3519-44e5-a3be-0866dc21b889"
+2026-02-22 23:50:40.155 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=true, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-22 23:50:40.155 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CREATE NEW dungeon. mapType="RandomDungeon", MainClusterIndex='2000'
+2026-02-22 23:50:40.158 -05:00 [INF] [DUNGEON-TRACE] === STEP 2: CreateNewDungeon ===
+2026-02-22 23:50:40.159 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="RandomDungeon", mainMapIndex='2000', guid="df2c0d8a-3519-44e5-a3be-0866dc21b889"
+2026-02-22 23:50:40.159 -05:00 [INF] [DUNGEON-TRACE] RandomDungeon: DungeonData.GetDungeonMode('2000') = "Unknown"
+2026-02-22 23:50:40.160 -05:00 [INF] [DUNGEON-TRACE] === DungeonBaseFragment CONSTRUCTOR ===
+2026-02-22 23:50:40.160 -05:00 [INF] [DUNGEON-TRACE] Input: guid="df2c0d8a-3519-44e5-a3be-0866dc21b889", mapType="RandomDungeon", mode="Unknown", mainMapIndex='2000'
+2026-02-22 23:50:40.162 -05:00 [INF] [DUNGEON-TRACE] After init: ClusterType="SafeArea", MainMapName='Bridgewatch' (resolved from WorldData.GetUniqueNameOrDefault('2000'))
+2026-02-22 23:50:40.162 -05:00 [INF] [DUNGEON-TRACE] === STEP 2 RESULT: Type=RandomDungeonFragment, MainMapIndex='2000', MainMapName='Bridgewatch', ClusterType="SafeArea" ===
+2026-02-22 23:50:40.162 -05:00 [INF] [DUNGEON-TRACE] New dungeon created: Type=RandomDungeonFragment, Mode="Unknown", MainMapIndex='2000', MainMapName='Bridgewatch', Tier="Unknown", Faction="Unknown"
+2026-02-22 23:50:40.163 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to "df2c0d8a-3519-44e5-a3be-0866dc21b889" ===
+2026-02-22 23:50:59.830 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.831 -05:00 [INF] [DUNGEON-TRACE] mobIndex=436, MobsData.GetMobTierByIndex="T3", dungeon found=true, current Tier="Unknown"
+2026-02-22 23:50:59.831 -05:00 [INF] [DUNGEON-TRACE] Tier UPDATED to "T3"
+2026-02-22 23:50:59.833 -05:00 [INF] [DUNGEON-TRACE] === STEP 4: AddLevelToCurrentDungeon ===
+2026-02-22 23:50:59.833 -05:00 [INF] [DUNGEON-TRACE] mobIndex=436, hitPointsMax=856, MobsData.GetMobLevelByIndex=0, current dungeon Level=-1
+2026-02-22 23:50:59.833 -05:00 [INF] [DUNGEON-TRACE] After update: Level=0, LevelString='.0'
+2026-02-22 23:50:59.834 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.834 -05:00 [INF] [DUNGEON-TRACE] mobIndex=436, MobsData.GetMobTierByIndex="T3", dungeon found=true, current Tier="T3"
+2026-02-22 23:50:59.834 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.835 -05:00 [INF] [DUNGEON-TRACE] === STEP 4: AddLevelToCurrentDungeon ===
+2026-02-22 23:50:59.835 -05:00 [INF] [DUNGEON-TRACE] mobIndex=436, hitPointsMax=856, MobsData.GetMobLevelByIndex=0, current dungeon Level=0
+2026-02-22 23:50:59.835 -05:00 [INF] [DUNGEON-TRACE] After update: Level=0, LevelString='.0'
+2026-02-22 23:50:59.836 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.836 -05:00 [INF] [DUNGEON-TRACE] mobIndex=438, MobsData.GetMobTierByIndex="T4", dungeon found=true, current Tier="T3"
+2026-02-22 23:50:59.836 -05:00 [INF] [DUNGEON-TRACE] Tier UPDATED to "T4"
+2026-02-22 23:50:59.836 -05:00 [INF] [DUNGEON-TRACE] === STEP 4: AddLevelToCurrentDungeon ===
+2026-02-22 23:50:59.836 -05:00 [INF] [DUNGEON-TRACE] mobIndex=438, hitPointsMax=1143, MobsData.GetMobLevelByIndex=0, current dungeon Level=0
+2026-02-22 23:50:59.836 -05:00 [INF] [DUNGEON-TRACE] After update: Level=0, LevelString='.0'
+2026-02-22 23:50:59.837 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.837 -05:00 [INF] [DUNGEON-TRACE] mobIndex=434, MobsData.GetMobTierByIndex="T1", dungeon found=true, current Tier="T4"
+2026-02-22 23:50:59.837 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.837 -05:00 [INF] [DUNGEON-TRACE] === STEP 4: AddLevelToCurrentDungeon ===
+2026-02-22 23:50:59.837 -05:00 [INF] [DUNGEON-TRACE] mobIndex=434, hitPointsMax=20, MobsData.GetMobLevelByIndex=0, current dungeon Level=0
+2026-02-22 23:50:59.837 -05:00 [INF] [DUNGEON-TRACE] After update: Level=0, LevelString='.0'
+2026-02-22 23:50:59.837 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.838 -05:00 [INF] [DUNGEON-TRACE] mobIndex=1699, MobsData.GetMobTierByIndex="T4", dungeon found=true, current Tier="T4"
+2026-02-22 23:50:59.838 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.838 -05:00 [INF] [DUNGEON-TRACE] === STEP 4: AddLevelToCurrentDungeon ===
+2026-02-22 23:50:59.838 -05:00 [INF] [DUNGEON-TRACE] mobIndex=1699, hitPointsMax=866, MobsData.GetMobLevelByIndex=0, current dungeon Level=0
+2026-02-22 23:50:59.838 -05:00 [INF] [DUNGEON-TRACE] After update: Level=0, LevelString='.0'
+2026-02-22 23:50:59.838 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.838 -05:00 [INF] [DUNGEON-TRACE] mobIndex=438, MobsData.GetMobTierByIndex="T4", dungeon found=true, current Tier="T4"
+2026-02-22 23:50:59.839 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.839 -05:00 [INF] [DUNGEON-TRACE] === STEP 4: AddLevelToCurrentDungeon ===
+2026-02-22 23:50:59.839 -05:00 [INF] [DUNGEON-TRACE] mobIndex=438, hitPointsMax=1143, MobsData.GetMobLevelByIndex=0, current dungeon Level=0
+2026-02-22 23:50:59.839 -05:00 [INF] [DUNGEON-TRACE] After update: Level=0, LevelString='.0'
+2026-02-22 23:50:59.839 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.840 -05:00 [INF] [DUNGEON-TRACE] mobIndex=436, MobsData.GetMobTierByIndex="T3", dungeon found=true, current Tier="T4"
+2026-02-22 23:50:59.840 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.840 -05:00 [INF] [DUNGEON-TRACE] === STEP 4: AddLevelToCurrentDungeon ===
+2026-02-22 23:50:59.841 -05:00 [INF] [DUNGEON-TRACE] mobIndex=436, hitPointsMax=856, MobsData.GetMobLevelByIndex=0, current dungeon Level=0
+2026-02-22 23:50:59.841 -05:00 [INF] [DUNGEON-TRACE] After update: Level=0, LevelString='.0'
+2026-02-22 23:50:59.841 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.841 -05:00 [INF] [DUNGEON-TRACE] mobIndex=1603, MobsData.GetMobTierByIndex="T4", dungeon found=true, current Tier="T4"
+2026-02-22 23:50:59.841 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.842 -05:00 [INF] [DUNGEON-TRACE] === STEP 4: AddLevelToCurrentDungeon ===
+2026-02-22 23:50:59.842 -05:00 [INF] [DUNGEON-TRACE] mobIndex=1603, hitPointsMax=385, MobsData.GetMobLevelByIndex=0, current dungeon Level=0
+2026-02-22 23:50:59.842 -05:00 [INF] [DUNGEON-TRACE] After update: Level=0, LevelString='.0'
+2026-02-22 23:50:59.842 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.842 -05:00 [INF] [DUNGEON-TRACE] mobIndex=1603, MobsData.GetMobTierByIndex="T4", dungeon found=true, current Tier="T4"
+2026-02-22 23:50:59.842 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.844 -05:00 [INF] [DUNGEON-TRACE] === STEP 4: AddLevelToCurrentDungeon ===
+2026-02-22 23:50:59.845 -05:00 [INF] [DUNGEON-TRACE] mobIndex=1603, hitPointsMax=385, MobsData.GetMobLevelByIndex=0, current dungeon Level=0
+2026-02-22 23:50:59.853 -05:00 [INF] [DUNGEON-TRACE] After update: Level=0, LevelString='.0'
+2026-02-22 23:50:59.853 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.853 -05:00 [INF] [DUNGEON-TRACE] mobIndex=438, MobsData.GetMobTierByIndex="T4", dungeon found=true, current Tier="T4"
+2026-02-22 23:50:59.853 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.853 -05:00 [INF] [DUNGEON-TRACE] === STEP 4: AddLevelToCurrentDungeon ===
+2026-02-22 23:50:59.853 -05:00 [INF] [DUNGEON-TRACE] mobIndex=438, hitPointsMax=1143, MobsData.GetMobLevelByIndex=0, current dungeon Level=0
+2026-02-22 23:50:59.854 -05:00 [INF] [DUNGEON-TRACE] After update: Level=0, LevelString='.0'
+2026-02-22 23:50:59.854 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.854 -05:00 [INF] [DUNGEON-TRACE] mobIndex=436, MobsData.GetMobTierByIndex="T3", dungeon found=true, current Tier="T4"
+2026-02-22 23:50:59.854 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.854 -05:00 [INF] [DUNGEON-TRACE] === STEP 4: AddLevelToCurrentDungeon ===
+2026-02-22 23:50:59.854 -05:00 [INF] [DUNGEON-TRACE] mobIndex=436, hitPointsMax=856, MobsData.GetMobLevelByIndex=0, current dungeon Level=0
+2026-02-22 23:50:59.854 -05:00 [INF] [DUNGEON-TRACE] After update: Level=0, LevelString='.0'
+2026-02-22 23:50:59.855 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.855 -05:00 [INF] [DUNGEON-TRACE] mobIndex=538, MobsData.GetMobTierByIndex="T4", dungeon found=true, current Tier="T4"
+2026-02-22 23:50:59.855 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.856 -05:00 [INF] [DUNGEON-TRACE] === STEP 4: AddLevelToCurrentDungeon ===
+2026-02-22 23:50:59.856 -05:00 [INF] [DUNGEON-TRACE] mobIndex=538, hitPointsMax=962, MobsData.GetMobLevelByIndex=0, current dungeon Level=0
+2026-02-22 23:50:59.856 -05:00 [INF] [DUNGEON-TRACE] After update: Level=0, LevelString='.0'
+2026-02-22 23:50:59.856 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.856 -05:00 [INF] [DUNGEON-TRACE] mobIndex=438, MobsData.GetMobTierByIndex="T4", dungeon found=true, current Tier="T4"
+2026-02-22 23:50:59.856 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.856 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2211', MainMapIndex='2211', MapType="Unknown", MapGuid=null ===
+2026-02-22 23:50:59.856 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.856 -05:00 [INF] [DUNGEON-TRACE] mobIndex=438, MobsData.GetMobTierByIndex="T4", dungeon found=true, current Tier="T4"
+2026-02-22 23:50:59.856 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.857 -05:00 [INF] [DUNGEON-TRACE] === STEP 4: AddLevelToCurrentDungeon ===
+2026-02-22 23:50:59.857 -05:00 [INF] [DUNGEON-TRACE] mobIndex=438, hitPointsMax=1143, MobsData.GetMobLevelByIndex=0, current dungeon Level=0
+2026-02-22 23:50:59.857 -05:00 [INF] [DUNGEON-TRACE] After update: Level=0, LevelString='.0'
+2026-02-22 23:50:59.857 -05:00 [INF] ClusterChanged broadcast: Smoothfloor Cleft (index=2211, mainIndex=2211, type=Unknown, zone=SafeArea, tier=T4)
+2026-02-22 23:50:59.857 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.857 -05:00 [INF] [DUNGEON-TRACE] mobIndex=438, MobsData.GetMobTierByIndex="T4", dungeon found=true, current Tier="T4"
+2026-02-22 23:50:59.857 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.857 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null) ===
+2026-02-22 23:50:59.857 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-22 23:50:59.857 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null
+2026-02-22 23:50:59.857 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid="df2c0d8a-3519-44e5-a3be-0866dc21b889", _lastMapGuid="df2c0d8a-3519-44e5-a3be-0866dc21b889"
+2026-02-22 23:50:59.857 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2211', MainClusterIndex='2211', MapType="Unknown", Guid=null
+2026-02-22 23:50:59.857 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=true, ExistDungeon(_currentGuid)=false
+2026-02-22 23:50:59.857 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CLOSE dungeon (lastMapGuid="df2c0d8a-3519-44e5-a3be-0866dc21b889") - exited to open world
+2026-02-22 23:50:59.858 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.858 -05:00 [INF] [DUNGEON-TRACE] mobIndex=1651, MobsData.GetMobTierByIndex="T4", dungeon found=true, current Tier="T4"
+2026-02-22 23:50:59.858 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.858 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.859 -05:00 [INF] [DUNGEON-TRACE] mobIndex=438, MobsData.GetMobTierByIndex="T4", dungeon found=true, current Tier="T4"
+2026-02-22 23:50:59.859 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.859 -05:00 [INF] [DUNGEON-TRACE] Closed: Type=RandomDungeonFragment, Mode="Unknown", MainMapName='Bridgewatch', Tier="T4", Fame=0, Silver=0
+2026-02-22 23:50:59.860 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.860 -05:00 [INF] [DUNGEON-TRACE] mobIndex=436, MobsData.GetMobTierByIndex="T3", dungeon found=true, current Tier="T4"
+2026-02-22 23:50:59.860 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.860 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.860 -05:00 [INF] [DUNGEON-TRACE] mobIndex=434, MobsData.GetMobTierByIndex="T1", dungeon found=false, current Tier=null
+2026-02-22 23:50:59.860 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.860 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.860 -05:00 [INF] [DUNGEON-TRACE] mobIndex=434, MobsData.GetMobTierByIndex="T1", dungeon found=false, current Tier=null
+2026-02-22 23:50:59.860 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.861 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.861 -05:00 [INF] [DUNGEON-TRACE] mobIndex=438, MobsData.GetMobTierByIndex="T4", dungeon found=false, current Tier=null
+2026-02-22 23:50:59.862 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.862 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.862 -05:00 [INF] [DUNGEON-TRACE] mobIndex=434, MobsData.GetMobTierByIndex="T1", dungeon found=false, current Tier=null
+2026-02-22 23:50:59.862 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] mobIndex=538, MobsData.GetMobTierByIndex="T4", dungeon found=false, current Tier=null
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] mobIndex=538, MobsData.GetMobTierByIndex="T4", dungeon found=false, current Tier=null
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] mobIndex=1615, MobsData.GetMobTierByIndex="T4", dungeon found=false, current Tier=null
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] mobIndex=1651, MobsData.GetMobTierByIndex="T4", dungeon found=false, current Tier=null
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] mobIndex=436, MobsData.GetMobTierByIndex="T3", dungeon found=false, current Tier=null
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] mobIndex=438, MobsData.GetMobTierByIndex="T4", dungeon found=false, current Tier=null
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] mobIndex=438, MobsData.GetMobTierByIndex="T4", dungeon found=false, current Tier=null
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.863 -05:00 [INF] [DUNGEON-TRACE] mobIndex=438, MobsData.GetMobTierByIndex="T4", dungeon found=false, current Tier=null
+2026-02-22 23:50:59.864 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.864 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.864 -05:00 [INF] [DUNGEON-TRACE] mobIndex=434, MobsData.GetMobTierByIndex="T1", dungeon found=false, current Tier=null
+2026-02-22 23:50:59.864 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.864 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:50:59.864 -05:00 [INF] [DUNGEON-TRACE] mobIndex=438, MobsData.GetMobTierByIndex="T4", dungeon found=false, current Tier=null
+2026-02-22 23:50:59.864 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:50:59.866 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-22 23:50:59.866 -05:00 [INF] Dungeons saved
+2026-02-22 23:50:59.866 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-22 23:51:49.499 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2000', MainMapIndex='2211', MapType="Unknown", MapGuid=null ===
+2026-02-22 23:51:49.500 -05:00 [INF] ClusterChanged broadcast: Bridgewatch (index=2000, mainIndex=2211, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-22 23:51:49.500 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null) ===
+2026-02-22 23:51:49.500 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-22 23:51:49.500 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null
+2026-02-22 23:51:49.500 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-22 23:51:49.500 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2000', MainClusterIndex='2211', MapType="Unknown", Guid=null
+2026-02-22 23:51:49.500 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-22 23:51:49.500 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-22 23:51:49.500 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-22 23:52:28.542 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='@EXPEDITION@e7d26cae-f049-4c2c-a70f-b78a4f7bbca4', MainMapIndex='2000', MapType="Expedition", MapGuid="e7d26cae-f049-4c2c-a70f-b78a4f7bbca4" ===
+2026-02-22 23:52:28.544 -05:00 [INF] ClusterChanged broadcast:  (index=, mainIndex=2000, type=Expedition, zone=Unknown, tier=T1)
+2026-02-22 23:52:28.544 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Expedition", mapGuid="e7d26cae-f049-4c2c-a70f-b78a4f7bbca4") ===
+2026-02-22 23:52:28.544 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-22 23:52:28.544 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Expedition", mapGuid="e7d26cae-f049-4c2c-a70f-b78a4f7bbca4"
+2026-02-22 23:52:28.544 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-22 23:52:28.544 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='null', MainClusterIndex='2000', MapType="Expedition", Guid="e7d26cae-f049-4c2c-a70f-b78a4f7bbca4"
+2026-02-22 23:52:28.545 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=true, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-22 23:52:28.545 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CREATE NEW dungeon. mapType="Expedition", MainClusterIndex='2000'
+2026-02-22 23:52:28.545 -05:00 [INF] [DUNGEON-TRACE] === STEP 2: CreateNewDungeon ===
+2026-02-22 23:52:28.545 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Expedition", mainMapIndex='2000', guid="e7d26cae-f049-4c2c-a70f-b78a4f7bbca4"
+2026-02-22 23:52:28.545 -05:00 [INF] [DUNGEON-TRACE] Expedition: mode=Expedition
+2026-02-22 23:52:28.545 -05:00 [INF] [DUNGEON-TRACE] === DungeonBaseFragment CONSTRUCTOR ===
+2026-02-22 23:52:28.545 -05:00 [INF] [DUNGEON-TRACE] Input: guid="e7d26cae-f049-4c2c-a70f-b78a4f7bbca4", mapType="Expedition", mode="Expedition", mainMapIndex='2000'
+2026-02-22 23:52:28.545 -05:00 [INF] [DUNGEON-TRACE] After init: ClusterType="SafeArea", MainMapName='Bridgewatch' (resolved from WorldData.GetUniqueNameOrDefault('2000'))
+2026-02-22 23:52:28.546 -05:00 [INF] [DUNGEON-TRACE] === STEP 2 RESULT: Type=ExpeditionFragment, MainMapIndex='2000', MainMapName='Bridgewatch', ClusterType="SafeArea" ===
+2026-02-22 23:52:28.546 -05:00 [INF] [DUNGEON-TRACE] New dungeon created: Type=ExpeditionFragment, Mode="Expedition", MainMapIndex='2000', MainMapName='Bridgewatch', Tier="Unknown", Faction="Unknown"
+2026-02-22 23:52:28.550 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to "e7d26cae-f049-4c2c-a70f-b78a4f7bbca4" ===
+2026-02-22 23:52:29.772 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:52:29.772 -05:00 [INF] [DUNGEON-TRACE] mobIndex=2686, MobsData.GetMobTierByIndex="T3", dungeon found=true, current Tier="Unknown"
+2026-02-22 23:52:29.772 -05:00 [INF] [DUNGEON-TRACE] Tier UPDATED to "T3"
+2026-02-22 23:52:42.259 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:52:42.260 -05:00 [INF] [DUNGEON-TRACE] mobIndex=2686, MobsData.GetMobTierByIndex="T3", dungeon found=true, current Tier="T3"
+2026-02-22 23:52:42.260 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:52:42.260 -05:00 [INF] [DUNGEON-TRACE] === STEP 5: AddTierToCurrentDungeonAsync ===
+2026-02-22 23:52:42.261 -05:00 [INF] [DUNGEON-TRACE] mobIndex=2686, MobsData.GetMobTierByIndex="T3", dungeon found=true, current Tier="T3"
+2026-02-22 23:52:42.261 -05:00 [INF] [DUNGEON-TRACE] Tier NOT updated (dun is null or current tier >= mob tier)
+2026-02-22 23:52:59.667 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2000', MainMapIndex='2000', MapType="Unknown", MapGuid=null ===
+2026-02-22 23:52:59.668 -05:00 [INF] ClusterChanged broadcast: Bridgewatch (index=2000, mainIndex=2000, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-22 23:52:59.668 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null) ===
+2026-02-22 23:52:59.668 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-22 23:52:59.668 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null
+2026-02-22 23:52:59.668 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid="e7d26cae-f049-4c2c-a70f-b78a4f7bbca4", _lastMapGuid="e7d26cae-f049-4c2c-a70f-b78a4f7bbca4"
+2026-02-22 23:52:59.668 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2000', MainClusterIndex='2000', MapType="Unknown", Guid=null
+2026-02-22 23:52:59.668 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=true, ExistDungeon(_currentGuid)=false
+2026-02-22 23:52:59.668 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CLOSE dungeon (lastMapGuid="e7d26cae-f049-4c2c-a70f-b78a4f7bbca4") - exited to open world
+2026-02-22 23:52:59.668 -05:00 [INF] [DUNGEON-TRACE] Closed: Type=ExpeditionFragment, Mode="Expedition", MainMapName='Bridgewatch', Tier="T3", Fame=0, Silver=0
+2026-02-22 23:52:59.672 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-22 23:52:59.672 -05:00 [INF] Dungeons saved
+2026-02-22 23:52:59.672 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-22 23:53:06.577 -05:00 [INF] MobileBroadcastService stopped

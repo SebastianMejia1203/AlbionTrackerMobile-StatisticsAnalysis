@@ -224,24 +224,43 @@ public class TrackingController : ITrackingController
 
     public void StopTracking()
     {
-        if (!_mainWindowViewModel.IsTrackingActive)
+        var isMobileServerRunning = MobileServer?.IsRunning == true;
+
+        if (!_mainWindowViewModel.IsTrackingActive && !isMobileServerRunning)
         {
             return;
         }
 
-        _networkManager.Stop();
+        if (_mainWindowViewModel.IsTrackingActive)
+        {
+            _networkManager.Stop();
 
-        LiveStatsTracker?.Stop();
+            LiveStatsTracker?.Stop();
 
-        TreasureController.UnregisterEvents();
-        LootController.UnregisterEvents();
-        ClusterController.UnregisterEvents();
+            TreasureController.UnregisterEvents();
+            LootController.UnregisterEvents();
+            ClusterController.UnregisterEvents();
 
-        // Stop mobile server
+            _mainWindowViewModel.IsTrackingActive = false;
+        }
+
+        // Stop mobile server even if tracking is already inactive.
         MobileBroadcast?.Stop();
-        MobileServer?.StopAsync().GetAwaiter().GetResult();
-
-        _mainWindowViewModel.IsTrackingActive = false;
+        if (MobileServer != null)
+        {
+            try
+            {
+                var stopTask = MobileServer.StopAsync();
+                if (!stopTask.Wait(TimeSpan.FromSeconds(6)))
+                {
+                    Log.Warning("Timed out while stopping mobile server during tracking shutdown");
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Warning(ex, "Failed to stop mobile server during tracking shutdown");
+            }
+        }
 
         Debug.Print("Stopped tracking");
     }

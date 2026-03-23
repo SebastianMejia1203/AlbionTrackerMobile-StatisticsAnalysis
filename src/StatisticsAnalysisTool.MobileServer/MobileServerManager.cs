@@ -125,7 +125,10 @@ public class MobileServerManager : IDisposable
     /// </summary>
     public async Task StopAsync()
     {
-        if (!IsRunning || _app == null) return;
+        if (_app == null && _discoveryService == null && !IsRunning)
+        {
+            return;
+        }
 
         try
         {
@@ -133,9 +136,14 @@ public class MobileServerManager : IDisposable
 
             if (_app != null)
             {
-                await _app.StopAsync();
-                await _app.DisposeAsync();
+                using var shutdownTimeout = new CancellationTokenSource(TimeSpan.FromSeconds(5));
+                await _app.StopAsync(shutdownTimeout.Token).ConfigureAwait(false);
+                await _app.DisposeAsync().ConfigureAwait(false);
             }
+        }
+        catch (OperationCanceledException)
+        {
+            Log.Warning("MobileServer stop timed out");
         }
         catch (Exception ex)
         {
@@ -149,6 +157,7 @@ public class MobileServerManager : IDisposable
             _hubContext = null;
             _cts?.Dispose();
             _cts = null;
+            _serverTask = null;
             IsRunning = false;
 
             Log.Information("MobileServer stopped");

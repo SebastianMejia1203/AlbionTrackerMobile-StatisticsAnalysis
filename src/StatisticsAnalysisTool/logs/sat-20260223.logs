@@ -1,0 +1,1343 @@
+2026-02-23 00:22:56.915 -05:00 [INF] Tool started with v8.6.7.555
+2026-02-23 00:22:57.430 -05:00 [INF] OS Version: Microsoft Windows 10.0.26200 - "X64" | Processor: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz | Video: NVIDIA GeForce GTX 1050 Ti | Is Admin: false | Is Debug: false | Active Networks: vEthernet (Default Switch), Ethernet, Loopback Pseudo-Interface 1, vSwitch (Default Switch)-Hyper-V Virtual Switch Extension Filter-0000, vEthernet (Default Switch)-WFP Native MAC Layer LightWeight Filter-0000, vEthernet (Default Switch)-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-Npcap Packet Driver (NPCAP)-0000, vEthernet (Default Switch)-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 8-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 8-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-QoS Packet Scheduler-0000, Conexión de área local* 9-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 9-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-QoS Packet Scheduler-0000, Ethernet-WFP Native MAC Layer LightWeight Filter-0000, Ethernet-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-Npcap Packet Driver (NPCAP)-0000, Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 10-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 10-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 10-QoS Packet Scheduler-0000, vEthernet (Default Switch)-Npcap Packet Driver (NPCAP)-0000, Ethernet-QoS Packet Scheduler-0000, vEthernet (Default Switch)-QoS Packet Scheduler-0000, Ethernet-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 10-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 8, Conexión de área local* 9, Conexión de área local* 10, vSwitch (Default Switch)
+2026-02-23 00:23:13.627 -05:00 [INF] Used packet provider: "Npcap"
+2026-02-23 00:23:15.117 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\ActiveAlerts.json. Returning default.
+2026-02-23 00:23:16.859 -05:00 [INF] Npcap[ID:0]: opening \Device\NPF_{5343C9D7-F0C0-4A5B-A191-24B731D7A11B}:WAN Miniport (Network Monitor) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 00:23:16.919 -05:00 [INF] Npcap[ID:0]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 00:23:16.919 -05:00 [INF] Npcap[ID:1]: opening \Device\NPF_{73F8FA3D-7CF5-47BF-8549-3C8DD7ABACBA}:WAN Miniport (IPv6) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 00:23:16.926 -05:00 [INF] Npcap[ID:1]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 00:23:16.927 -05:00 [INF] Npcap[ID:2]: opening \Device\NPF_{A085B40E-9803-42FD-ACDE-ECD6A3E558A7}:WAN Miniport (IP) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 00:23:16.928 -05:00 [INF] Npcap[ID:2]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 00:23:16.928 -05:00 [INF] Npcap[ID:3]: opening \Device\NPF_{D6D22DA1-562A-43CC-94BB-1ECD9FBE06AB}:TP-Link Wireless USB Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 00:23:16.929 -05:00 [INF] Npcap[ID:3]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 00:23:16.929 -05:00 [INF] Npcap[ID:4]: opening \Device\NPF_{5F29F162-0EF1-4AB5-A605-602675BB0EB0}:Realtek PCIe GbE Family Controller (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 00:23:16.930 -05:00 [INF] Npcap[ID:4]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 00:23:16.930 -05:00 [INF] Npcap[ID:5]: opening \Device\NPF_{35362FFE-C704-4C86-9976-1C92D6CAE34F}:Microsoft Wi-Fi Direct Virtual Adapter #2 (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 00:23:16.931 -05:00 [INF] Npcap[ID:5]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 00:23:16.931 -05:00 [INF] Npcap[ID:6]: opening \Device\NPF_{EE51732A-8659-4B13-85DB-A43A48A05DEB}:Microsoft Wi-Fi Direct Virtual Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 00:23:16.932 -05:00 [INF] Npcap[ID:6]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 00:23:16.933 -05:00 [INF] Npcap[ID:7]: opening \Device\NPF_{6FB708B1-6A9F-4341-986A-71A0DAC34D44}:Hyper-V Virtual Ethernet Adapter (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 00:23:16.934 -05:00 [INF] Npcap[ID:7]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 00:23:16.934 -05:00 [INF] Npcap[ID:8]: skip loopback \Device\NPF_Loopback:Adapter for loopback traffic capture
+2026-02-23 00:23:16.935 -05:00 [INF] Npcap[ID:9]: opening \Device\NPF_{E23C1357-44E7-4A11-99A2-D024BE8E7545}:Kaspersky VPN (Type="53", Flags="Up, Running, ConnectionStatusDisconnected")
+2026-02-23 00:23:16.936 -05:00 [INF] Npcap[ID:9]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 00:23:16.943 -05:00 [INF] Npcap: capture started on 9 device(s), filter: (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 00:23:17.102 -05:00 [INF] Npcap: locked to adapter(Device: Realtek PCIe GbE Family Controller) after 1 valid packets
+2026-02-23 00:23:17.614 -05:00 [INF] MobileServer started on port 7777. Local IP: 172.17.0.1
+2026-02-23 00:23:17.616 -05:00 [INF] MobileBroadcastService started
+2026-02-23 00:23:17.619 -05:00 [INF] Mobile server started on http://172.17.0.1:7777/mobilehub
+2026-02-23 00:23:31.280 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2212', MainMapIndex='2000', MapType="Unknown", MapGuid=null ===
+2026-02-23 00:23:31.313 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\Settings.json via tmp-swap.
+2026-02-23 00:23:31.317 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Vaults.json via tmp-swap.
+2026-02-23 00:23:31.318 -05:00 [INF] Vault saved
+2026-02-23 00:23:31.340 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Trades.json via tmp-swap.
+2026-02-23 00:23:31.341 -05:00 [INF] Trades saved
+2026-02-23 00:23:31.344 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\TreasureStats.json via tmp-swap.
+2026-02-23 00:23:31.345 -05:00 [INF] Treasure saved
+2026-02-23 00:23:31.348 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Stats.json via tmp-swap.
+2026-02-23 00:23:31.349 -05:00 [INF] Statistics saved
+2026-02-23 00:23:31.365 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 00:23:31.365 -05:00 [INF] Dungeons saved
+2026-02-23 00:23:31.368 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Gathering.json via tmp-swap.
+2026-02-23 00:23:31.369 -05:00 [INF] Gathering saved
+2026-02-23 00:23:31.371 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Guild.json via tmp-swap.
+2026-02-23 00:23:31.372 -05:00 [INF] Guild data saved
+2026-02-23 00:23:31.374 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DamageMeterSnapshots.json via tmp-swap.
+2026-02-23 00:23:31.375 -05:00 [INF] Damage Meter snapshots saved
+2026-02-23 00:23:31.377 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Market.json via tmp-swap.
+2026-02-23 00:23:31.377 -05:00 [INF] Market data saved
+2026-02-23 00:23:31.384 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\EstimatedMarketValues.json via tmp-swap.
+2026-02-23 00:23:31.385 -05:00 [INF] Estimated market values saved
+2026-02-23 00:23:31.387 -05:00 [INF] ClusterChanged broadcast: Longmarch Meadow (index=2212, mainIndex=2000, type=Unknown, zone=SafeArea, tier=T4)
+2026-02-23 00:23:31.420 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2000') ===
+2026-02-23 00:23:31.423 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:23:31.424 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2000'
+2026-02-23 00:23:31.424 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2000' (from JoinResponse)
+2026-02-23 00:23:31.425 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 00:23:31.425 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2212', MainClusterIndex='2000', MapType="Unknown", Guid=null
+2026-02-23 00:23:31.425 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 00:23:31.426 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 00:23:31.426 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 00:23:56.793 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 00:23:56.794 -05:00 [INF] Dungeons saved
+2026-02-23 00:24:12.886 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 00:24:12.887 -05:00 [INF] Dungeons saved
+2026-02-23 00:24:17.084 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 00:24:17.085 -05:00 [INF] Dungeons saved
+2026-02-23 00:24:39.507 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2000', MainMapIndex='2212', MapType="Unknown", MapGuid=null ===
+2026-02-23 00:24:39.509 -05:00 [INF] ClusterChanged broadcast: Bridgewatch (index=2000, mainIndex=2212, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-23 00:24:39.511 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2212') ===
+2026-02-23 00:24:39.511 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:24:39.511 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2212'
+2026-02-23 00:24:39.511 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2212' (from JoinResponse)
+2026-02-23 00:24:39.511 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 00:24:39.511 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2000', MainClusterIndex='2212', MapType="Unknown", Guid=null
+2026-02-23 00:24:39.511 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 00:24:39.511 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 00:24:39.511 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 00:24:48.482 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='@EXPEDITION@0d9d7fb1-c1ea-4242-abb6-ea7c4754856a', MainMapIndex='2000', MapType="Expedition", MapGuid="0d9d7fb1-c1ea-4242-abb6-ea7c4754856a" ===
+2026-02-23 00:24:48.484 -05:00 [INF] ClusterChanged broadcast:  (index=, mainIndex=2000, type=Expedition, zone=Unknown, tier=T1)
+2026-02-23 00:24:48.484 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Expedition", mapGuid="0d9d7fb1-c1ea-4242-abb6-ea7c4754856a", mainMapIndex='2000') ===
+2026-02-23 00:24:48.484 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:24:48.484 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Expedition", mapGuid="0d9d7fb1-c1ea-4242-abb6-ea7c4754856a", mainMapIndex='2000'
+2026-02-23 00:24:48.484 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2000' (from JoinResponse)
+2026-02-23 00:24:48.484 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 00:24:48.484 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='null', MainClusterIndex='2000', MapType="Expedition", Guid="0d9d7fb1-c1ea-4242-abb6-ea7c4754856a"
+2026-02-23 00:24:48.484 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=true, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 00:24:48.485 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CREATE NEW dungeon. mapType="Expedition", effectiveMainMapIndex='2000'
+2026-02-23 00:24:48.486 -05:00 [INF] [DUNGEON-TRACE] === STEP 2: CreateNewDungeon ===
+2026-02-23 00:24:48.486 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Expedition", mainMapIndex='2000', guid="0d9d7fb1-c1ea-4242-abb6-ea7c4754856a"
+2026-02-23 00:24:48.487 -05:00 [INF] [DUNGEON-TRACE] Expedition: mode=Expedition
+2026-02-23 00:24:48.487 -05:00 [INF] [DUNGEON-TRACE] === DungeonBaseFragment CONSTRUCTOR ===
+2026-02-23 00:24:48.488 -05:00 [INF] [DUNGEON-TRACE] Input: guid="0d9d7fb1-c1ea-4242-abb6-ea7c4754856a", mapType="Expedition", mode="Expedition", mainMapIndex='2000'
+2026-02-23 00:24:48.490 -05:00 [INF] [DUNGEON-TRACE] After init: ClusterType="SafeArea", MainMapName='Bridgewatch' (resolved from WorldData.GetUniqueNameOrDefault('2000'))
+2026-02-23 00:24:48.490 -05:00 [INF] [DUNGEON-TRACE] === STEP 2 RESULT: Type=ExpeditionFragment, MainMapIndex='2000', MainMapName='Bridgewatch', ClusterType="SafeArea" ===
+2026-02-23 00:24:48.490 -05:00 [INF] [DUNGEON-TRACE] New dungeon created: Type=ExpeditionFragment, Mode="Expedition", MainMapIndex='2000', MainMapName='Bridgewatch', Tier="Unknown", Faction="Unknown"
+2026-02-23 00:24:48.494 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to "0d9d7fb1-c1ea-4242-abb6-ea7c4754856a" ===
+2026-02-23 00:24:58.981 -05:00 [INF] [DUNGEON-TRACE] Tier UPDATED to "T4"
+2026-02-23 00:25:11.287 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2000', MainMapIndex='2000', MapType="Unknown", MapGuid=null ===
+2026-02-23 00:25:11.288 -05:00 [INF] ClusterChanged broadcast: Bridgewatch (index=2000, mainIndex=2000, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-23 00:25:11.288 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2000') ===
+2026-02-23 00:25:11.288 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:25:11.288 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2000'
+2026-02-23 00:25:11.288 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2000' (from JoinResponse)
+2026-02-23 00:25:11.288 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid="0d9d7fb1-c1ea-4242-abb6-ea7c4754856a", _lastMapGuid="0d9d7fb1-c1ea-4242-abb6-ea7c4754856a"
+2026-02-23 00:25:11.288 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2000', MainClusterIndex='2000', MapType="Unknown", Guid=null
+2026-02-23 00:25:11.289 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=true, ExistDungeon(_currentGuid)=false
+2026-02-23 00:25:11.289 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CLOSE dungeon (lastMapGuid="0d9d7fb1-c1ea-4242-abb6-ea7c4754856a") - exited to open world
+2026-02-23 00:25:11.289 -05:00 [INF] [DUNGEON-TRACE] Closed: Type=ExpeditionFragment, Mode="Expedition", MainMapName='Bridgewatch', Tier="T4", Fame=4, Silver=0
+2026-02-23 00:25:11.295 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 00:25:11.295 -05:00 [INF] Dungeons saved
+2026-02-23 00:25:11.296 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 00:25:34.887 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2004', MainMapIndex='2000', MapType="Unknown", MapGuid=null ===
+2026-02-23 00:25:34.888 -05:00 [INF] ClusterChanged broadcast: Bridgewatch Market (index=2004, mainIndex=2000, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-23 00:25:34.888 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2000') ===
+2026-02-23 00:25:34.888 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:25:34.888 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2000'
+2026-02-23 00:25:34.888 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2000' (from JoinResponse)
+2026-02-23 00:25:34.888 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 00:25:34.888 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2004', MainClusterIndex='2000', MapType="Unknown", Guid=null
+2026-02-23 00:25:34.888 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 00:25:34.888 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 00:25:34.888 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 00:25:49.486 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2000', MainMapIndex='2004', MapType="Unknown", MapGuid=null ===
+2026-02-23 00:25:49.487 -05:00 [INF] ClusterChanged broadcast: Bridgewatch (index=2000, mainIndex=2004, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-23 00:25:49.487 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2004') ===
+2026-02-23 00:25:49.487 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:25:49.487 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2004'
+2026-02-23 00:25:49.487 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2004' (from JoinResponse)
+2026-02-23 00:25:49.487 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 00:25:49.487 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2000', MainClusterIndex='2004', MapType="Unknown", Guid=null
+2026-02-23 00:25:49.487 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 00:25:49.487 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 00:25:49.487 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 00:25:59.515 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2211', MainMapIndex='2000', MapType="Unknown", MapGuid=null ===
+2026-02-23 00:25:59.516 -05:00 [INF] ClusterChanged broadcast: Smoothfloor Cleft (index=2211, mainIndex=2000, type=Unknown, zone=SafeArea, tier=T4)
+2026-02-23 00:25:59.516 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2000') ===
+2026-02-23 00:25:59.516 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:25:59.516 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2000'
+2026-02-23 00:25:59.516 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2000' (from JoinResponse)
+2026-02-23 00:25:59.516 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 00:25:59.516 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2211', MainClusterIndex='2000', MapType="Unknown", Guid=null
+2026-02-23 00:25:59.516 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 00:25:59.516 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 00:25:59.516 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 00:26:21.606 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='@RANDOMDUNGEON@99f42d5a-684a-4cce-9fd7-8e4581806b02', MainMapIndex='2211', MapType="RandomDungeon", MapGuid="99f42d5a-684a-4cce-9fd7-8e4581806b02" ===
+2026-02-23 00:26:21.607 -05:00 [INF] ClusterChanged broadcast: Smoothfloor Cleft (index=2211, mainIndex=2000, type=Unknown, zone=Unknown, tier=T4)
+2026-02-23 00:26:21.607 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="RandomDungeon", mapGuid="99f42d5a-684a-4cce-9fd7-8e4581806b02", mainMapIndex='2211') ===
+2026-02-23 00:26:21.607 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:26:21.607 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="RandomDungeon", mapGuid="99f42d5a-684a-4cce-9fd7-8e4581806b02", mainMapIndex='2211'
+2026-02-23 00:26:21.607 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2211' (from JoinResponse)
+2026-02-23 00:26:21.607 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 00:26:21.607 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2211', MainClusterIndex='2000', MapType="Unknown", Guid="99f42d5a-684a-4cce-9fd7-8e4581806b02"
+2026-02-23 00:26:21.607 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=true, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 00:26:21.607 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CREATE NEW dungeon. mapType="RandomDungeon", effectiveMainMapIndex='2211'
+2026-02-23 00:26:21.608 -05:00 [INF] [DUNGEON-TRACE] === STEP 2: CreateNewDungeon ===
+2026-02-23 00:26:21.608 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="RandomDungeon", mainMapIndex='2211', guid="99f42d5a-684a-4cce-9fd7-8e4581806b02"
+2026-02-23 00:26:21.609 -05:00 [INF] [DUNGEON-TRACE] RandomDungeon: DungeonData.GetDungeonMode('2211') = "Unknown"
+2026-02-23 00:26:21.609 -05:00 [INF] [DUNGEON-TRACE] === DungeonBaseFragment CONSTRUCTOR ===
+2026-02-23 00:26:21.609 -05:00 [INF] [DUNGEON-TRACE] Input: guid="99f42d5a-684a-4cce-9fd7-8e4581806b02", mapType="RandomDungeon", mode="Unknown", mainMapIndex='2211'
+2026-02-23 00:26:21.609 -05:00 [INF] [DUNGEON-TRACE] After init: ClusterType="SafeArea", MainMapName='Smoothfloor Cleft' (resolved from WorldData.GetUniqueNameOrDefault('2211'))
+2026-02-23 00:26:21.609 -05:00 [INF] [DUNGEON-TRACE] === STEP 2 RESULT: Type=RandomDungeonFragment, MainMapIndex='2211', MainMapName='Smoothfloor Cleft', ClusterType="SafeArea" ===
+2026-02-23 00:26:21.609 -05:00 [INF] [DUNGEON-TRACE] New dungeon created: Type=RandomDungeonFragment, Mode="Unknown", MainMapIndex='2211', MainMapName='Smoothfloor Cleft', Tier="Unknown", Faction="Unknown"
+2026-02-23 00:26:21.612 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to "99f42d5a-684a-4cce-9fd7-8e4581806b02" ===
+2026-02-23 00:26:33.173 -05:00 [INF] [DUNGEON-TRACE] Tier UPDATED to "T4"
+2026-02-23 00:26:45.214 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2211', MainMapIndex='2211', MapType="Unknown", MapGuid=null ===
+2026-02-23 00:26:45.215 -05:00 [INF] ClusterChanged broadcast: Smoothfloor Cleft (index=2211, mainIndex=2211, type=Unknown, zone=SafeArea, tier=T4)
+2026-02-23 00:26:45.215 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2211') ===
+2026-02-23 00:26:45.215 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:26:45.215 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2211'
+2026-02-23 00:26:45.215 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2211' (from JoinResponse)
+2026-02-23 00:26:45.215 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid="99f42d5a-684a-4cce-9fd7-8e4581806b02", _lastMapGuid="99f42d5a-684a-4cce-9fd7-8e4581806b02"
+2026-02-23 00:26:45.215 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2211', MainClusterIndex='2211', MapType="Unknown", Guid=null
+2026-02-23 00:26:45.215 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=true, ExistDungeon(_currentGuid)=false
+2026-02-23 00:26:45.215 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CLOSE dungeon (lastMapGuid="99f42d5a-684a-4cce-9fd7-8e4581806b02") - exited to open world
+2026-02-23 00:26:45.216 -05:00 [INF] [DUNGEON-TRACE] Closed: Type=RandomDungeonFragment, Mode="Unknown", MainMapName='Smoothfloor Cleft', Tier="T4", Fame=263.16, Silver=15.66
+2026-02-23 00:26:45.220 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 00:26:45.220 -05:00 [INF] Dungeons saved
+2026-02-23 00:26:45.220 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 00:27:03.178 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='@RANDOMDUNGEON@176a76b2-11ab-469a-b026-94863d50cebc', MainMapIndex='2211', MapType="RandomDungeon", MapGuid="176a76b2-11ab-469a-b026-94863d50cebc" ===
+2026-02-23 00:27:03.179 -05:00 [INF] ClusterChanged broadcast: Smoothfloor Cleft (index=2211, mainIndex=2211, type=Unknown, zone=Unknown, tier=T4)
+2026-02-23 00:27:03.179 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="RandomDungeon", mapGuid="176a76b2-11ab-469a-b026-94863d50cebc", mainMapIndex='2211') ===
+2026-02-23 00:27:03.179 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:27:03.179 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="RandomDungeon", mapGuid="176a76b2-11ab-469a-b026-94863d50cebc", mainMapIndex='2211'
+2026-02-23 00:27:03.179 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2211' (from JoinResponse)
+2026-02-23 00:27:03.179 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 00:27:03.179 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2211', MainClusterIndex='2211', MapType="Unknown", Guid="176a76b2-11ab-469a-b026-94863d50cebc"
+2026-02-23 00:27:03.179 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=true, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 00:27:03.179 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CREATE NEW dungeon. mapType="RandomDungeon", effectiveMainMapIndex='2211'
+2026-02-23 00:27:03.179 -05:00 [INF] [DUNGEON-TRACE] === STEP 2: CreateNewDungeon ===
+2026-02-23 00:27:03.179 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="RandomDungeon", mainMapIndex='2211', guid="176a76b2-11ab-469a-b026-94863d50cebc"
+2026-02-23 00:27:03.179 -05:00 [INF] [DUNGEON-TRACE] RandomDungeon: DungeonData.GetDungeonMode('2211') = "Unknown"
+2026-02-23 00:27:03.179 -05:00 [INF] [DUNGEON-TRACE] === DungeonBaseFragment CONSTRUCTOR ===
+2026-02-23 00:27:03.179 -05:00 [INF] [DUNGEON-TRACE] Input: guid="176a76b2-11ab-469a-b026-94863d50cebc", mapType="RandomDungeon", mode="Unknown", mainMapIndex='2211'
+2026-02-23 00:27:03.180 -05:00 [INF] [DUNGEON-TRACE] After init: ClusterType="SafeArea", MainMapName='Smoothfloor Cleft' (resolved from WorldData.GetUniqueNameOrDefault('2211'))
+2026-02-23 00:27:03.180 -05:00 [INF] [DUNGEON-TRACE] === STEP 2 RESULT: Type=RandomDungeonFragment, MainMapIndex='2211', MainMapName='Smoothfloor Cleft', ClusterType="SafeArea" ===
+2026-02-23 00:27:03.180 -05:00 [INF] [DUNGEON-TRACE] New dungeon created: Type=RandomDungeonFragment, Mode="Unknown", MainMapIndex='2211', MainMapName='Smoothfloor Cleft', Tier="Unknown", Faction="Unknown"
+2026-02-23 00:27:03.181 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to "176a76b2-11ab-469a-b026-94863d50cebc" ===
+2026-02-23 00:27:31.989 -05:00 [INF] [DUNGEON-TRACE] Tier UPDATED to "T1"
+2026-02-23 00:27:31.990 -05:00 [INF] [DUNGEON-TRACE] Tier UPDATED to "T3"
+2026-02-23 00:27:31.991 -05:00 [INF] [DUNGEON-TRACE] Tier UPDATED to "T4"
+2026-02-23 00:27:31.994 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2211', MainMapIndex='2211', MapType="Unknown", MapGuid=null ===
+2026-02-23 00:27:31.994 -05:00 [INF] ClusterChanged broadcast: Smoothfloor Cleft (index=2211, mainIndex=2211, type=Unknown, zone=SafeArea, tier=T4)
+2026-02-23 00:27:31.995 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2211') ===
+2026-02-23 00:27:31.995 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:27:31.995 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2211'
+2026-02-23 00:27:31.995 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2211' (from JoinResponse)
+2026-02-23 00:27:31.995 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid="176a76b2-11ab-469a-b026-94863d50cebc", _lastMapGuid="176a76b2-11ab-469a-b026-94863d50cebc"
+2026-02-23 00:27:31.995 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2211', MainClusterIndex='2211', MapType="Unknown", Guid=null
+2026-02-23 00:27:31.995 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=true, ExistDungeon(_currentGuid)=false
+2026-02-23 00:27:31.995 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CLOSE dungeon (lastMapGuid="176a76b2-11ab-469a-b026-94863d50cebc") - exited to open world
+2026-02-23 00:27:31.995 -05:00 [INF] [DUNGEON-TRACE] Closed: Type=RandomDungeonFragment, Mode="Unknown", MainMapName='Smoothfloor Cleft', Tier="T4", Fame=0, Silver=0
+2026-02-23 00:27:31.998 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 00:27:31.998 -05:00 [INF] Dungeons saved
+2026-02-23 00:27:31.998 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 00:28:24.411 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='@RANDOMDUNGEON@583fc4c2-ef67-4725-b127-53f564eaf451', MainMapIndex='2211', MapType="RandomDungeon", MapGuid="583fc4c2-ef67-4725-b127-53f564eaf451" ===
+2026-02-23 00:28:24.411 -05:00 [INF] ClusterChanged broadcast: Smoothfloor Cleft (index=2211, mainIndex=2211, type=Unknown, zone=Unknown, tier=T4)
+2026-02-23 00:28:24.411 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="RandomDungeon", mapGuid="583fc4c2-ef67-4725-b127-53f564eaf451", mainMapIndex='2211') ===
+2026-02-23 00:28:24.411 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:28:24.411 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="RandomDungeon", mapGuid="583fc4c2-ef67-4725-b127-53f564eaf451", mainMapIndex='2211'
+2026-02-23 00:28:24.411 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2211' (from JoinResponse)
+2026-02-23 00:28:24.411 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 00:28:24.411 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2211', MainClusterIndex='2211', MapType="Unknown", Guid="583fc4c2-ef67-4725-b127-53f564eaf451"
+2026-02-23 00:28:24.412 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=true, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 00:28:24.412 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CREATE NEW dungeon. mapType="RandomDungeon", effectiveMainMapIndex='2211'
+2026-02-23 00:28:24.412 -05:00 [INF] [DUNGEON-TRACE] === STEP 2: CreateNewDungeon ===
+2026-02-23 00:28:24.412 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="RandomDungeon", mainMapIndex='2211', guid="583fc4c2-ef67-4725-b127-53f564eaf451"
+2026-02-23 00:28:24.412 -05:00 [INF] [DUNGEON-TRACE] RandomDungeon: DungeonData.GetDungeonMode('2211') = "Unknown"
+2026-02-23 00:28:24.413 -05:00 [INF] [DUNGEON-TRACE] === DungeonBaseFragment CONSTRUCTOR ===
+2026-02-23 00:28:24.413 -05:00 [INF] [DUNGEON-TRACE] Input: guid="583fc4c2-ef67-4725-b127-53f564eaf451", mapType="RandomDungeon", mode="Unknown", mainMapIndex='2211'
+2026-02-23 00:28:24.414 -05:00 [INF] [DUNGEON-TRACE] After init: ClusterType="SafeArea", MainMapName='Smoothfloor Cleft' (resolved from WorldData.GetUniqueNameOrDefault('2211'))
+2026-02-23 00:28:24.414 -05:00 [INF] [DUNGEON-TRACE] === STEP 2 RESULT: Type=RandomDungeonFragment, MainMapIndex='2211', MainMapName='Smoothfloor Cleft', ClusterType="SafeArea" ===
+2026-02-23 00:28:24.414 -05:00 [INF] [DUNGEON-TRACE] New dungeon created: Type=RandomDungeonFragment, Mode="Unknown", MainMapIndex='2211', MainMapName='Smoothfloor Cleft', Tier="Unknown", Faction="Unknown"
+2026-02-23 00:28:24.418 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to "583fc4c2-ef67-4725-b127-53f564eaf451" ===
+2026-02-23 00:28:40.613 -05:00 [INF] [DUNGEON-TRACE] Tier UPDATED to "T4"
+2026-02-23 00:28:55.672 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2211', MainMapIndex='2211', MapType="Unknown", MapGuid=null ===
+2026-02-23 00:28:55.672 -05:00 [INF] ClusterChanged broadcast: Smoothfloor Cleft (index=2211, mainIndex=2211, type=Unknown, zone=SafeArea, tier=T4)
+2026-02-23 00:28:55.672 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2211') ===
+2026-02-23 00:28:55.672 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:28:55.673 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2211'
+2026-02-23 00:28:55.673 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2211' (from JoinResponse)
+2026-02-23 00:28:55.673 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid="583fc4c2-ef67-4725-b127-53f564eaf451", _lastMapGuid="583fc4c2-ef67-4725-b127-53f564eaf451"
+2026-02-23 00:28:55.673 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2211', MainClusterIndex='2211', MapType="Unknown", Guid=null
+2026-02-23 00:28:55.673 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=true, ExistDungeon(_currentGuid)=false
+2026-02-23 00:28:55.673 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CLOSE dungeon (lastMapGuid="583fc4c2-ef67-4725-b127-53f564eaf451") - exited to open world
+2026-02-23 00:28:55.673 -05:00 [INF] [DUNGEON-TRACE] Closed: Type=RandomDungeonFragment, Mode="Unknown", MainMapName='Smoothfloor Cleft', Tier="T4", Fame=0, Silver=0
+2026-02-23 00:28:55.677 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 00:28:55.677 -05:00 [INF] Dungeons saved
+2026-02-23 00:28:55.677 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 00:29:37.571 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='3213', MainMapIndex='2211', MapType="Unknown", MapGuid=null ===
+2026-02-23 00:29:37.571 -05:00 [INF] ClusterChanged broadcast: Vixen Tor (index=3213, mainIndex=2211, type=Unknown, zone=SafeArea, tier=T4)
+2026-02-23 00:29:37.571 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2211') ===
+2026-02-23 00:29:37.571 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:29:37.571 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2211'
+2026-02-23 00:29:37.572 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2211' (from JoinResponse)
+2026-02-23 00:29:37.572 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 00:29:37.572 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='3213', MainClusterIndex='2211', MapType="Unknown", Guid=null
+2026-02-23 00:29:37.572 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 00:29:37.572 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 00:29:37.572 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 00:30:35.371 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='@RANDOMDUNGEON@268ca29a-a342-479f-a2a4-3e996983dfe8', MainMapIndex='3213', MapType="RandomDungeon", MapGuid="268ca29a-a342-479f-a2a4-3e996983dfe8" ===
+2026-02-23 00:30:35.373 -05:00 [INF] ClusterChanged broadcast: Vixen Tor (index=3213, mainIndex=2211, type=Unknown, zone=Unknown, tier=T4)
+2026-02-23 00:30:35.373 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="RandomDungeon", mapGuid="268ca29a-a342-479f-a2a4-3e996983dfe8", mainMapIndex='3213') ===
+2026-02-23 00:30:35.373 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:30:35.373 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="RandomDungeon", mapGuid="268ca29a-a342-479f-a2a4-3e996983dfe8", mainMapIndex='3213'
+2026-02-23 00:30:35.373 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='3213' (from JoinResponse)
+2026-02-23 00:30:35.373 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 00:30:35.373 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='3213', MainClusterIndex='2211', MapType="Unknown", Guid="268ca29a-a342-479f-a2a4-3e996983dfe8"
+2026-02-23 00:30:35.374 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=true, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 00:30:35.374 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CREATE NEW dungeon. mapType="RandomDungeon", effectiveMainMapIndex='3213'
+2026-02-23 00:30:35.374 -05:00 [INF] [DUNGEON-TRACE] === STEP 2: CreateNewDungeon ===
+2026-02-23 00:30:35.374 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="RandomDungeon", mainMapIndex='3213', guid="268ca29a-a342-479f-a2a4-3e996983dfe8"
+2026-02-23 00:30:35.374 -05:00 [INF] [DUNGEON-TRACE] RandomDungeon: DungeonData.GetDungeonMode('3213') = "Unknown"
+2026-02-23 00:30:35.374 -05:00 [INF] [DUNGEON-TRACE] === DungeonBaseFragment CONSTRUCTOR ===
+2026-02-23 00:30:35.374 -05:00 [INF] [DUNGEON-TRACE] Input: guid="268ca29a-a342-479f-a2a4-3e996983dfe8", mapType="RandomDungeon", mode="Unknown", mainMapIndex='3213'
+2026-02-23 00:30:35.374 -05:00 [INF] [DUNGEON-TRACE] After init: ClusterType="SafeArea", MainMapName='Vixen Tor' (resolved from WorldData.GetUniqueNameOrDefault('3213'))
+2026-02-23 00:30:35.374 -05:00 [INF] [DUNGEON-TRACE] === STEP 2 RESULT: Type=RandomDungeonFragment, MainMapIndex='3213', MainMapName='Vixen Tor', ClusterType="SafeArea" ===
+2026-02-23 00:30:35.374 -05:00 [INF] [DUNGEON-TRACE] New dungeon created: Type=RandomDungeonFragment, Mode="Unknown", MainMapIndex='3213', MainMapName='Vixen Tor', Tier="Unknown", Faction="Unknown"
+2026-02-23 00:30:35.404 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to "268ca29a-a342-479f-a2a4-3e996983dfe8" ===
+2026-02-23 00:30:42.655 -05:00 [INF] [DUNGEON-TRACE] Tier UPDATED to "T4"
+2026-02-23 00:31:57.212 -05:00 [INF] [DUNGEON-TRACE] === STEP 3: SetDungeonEventInformationAsync ===
+2026-02-23 00:31:57.212 -05:00 [INF] [DUNGEON-TRACE] Event id=36, uniqueName='GENERAL_SHRINE_COMBAT_BUFF'
+2026-02-23 00:31:57.215 -05:00 [INF] [DUNGEON-TRACE] Faction detection: DungeonData.GetFaction('GENERAL_SHRINE_COMBAT_BUFF') = "Unknown"
+2026-02-23 00:31:57.216 -05:00 [INF] [DUNGEON-TRACE] Mode detection: DungeonData.GetDungeonMode('GENERAL_SHRINE_COMBAT_BUFF') = "Solo"
+2026-02-23 00:31:57.216 -05:00 [INF] [DUNGEON-TRACE] Dungeon after event: Faction="Unknown", Mode="Solo", Events count=1
+2026-02-23 00:32:24.879 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='@RANDOMDUNGEON@5f7c2c0a-7688-4f39-8d79-9d4859e1cc7e', MainMapIndex='3213', MapType="RandomDungeon", MapGuid="5f7c2c0a-7688-4f39-8d79-9d4859e1cc7e" ===
+2026-02-23 00:32:24.880 -05:00 [INF] ClusterChanged broadcast: Vixen Tor (index=3213, mainIndex=2211, type=Unknown, zone=Unknown, tier=T4)
+2026-02-23 00:32:24.881 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="RandomDungeon", mapGuid="5f7c2c0a-7688-4f39-8d79-9d4859e1cc7e", mainMapIndex='3213') ===
+2026-02-23 00:32:24.881 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:32:24.881 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="RandomDungeon", mapGuid="5f7c2c0a-7688-4f39-8d79-9d4859e1cc7e", mainMapIndex='3213'
+2026-02-23 00:32:24.881 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='3213' (from JoinResponse)
+2026-02-23 00:32:24.881 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid="268ca29a-a342-479f-a2a4-3e996983dfe8", _lastMapGuid="268ca29a-a342-479f-a2a4-3e996983dfe8"
+2026-02-23 00:32:24.881 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='3213', MainClusterIndex='2211', MapType="Unknown", Guid="5f7c2c0a-7688-4f39-8d79-9d4859e1cc7e"
+2026-02-23 00:32:24.881 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=true, ExistDungeon(_lastMapGuid)=true, ExistDungeon(_currentGuid)=false
+2026-02-23 00:32:24.881 -05:00 [INF] [DUNGEON-TRACE] BRANCH: ADD FLOOR to existing dungeon (lastMapGuid="268ca29a-a342-479f-a2a4-3e996983dfe8")
+2026-02-23 00:32:24.883 -05:00 [INF] [DUNGEON-TRACE] Floor added. Dungeon GuidList count: 2, MainMapIndex='3213', MainMapName='Vixen Tor'
+2026-02-23 00:32:24.883 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to "5f7c2c0a-7688-4f39-8d79-9d4859e1cc7e" ===
+2026-02-23 00:33:13.551 -05:00 [INF] [DUNGEON-TRACE] === STEP 3: SetDungeonEventInformationAsync ===
+2026-02-23 00:33:13.551 -05:00 [INF] [DUNGEON-TRACE] Event id=18, uniqueName='GENERAL_SHRINE_COMBAT_BUFF'
+2026-02-23 00:33:13.553 -05:00 [INF] [DUNGEON-TRACE] Faction detection: DungeonData.GetFaction('GENERAL_SHRINE_COMBAT_BUFF') = "Unknown"
+2026-02-23 00:33:13.554 -05:00 [INF] [DUNGEON-TRACE] Dungeon after event: Faction="Unknown", Mode="Solo", Events count=2
+2026-02-23 00:33:50.409 -05:00 [WRN] Failed to broadcast DamageMeter
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.IListSelectIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at StatisticsAnalysisTool.Network.Manager.MobileDataProvider.MapDamageMeterFragment(DamageMeterFragment f) in G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\Network\Manager\MobileDataProvider.cs:line 471
+   at System.Linq.Enumerable.IListSelectIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at StatisticsAnalysisTool.Network.Manager.MobileDataProvider.GetDamageMeter() in G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\Network\Manager\MobileDataProvider.cs:line 109
+   at StatisticsAnalysisTool.Network.Manager.MobileBroadcastService.<OnDamageUpdate>b__13_0() in G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\Network\Manager\MobileBroadcastService.cs:line 82
+2026-02-23 00:34:05.489 -05:00 [WRN] Failed to broadcast DamageMeter
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.IListSelectIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at StatisticsAnalysisTool.Network.Manager.MobileDataProvider.MapDamageMeterFragment(DamageMeterFragment f) in G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\Network\Manager\MobileDataProvider.cs:line 471
+   at System.Linq.Enumerable.IListSelectIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at StatisticsAnalysisTool.Network.Manager.MobileDataProvider.GetDamageMeter() in G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\Network\Manager\MobileDataProvider.cs:line 109
+   at StatisticsAnalysisTool.Network.Manager.MobileBroadcastService.<OnDamageUpdate>b__13_0() in G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\Network\Manager\MobileBroadcastService.cs:line 82
+2026-02-23 00:34:31.240 -05:00 [INF] [DUNGEON-TRACE] === STEP 3: SetDungeonEventInformationAsync ===
+2026-02-23 00:34:31.240 -05:00 [INF] [DUNGEON-TRACE] Event id=28, uniqueName='KEEPER_SHRINE_SILVER_STANDARD'
+2026-02-23 00:34:31.241 -05:00 [INF] [DUNGEON-TRACE] Faction detection: DungeonData.GetFaction('KEEPER_SHRINE_SILVER_STANDARD') = "Keeper"
+2026-02-23 00:34:31.241 -05:00 [INF] [DUNGEON-TRACE] Dungeon after event: Faction="Keeper", Mode="Solo", Events count=3
+2026-02-23 00:35:27.807 -05:00 [WRN] Failed to broadcast DamageMeter
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.IListSelectIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at StatisticsAnalysisTool.Network.Manager.MobileDataProvider.MapDamageMeterFragment(DamageMeterFragment f) in G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\Network\Manager\MobileDataProvider.cs:line 471
+   at System.Linq.Enumerable.IListSelectIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at StatisticsAnalysisTool.Network.Manager.MobileDataProvider.GetDamageMeter() in G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\Network\Manager\MobileDataProvider.cs:line 109
+   at StatisticsAnalysisTool.Network.Manager.MobileBroadcastService.<OnDamageUpdate>b__13_0() in G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\Network\Manager\MobileBroadcastService.cs:line 82
+2026-02-23 00:37:13.801 -05:00 [INF] [DUNGEON-TRACE] === STEP 3: SetDungeonEventInformationAsync ===
+2026-02-23 00:37:13.801 -05:00 [INF] [DUNGEON-TRACE] Event id=117, uniqueName='KEEPER_SOLO_CHEST_BOSS_UNCOMMON'
+2026-02-23 00:37:13.802 -05:00 [INF] [DUNGEON-TRACE] Dungeon after event: Faction="Keeper", Mode="Solo", Events count=4
+2026-02-23 00:43:27.278 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='3213', MainMapIndex='3213', MapType="Unknown", MapGuid=null ===
+2026-02-23 00:43:27.282 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\Settings.json via tmp-swap.
+2026-02-23 00:43:27.284 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Vaults.json via tmp-swap.
+2026-02-23 00:43:27.284 -05:00 [INF] Vault saved
+2026-02-23 00:43:27.291 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Trades.json via tmp-swap.
+2026-02-23 00:43:27.291 -05:00 [INF] Trades saved
+2026-02-23 00:43:27.296 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\TreasureStats.json via tmp-swap.
+2026-02-23 00:43:27.296 -05:00 [INF] Treasure saved
+2026-02-23 00:43:27.298 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Stats.json via tmp-swap.
+2026-02-23 00:43:27.298 -05:00 [INF] Statistics saved
+2026-02-23 00:43:27.302 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 00:43:27.302 -05:00 [INF] Dungeons saved
+2026-02-23 00:43:27.304 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Gathering.json via tmp-swap.
+2026-02-23 00:43:27.304 -05:00 [INF] Gathering saved
+2026-02-23 00:43:27.306 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Guild.json via tmp-swap.
+2026-02-23 00:43:27.306 -05:00 [INF] Guild data saved
+2026-02-23 00:43:27.308 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DamageMeterSnapshots.json via tmp-swap.
+2026-02-23 00:43:27.309 -05:00 [INF] Damage Meter snapshots saved
+2026-02-23 00:43:27.311 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Market.json via tmp-swap.
+2026-02-23 00:43:27.311 -05:00 [INF] Market data saved
+2026-02-23 00:43:27.321 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\EstimatedMarketValues.json via tmp-swap.
+2026-02-23 00:43:27.322 -05:00 [INF] Estimated market values saved
+2026-02-23 00:43:27.322 -05:00 [INF] ClusterChanged broadcast: Vixen Tor (index=3213, mainIndex=3213, type=Unknown, zone=SafeArea, tier=T4)
+2026-02-23 00:43:27.322 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='3213') ===
+2026-02-23 00:43:27.322 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:43:27.322 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='3213'
+2026-02-23 00:43:27.323 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='3213' (from JoinResponse)
+2026-02-23 00:43:27.323 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid="5f7c2c0a-7688-4f39-8d79-9d4859e1cc7e", _lastMapGuid="5f7c2c0a-7688-4f39-8d79-9d4859e1cc7e"
+2026-02-23 00:43:27.323 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='3213', MainClusterIndex='3213', MapType="Unknown", Guid=null
+2026-02-23 00:43:27.323 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=true, ExistDungeon(_currentGuid)=false
+2026-02-23 00:43:27.323 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CLOSE dungeon (lastMapGuid="5f7c2c0a-7688-4f39-8d79-9d4859e1cc7e") - exited to open world
+2026-02-23 00:43:27.323 -05:00 [INF] [DUNGEON-TRACE] Closed: Type=RandomDungeonFragment, Mode="Solo", MainMapName='Vixen Tor', Tier="T4", Fame=27036.520000000004, Silver=1807.5096000000003
+2026-02-23 00:43:27.326 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 00:43:27.327 -05:00 [INF] Dungeons saved
+2026-02-23 00:43:27.327 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 00:44:23.814 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2211', MainMapIndex='3213', MapType="Unknown", MapGuid=null ===
+2026-02-23 00:44:23.814 -05:00 [INF] ClusterChanged broadcast: Smoothfloor Cleft (index=2211, mainIndex=3213, type=Unknown, zone=SafeArea, tier=T4)
+2026-02-23 00:44:23.814 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='3213') ===
+2026-02-23 00:44:23.814 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:44:23.814 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='3213'
+2026-02-23 00:44:23.814 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='3213' (from JoinResponse)
+2026-02-23 00:44:23.814 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 00:44:23.814 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2211', MainClusterIndex='3213', MapType="Unknown", Guid=null
+2026-02-23 00:44:23.814 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 00:44:23.814 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 00:44:23.814 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 00:44:46.641 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='@CORRUPTEDDUNGEON@7bbd6f9d-8e0d-441f-a259-4b0f87eb5dfb', MainMapIndex='2211', MapType="CorruptedDungeon", MapGuid="7bbd6f9d-8e0d-441f-a259-4b0f87eb5dfb" ===
+2026-02-23 00:44:46.641 -05:00 [INF] ClusterChanged broadcast:  (index=, mainIndex=2211, type=CorruptedDungeon, zone=Unknown, tier=T4)
+2026-02-23 00:44:46.642 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="CorruptedDungeon", mapGuid="7bbd6f9d-8e0d-441f-a259-4b0f87eb5dfb", mainMapIndex='2211') ===
+2026-02-23 00:44:46.642 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:44:46.642 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="CorruptedDungeon", mapGuid="7bbd6f9d-8e0d-441f-a259-4b0f87eb5dfb", mainMapIndex='2211'
+2026-02-23 00:44:46.642 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2211' (from JoinResponse)
+2026-02-23 00:44:46.642 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 00:44:46.642 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='null', MainClusterIndex='2211', MapType="CorruptedDungeon", Guid="7bbd6f9d-8e0d-441f-a259-4b0f87eb5dfb"
+2026-02-23 00:44:46.642 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=true, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 00:44:46.642 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CREATE NEW dungeon. mapType="CorruptedDungeon", effectiveMainMapIndex='2211'
+2026-02-23 00:44:46.642 -05:00 [INF] [DUNGEON-TRACE] === STEP 2: CreateNewDungeon ===
+2026-02-23 00:44:46.642 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="CorruptedDungeon", mainMapIndex='2211', guid="7bbd6f9d-8e0d-441f-a259-4b0f87eb5dfb"
+2026-02-23 00:44:46.642 -05:00 [INF] [DUNGEON-TRACE] CorruptedDungeon: mode=Corrupted
+2026-02-23 00:44:46.642 -05:00 [INF] [DUNGEON-TRACE] === DungeonBaseFragment CONSTRUCTOR ===
+2026-02-23 00:44:46.642 -05:00 [INF] [DUNGEON-TRACE] Input: guid="7bbd6f9d-8e0d-441f-a259-4b0f87eb5dfb", mapType="CorruptedDungeon", mode="Corrupted", mainMapIndex='2211'
+2026-02-23 00:44:46.642 -05:00 [INF] [DUNGEON-TRACE] After init: ClusterType="SafeArea", MainMapName='Smoothfloor Cleft' (resolved from WorldData.GetUniqueNameOrDefault('2211'))
+2026-02-23 00:44:46.643 -05:00 [INF] [DUNGEON-TRACE] === STEP 2 RESULT: Type=CorruptedFragment, MainMapIndex='2211', MainMapName='Smoothfloor Cleft', ClusterType="SafeArea" ===
+2026-02-23 00:44:46.643 -05:00 [INF] [DUNGEON-TRACE] New dungeon created: Type=CorruptedFragment, Mode="Corrupted", MainMapIndex='2211', MainMapName='Smoothfloor Cleft', Tier="Unknown", Faction="Corrupted"
+2026-02-23 00:44:46.648 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to "7bbd6f9d-8e0d-441f-a259-4b0f87eb5dfb" ===
+2026-02-23 00:44:54.773 -05:00 [INF] [DUNGEON-TRACE] Tier UPDATED to "T5"
+2026-02-23 00:46:10.191 -05:00 [INF] [DUNGEON-TRACE] === STEP 3: SetDungeonEventInformationAsync ===
+2026-02-23 00:46:10.191 -05:00 [INF] [DUNGEON-TRACE] Event id=261, uniqueName='CORRUPTED_HERETIC_CHEST_BOSS_RARE'
+2026-02-23 00:46:10.192 -05:00 [INF] [DUNGEON-TRACE] Dungeon after event: Faction="Corrupted", Mode="Corrupted", Events count=1
+2026-02-23 00:47:38.223 -05:00 [INF] [DUNGEON-TRACE] === STEP 3: SetDungeonEventInformationAsync ===
+2026-02-23 00:47:38.223 -05:00 [INF] [DUNGEON-TRACE] Event id=437, uniqueName='CORRUPTED_HERETIC_CHEST_UNCOMMON'
+2026-02-23 00:47:38.224 -05:00 [INF] [DUNGEON-TRACE] Dungeon after event: Faction="Corrupted", Mode="Corrupted", Events count=2
+2026-02-23 00:49:00.086 -05:00 [WRN] Failed to broadcast DamageMeter
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Linq.Enumerable.IListSelectIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at StatisticsAnalysisTool.Network.Manager.MobileDataProvider.MapDamageMeterFragment(DamageMeterFragment f) in G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\Network\Manager\MobileDataProvider.cs:line 471
+   at System.Linq.Enumerable.IListSelectIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at StatisticsAnalysisTool.Network.Manager.MobileDataProvider.GetDamageMeter() in G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\Network\Manager\MobileDataProvider.cs:line 109
+   at StatisticsAnalysisTool.Network.Manager.MobileBroadcastService.<OnDamageUpdate>b__13_0() in G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\Network\Manager\MobileBroadcastService.cs:line 82
+2026-02-23 00:51:19.164 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2211', MainMapIndex='2211', MapType="Unknown", MapGuid=null ===
+2026-02-23 00:51:19.165 -05:00 [INF] ClusterChanged broadcast: Smoothfloor Cleft (index=2211, mainIndex=2211, type=Unknown, zone=SafeArea, tier=T4)
+2026-02-23 00:51:19.165 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2211') ===
+2026-02-23 00:51:19.165 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 00:51:19.165 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2211'
+2026-02-23 00:51:19.165 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2211' (from JoinResponse)
+2026-02-23 00:51:19.165 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid="7bbd6f9d-8e0d-441f-a259-4b0f87eb5dfb", _lastMapGuid="7bbd6f9d-8e0d-441f-a259-4b0f87eb5dfb"
+2026-02-23 00:51:19.165 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2211', MainClusterIndex='2211', MapType="Unknown", Guid=null
+2026-02-23 00:51:19.165 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=true, ExistDungeon(_currentGuid)=false
+2026-02-23 00:51:19.165 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CLOSE dungeon (lastMapGuid="7bbd6f9d-8e0d-441f-a259-4b0f87eb5dfb") - exited to open world
+2026-02-23 00:51:19.166 -05:00 [INF] [DUNGEON-TRACE] Closed: Type=CorruptedFragment, Mode="Corrupted", MainMapName='Smoothfloor Cleft', Tier="T5", Fame=78968.6225, Silver=1083.6989999999998
+2026-02-23 00:51:19.171 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 00:51:19.172 -05:00 [INF] Dungeons saved
+2026-02-23 00:51:19.172 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 00:51:39.856 -05:00 [INF] MobileBroadcastService stopped
+2026-02-23 01:43:11.731 -05:00 [INF] Tool started with v8.6.7.2961
+2026-02-23 01:43:12.169 -05:00 [INF] OS Version: Microsoft Windows 10.0.26200 - "X64" | Processor: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz | Video: NVIDIA GeForce GTX 1050 Ti | Is Admin: false | Is Debug: false | Active Networks: vEthernet (Default Switch), Ethernet, Loopback Pseudo-Interface 1, vSwitch (Default Switch)-Hyper-V Virtual Switch Extension Filter-0000, vEthernet (Default Switch)-WFP Native MAC Layer LightWeight Filter-0000, vEthernet (Default Switch)-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-Npcap Packet Driver (NPCAP)-0000, vEthernet (Default Switch)-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 8-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 8-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-QoS Packet Scheduler-0000, Conexión de área local* 9-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 9-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-QoS Packet Scheduler-0000, Ethernet-WFP Native MAC Layer LightWeight Filter-0000, Ethernet-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-Npcap Packet Driver (NPCAP)-0000, Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 10-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 10-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 10-QoS Packet Scheduler-0000, vEthernet (Default Switch)-Npcap Packet Driver (NPCAP)-0000, Ethernet-QoS Packet Scheduler-0000, vEthernet (Default Switch)-QoS Packet Scheduler-0000, Ethernet-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 10-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 8, Conexión de área local* 9, Conexión de área local* 10, vSwitch (Default Switch)
+2026-02-23 01:43:21.935 -05:00 [INF] Used packet provider: "Npcap"
+2026-02-23 01:43:22.297 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\ActiveAlerts.json. Returning default.
+2026-02-23 01:43:23.155 -05:00 [INF] Npcap[ID:0]: opening \Device\NPF_{5343C9D7-F0C0-4A5B-A191-24B731D7A11B}:WAN Miniport (Network Monitor) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 01:43:23.193 -05:00 [INF] Npcap[ID:0]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 01:43:23.194 -05:00 [INF] Npcap[ID:1]: opening \Device\NPF_{73F8FA3D-7CF5-47BF-8549-3C8DD7ABACBA}:WAN Miniport (IPv6) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 01:43:23.198 -05:00 [INF] Npcap[ID:1]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 01:43:23.198 -05:00 [INF] Npcap[ID:2]: opening \Device\NPF_{A085B40E-9803-42FD-ACDE-ECD6A3E558A7}:WAN Miniport (IP) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 01:43:23.199 -05:00 [INF] Npcap[ID:2]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 01:43:23.199 -05:00 [INF] Npcap[ID:3]: opening \Device\NPF_{D6D22DA1-562A-43CC-94BB-1ECD9FBE06AB}:TP-Link Wireless USB Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 01:43:23.200 -05:00 [INF] Npcap[ID:3]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 01:43:23.200 -05:00 [INF] Npcap[ID:4]: opening \Device\NPF_{5F29F162-0EF1-4AB5-A605-602675BB0EB0}:Realtek PCIe GbE Family Controller (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 01:43:23.201 -05:00 [INF] Npcap[ID:4]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 01:43:23.201 -05:00 [INF] Npcap[ID:5]: opening \Device\NPF_{35362FFE-C704-4C86-9976-1C92D6CAE34F}:Microsoft Wi-Fi Direct Virtual Adapter #2 (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 01:43:23.202 -05:00 [INF] Npcap[ID:5]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 01:43:23.202 -05:00 [INF] Npcap[ID:6]: opening \Device\NPF_{EE51732A-8659-4B13-85DB-A43A48A05DEB}:Microsoft Wi-Fi Direct Virtual Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 01:43:23.203 -05:00 [INF] Npcap[ID:6]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 01:43:23.203 -05:00 [INF] Npcap[ID:7]: opening \Device\NPF_{6FB708B1-6A9F-4341-986A-71A0DAC34D44}:Hyper-V Virtual Ethernet Adapter (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 01:43:23.203 -05:00 [INF] Npcap[ID:7]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 01:43:23.204 -05:00 [INF] Npcap[ID:8]: skip loopback \Device\NPF_Loopback:Adapter for loopback traffic capture
+2026-02-23 01:43:23.204 -05:00 [INF] Npcap[ID:9]: opening \Device\NPF_{E23C1357-44E7-4A11-99A2-D024BE8E7545}:Kaspersky VPN (Type="53", Flags="Up, Running, ConnectionStatusDisconnected")
+2026-02-23 01:43:23.205 -05:00 [INF] Npcap[ID:9]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 01:43:23.210 -05:00 [INF] Npcap: capture started on 9 device(s), filter: (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 01:43:23.465 -05:00 [INF] Npcap: locked to adapter(Device: Realtek PCIe GbE Family Controller) after 1 valid packets
+2026-02-23 01:43:23.586 -05:00 [INF] MobileServer started on port 7777. Local IP: 172.17.0.1
+2026-02-23 01:43:23.587 -05:00 [INF] MobileBroadcastService started
+2026-02-23 01:43:23.590 -05:00 [INF] Mobile server started on http://172.17.0.1:7777/mobilehub
+2026-02-23 01:43:33.111 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2000', MainMapIndex='2211', MapType="Unknown", MapGuid=null ===
+2026-02-23 01:43:33.148 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\Settings.json via tmp-swap.
+2026-02-23 01:43:33.154 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Vaults.json via tmp-swap.
+2026-02-23 01:43:33.155 -05:00 [INF] Vault saved
+2026-02-23 01:43:33.175 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Trades.json via tmp-swap.
+2026-02-23 01:43:33.176 -05:00 [INF] Trades saved
+2026-02-23 01:43:33.184 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\TreasureStats.json via tmp-swap.
+2026-02-23 01:43:33.184 -05:00 [INF] Treasure saved
+2026-02-23 01:43:33.188 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Stats.json via tmp-swap.
+2026-02-23 01:43:33.189 -05:00 [INF] Statistics saved
+2026-02-23 01:43:33.204 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 01:43:33.204 -05:00 [INF] Dungeons saved
+2026-02-23 01:43:33.208 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Gathering.json via tmp-swap.
+2026-02-23 01:43:33.208 -05:00 [INF] Gathering saved
+2026-02-23 01:43:33.213 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Guild.json via tmp-swap.
+2026-02-23 01:43:33.214 -05:00 [INF] Guild data saved
+2026-02-23 01:43:33.216 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DamageMeterSnapshots.json via tmp-swap.
+2026-02-23 01:43:33.217 -05:00 [INF] Damage Meter snapshots saved
+2026-02-23 01:43:33.219 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Market.json via tmp-swap.
+2026-02-23 01:43:33.220 -05:00 [INF] Market data saved
+2026-02-23 01:43:33.256 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\EstimatedMarketValues.json via tmp-swap.
+2026-02-23 01:43:33.256 -05:00 [INF] Estimated market values saved
+2026-02-23 01:43:33.258 -05:00 [INF] ClusterChanged broadcast:  (index=, mainIndex=2211, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-23 01:43:33.286 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2211') ===
+2026-02-23 01:43:33.290 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 01:43:33.290 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2211'
+2026-02-23 01:43:33.291 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2211' (from JoinResponse)
+2026-02-23 01:43:33.291 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 01:43:33.291 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='null', MainClusterIndex='2211', MapType="Unknown", Guid=null
+2026-02-23 01:43:33.292 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 01:43:33.292 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 01:43:33.292 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 01:43:50.930 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2004', MainMapIndex='2000', MapType="Unknown", MapGuid=null ===
+2026-02-23 01:43:50.932 -05:00 [INF] ClusterChanged broadcast: Bridgewatch Market (index=2004, mainIndex=2000, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-23 01:43:50.933 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2000') ===
+2026-02-23 01:43:50.933 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 01:43:50.933 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2000'
+2026-02-23 01:43:50.933 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2000' (from JoinResponse)
+2026-02-23 01:43:50.934 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 01:43:50.934 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2004', MainClusterIndex='2000', MapType="Unknown", Guid=null
+2026-02-23 01:43:50.934 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 01:43:50.934 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 01:43:50.934 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 01:44:06.261 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2000', MainMapIndex='2004', MapType="Unknown", MapGuid=null ===
+2026-02-23 01:44:06.262 -05:00 [INF] ClusterChanged broadcast: Bridgewatch (index=2000, mainIndex=2004, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-23 01:44:06.262 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2004') ===
+2026-02-23 01:44:06.262 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 01:44:06.262 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2004'
+2026-02-23 01:44:06.262 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2004' (from JoinResponse)
+2026-02-23 01:44:06.262 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 01:44:06.262 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2000', MainClusterIndex='2004', MapType="Unknown", Guid=null
+2026-02-23 01:44:06.262 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 01:44:06.262 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 01:44:06.262 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 01:44:54.107 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='@EXPEDITION@7e0b04d1-0ce2-4e20-99aa-c7e3868e4e5b', MainMapIndex='2000', MapType="Expedition", MapGuid="7e0b04d1-0ce2-4e20-99aa-c7e3868e4e5b" ===
+2026-02-23 01:44:54.108 -05:00 [INF] ClusterChanged broadcast:  (index=, mainIndex=2000, type=Expedition, zone=Unknown, tier=T1)
+2026-02-23 01:44:54.108 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Expedition", mapGuid="7e0b04d1-0ce2-4e20-99aa-c7e3868e4e5b", mainMapIndex='2000') ===
+2026-02-23 01:44:54.108 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 01:44:54.108 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Expedition", mapGuid="7e0b04d1-0ce2-4e20-99aa-c7e3868e4e5b", mainMapIndex='2000'
+2026-02-23 01:44:54.108 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2000' (from JoinResponse)
+2026-02-23 01:44:54.108 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 01:44:54.109 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='null', MainClusterIndex='2000', MapType="Expedition", Guid="7e0b04d1-0ce2-4e20-99aa-c7e3868e4e5b"
+2026-02-23 01:44:54.109 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=true, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 01:44:54.110 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CREATE NEW dungeon. mapType="Expedition", effectiveMainMapIndex='2000'
+2026-02-23 01:44:54.112 -05:00 [INF] [DUNGEON-TRACE] === STEP 2: CreateNewDungeon ===
+2026-02-23 01:44:54.112 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Expedition", mainMapIndex='2000', guid="7e0b04d1-0ce2-4e20-99aa-c7e3868e4e5b"
+2026-02-23 01:44:54.112 -05:00 [INF] [DUNGEON-TRACE] Expedition: mode=Expedition
+2026-02-23 01:44:54.113 -05:00 [INF] [DUNGEON-TRACE] === DungeonBaseFragment CONSTRUCTOR ===
+2026-02-23 01:44:54.113 -05:00 [INF] [DUNGEON-TRACE] Input: guid="7e0b04d1-0ce2-4e20-99aa-c7e3868e4e5b", mapType="Expedition", mode="Expedition", mainMapIndex='2000'
+2026-02-23 01:44:54.115 -05:00 [INF] [DUNGEON-TRACE] After init: ClusterType="SafeArea", MainMapName='Bridgewatch' (resolved from WorldData.GetUniqueNameOrDefault('2000'))
+2026-02-23 01:44:54.115 -05:00 [INF] [DUNGEON-TRACE] === STEP 2 RESULT: Type=ExpeditionFragment, MainMapIndex='2000', MainMapName='Bridgewatch', ClusterType="SafeArea" ===
+2026-02-23 01:44:54.115 -05:00 [INF] [DUNGEON-TRACE] New dungeon created: Type=ExpeditionFragment, Mode="Expedition", MainMapIndex='2000', MainMapName='Bridgewatch', Tier="Unknown", Faction="Unknown"
+2026-02-23 01:44:54.116 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to "7e0b04d1-0ce2-4e20-99aa-c7e3868e4e5b" ===
+2026-02-23 01:44:55.215 -05:00 [INF] [DUNGEON-TRACE] Tier UPDATED to "T3"
+2026-02-23 01:47:51.276 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2000', MainMapIndex='2000', MapType="Unknown", MapGuid=null ===
+2026-02-23 01:47:51.277 -05:00 [INF] ClusterChanged broadcast: Bridgewatch (index=2000, mainIndex=2000, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-23 01:47:51.277 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2000') ===
+2026-02-23 01:47:51.277 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 01:47:51.277 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2000'
+2026-02-23 01:47:51.278 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2000' (from JoinResponse)
+2026-02-23 01:47:51.278 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid="7e0b04d1-0ce2-4e20-99aa-c7e3868e4e5b", _lastMapGuid="7e0b04d1-0ce2-4e20-99aa-c7e3868e4e5b"
+2026-02-23 01:47:51.278 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2000', MainClusterIndex='2000', MapType="Unknown", Guid=null
+2026-02-23 01:47:51.278 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=true, ExistDungeon(_currentGuid)=false
+2026-02-23 01:47:51.278 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CLOSE dungeon (lastMapGuid="7e0b04d1-0ce2-4e20-99aa-c7e3868e4e5b") - exited to open world
+2026-02-23 01:47:51.278 -05:00 [INF] [DUNGEON-TRACE] Closed: Type=ExpeditionFragment, Mode="Expedition", MainMapName='Bridgewatch', Tier="T3", Fame=670, Silver=266.4
+2026-02-23 01:47:51.288 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 01:47:51.288 -05:00 [INF] Dungeons saved
+2026-02-23 01:47:51.288 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 02:36:01.239 -05:00 [INF] Tool started with v8.6.7.4676
+2026-02-23 02:36:01.814 -05:00 [INF] OS Version: Microsoft Windows 10.0.26200 - "X64" | Processor: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz | Video: NVIDIA GeForce GTX 1050 Ti | Is Admin: false | Is Debug: false | Active Networks: vEthernet (Default Switch), Ethernet, Loopback Pseudo-Interface 1, vSwitch (Default Switch)-Hyper-V Virtual Switch Extension Filter-0000, vEthernet (Default Switch)-WFP Native MAC Layer LightWeight Filter-0000, vEthernet (Default Switch)-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-Npcap Packet Driver (NPCAP)-0000, vEthernet (Default Switch)-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 8-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 8-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-QoS Packet Scheduler-0000, Conexión de área local* 9-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 9-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-QoS Packet Scheduler-0000, Ethernet-WFP Native MAC Layer LightWeight Filter-0000, Ethernet-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-Npcap Packet Driver (NPCAP)-0000, Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 10-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 10-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 10-QoS Packet Scheduler-0000, vEthernet (Default Switch)-Npcap Packet Driver (NPCAP)-0000, Ethernet-QoS Packet Scheduler-0000, vEthernet (Default Switch)-QoS Packet Scheduler-0000, Ethernet-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 10-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 8, Conexión de área local* 9, Conexión de área local* 10, vSwitch (Default Switch)
+2026-02-23 02:36:11.902 -05:00 [INF] Used packet provider: "Npcap"
+2026-02-23 02:36:12.536 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\ActiveAlerts.json. Returning default.
+2026-02-23 02:36:13.341 -05:00 [INF] Npcap[ID:0]: opening \Device\NPF_{5343C9D7-F0C0-4A5B-A191-24B731D7A11B}:WAN Miniport (Network Monitor) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 02:36:13.380 -05:00 [INF] Npcap[ID:0]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 02:36:13.380 -05:00 [INF] Npcap[ID:1]: opening \Device\NPF_{73F8FA3D-7CF5-47BF-8549-3C8DD7ABACBA}:WAN Miniport (IPv6) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 02:36:13.385 -05:00 [INF] Npcap[ID:1]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 02:36:13.385 -05:00 [INF] Npcap[ID:2]: opening \Device\NPF_{A085B40E-9803-42FD-ACDE-ECD6A3E558A7}:WAN Miniport (IP) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 02:36:13.386 -05:00 [INF] Npcap[ID:2]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 02:36:13.386 -05:00 [INF] Npcap[ID:3]: opening \Device\NPF_{D6D22DA1-562A-43CC-94BB-1ECD9FBE06AB}:TP-Link Wireless USB Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 02:36:13.387 -05:00 [INF] Npcap[ID:3]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 02:36:13.387 -05:00 [INF] Npcap[ID:4]: opening \Device\NPF_{5F29F162-0EF1-4AB5-A605-602675BB0EB0}:Realtek PCIe GbE Family Controller (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 02:36:13.387 -05:00 [INF] Npcap[ID:4]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 02:36:13.387 -05:00 [INF] Npcap[ID:5]: opening \Device\NPF_{35362FFE-C704-4C86-9976-1C92D6CAE34F}:Microsoft Wi-Fi Direct Virtual Adapter #2 (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 02:36:13.388 -05:00 [INF] Npcap[ID:5]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 02:36:13.388 -05:00 [INF] Npcap[ID:6]: opening \Device\NPF_{EE51732A-8659-4B13-85DB-A43A48A05DEB}:Microsoft Wi-Fi Direct Virtual Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 02:36:13.390 -05:00 [INF] Npcap[ID:6]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 02:36:13.390 -05:00 [INF] Npcap[ID:7]: opening \Device\NPF_{6FB708B1-6A9F-4341-986A-71A0DAC34D44}:Hyper-V Virtual Ethernet Adapter (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 02:36:13.391 -05:00 [INF] Npcap[ID:7]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 02:36:13.392 -05:00 [INF] Npcap[ID:8]: skip loopback \Device\NPF_Loopback:Adapter for loopback traffic capture
+2026-02-23 02:36:13.392 -05:00 [INF] Npcap[ID:9]: opening \Device\NPF_{E23C1357-44E7-4A11-99A2-D024BE8E7545}:Kaspersky VPN (Type="53", Flags="Up, Running, ConnectionStatusDisconnected")
+2026-02-23 02:36:13.393 -05:00 [INF] Npcap[ID:9]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 02:36:13.396 -05:00 [INF] Npcap: capture started on 9 device(s), filter: (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 02:36:13.630 -05:00 [INF] Npcap: locked to adapter(Device: Realtek PCIe GbE Family Controller) after 1 valid packets
+2026-02-23 02:36:13.815 -05:00 [INF] MobileServer started on port 7777. Local IP: 172.17.0.1
+2026-02-23 02:36:13.816 -05:00 [INF] MobileBroadcastService started
+2026-02-23 02:36:13.817 -05:00 [INF] Mobile server started on http://172.17.0.1:7777/mobilehub
+2026-02-23 02:36:44.544 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2000', MainMapIndex='2000', MapType="Unknown", MapGuid=null ===
+2026-02-23 02:36:44.575 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\Settings.json via tmp-swap.
+2026-02-23 02:36:44.578 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Vaults.json via tmp-swap.
+2026-02-23 02:36:44.579 -05:00 [INF] Vault saved
+2026-02-23 02:36:44.596 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Trades.json via tmp-swap.
+2026-02-23 02:36:44.596 -05:00 [INF] Trades saved
+2026-02-23 02:36:44.603 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\TreasureStats.json via tmp-swap.
+2026-02-23 02:36:44.603 -05:00 [INF] Treasure saved
+2026-02-23 02:36:44.608 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Stats.json via tmp-swap.
+2026-02-23 02:36:44.609 -05:00 [INF] Statistics saved
+2026-02-23 02:36:44.623 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 02:36:44.624 -05:00 [INF] Dungeons saved
+2026-02-23 02:36:44.628 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Gathering.json via tmp-swap.
+2026-02-23 02:36:44.629 -05:00 [INF] Gathering saved
+2026-02-23 02:36:44.633 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Guild.json via tmp-swap.
+2026-02-23 02:36:44.633 -05:00 [INF] Guild data saved
+2026-02-23 02:36:44.636 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DamageMeterSnapshots.json via tmp-swap.
+2026-02-23 02:36:44.636 -05:00 [INF] Damage Meter snapshots saved
+2026-02-23 02:36:44.639 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Market.json via tmp-swap.
+2026-02-23 02:36:44.639 -05:00 [INF] Market data saved
+2026-02-23 02:36:44.647 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\EstimatedMarketValues.json via tmp-swap.
+2026-02-23 02:36:44.647 -05:00 [INF] Estimated market values saved
+2026-02-23 02:36:44.650 -05:00 [INF] ClusterChanged broadcast:  (index=, mainIndex=2000, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-23 02:36:44.682 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2000') ===
+2026-02-23 02:36:44.686 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 02:36:44.686 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2000'
+2026-02-23 02:36:44.687 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2000' (from JoinResponse)
+2026-02-23 02:36:44.687 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 02:36:44.687 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='null', MainClusterIndex='2000', MapType="Unknown", Guid=null
+2026-02-23 02:36:44.688 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 02:36:44.688 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 02:36:44.688 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 02:38:29.706 -05:00 [INF] MobileBroadcastService stopped
+2026-02-23 02:38:29.723 -05:00 [INF] MobileServer stopped
+2026-02-23 02:38:29.724 -05:00 [INF] Mobile server stopped
+2026-02-23 02:38:30.346 -05:00 [INF] MobileServer started on port 7777. Local IP: 172.17.0.1
+2026-02-23 02:38:30.347 -05:00 [INF] MobileBroadcastService started
+2026-02-23 02:38:30.347 -05:00 [INF] Mobile server started on http://172.17.0.1:7777/mobilehub
+2026-02-23 02:38:57.585 -05:00 [ERR] Libpcap worker crashed
+Libpcap.PcapException: Failed to call pcap_dispatch: Generic error
+   at Libpcap.PcapDispatcher.Dispatch(Int32 count)
+   at StatisticsAnalysisTool.Network.PacketProviders.LibpcapPacketProvider.Worker() in G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\Network\PacketProviders\LibpcapPacketProvider.cs:line 315
+2026-02-23 02:41:39.445 -05:00 [INF] MobileBroadcastService stopped
+2026-02-23 02:42:23.995 -05:00 [INF] Tool started with v8.6.7.4676
+2026-02-23 02:42:24.667 -05:00 [INF] OS Version: Microsoft Windows 10.0.26200 - "X64" | Processor: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz | Video: NVIDIA GeForce GTX 1050 Ti | Is Admin: false | Is Debug: false | Active Networks: vEthernet (Default Switch), Wi-Fi, Loopback Pseudo-Interface 1, vSwitch (Default Switch)-Hyper-V Virtual Switch Extension Filter-0000, vEthernet (Default Switch)-WFP Native MAC Layer LightWeight Filter-0000, vEthernet (Default Switch)-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-Npcap Packet Driver (NPCAP)-0000, vEthernet (Default Switch)-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 8-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 8-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-QoS Packet Scheduler-0000, Conexión de área local* 9-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 9-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-QoS Packet Scheduler-0000, Conexión de área local* 9-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 10-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 10-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 10-QoS Packet Scheduler-0000, vEthernet (Default Switch)-Npcap Packet Driver (NPCAP)-0000, vEthernet (Default Switch)-QoS Packet Scheduler-0000, Conexión de área local* 10-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 8, Conexión de área local* 9, Conexión de área local* 10, vSwitch (Default Switch), Wi-Fi-WFP Native MAC Layer LightWeight Filter-0000, Wi-Fi-Virtual WiFi Filter Driver-0000, Wi-Fi-Native WiFi Filter Driver-0000, Wi-Fi-Kaspersky Lab NDIS 6 Filter-0000, Wi-Fi-WFP 802.3 MAC Layer LightWeight Filter-0000, Wi-Fi-Npcap Packet Driver (NPCAP)-0000, Wi-Fi-QoS Packet Scheduler-0000
+2026-02-23 02:42:38.191 -05:00 [INF] Used packet provider: "Npcap"
+2026-02-23 02:42:38.943 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\ActiveAlerts.json. Returning default.
+2026-02-23 02:42:40.534 -05:00 [INF] Npcap[ID:0]: opening \Device\NPF_{5343C9D7-F0C0-4A5B-A191-24B731D7A11B}:WAN Miniport (Network Monitor) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 02:42:40.594 -05:00 [INF] Npcap[ID:0]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 02:42:40.594 -05:00 [INF] Npcap[ID:1]: opening \Device\NPF_{73F8FA3D-7CF5-47BF-8549-3C8DD7ABACBA}:WAN Miniport (IPv6) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 02:42:40.600 -05:00 [INF] Npcap[ID:1]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 02:42:40.600 -05:00 [INF] Npcap[ID:2]: opening \Device\NPF_{A085B40E-9803-42FD-ACDE-ECD6A3E558A7}:WAN Miniport (IP) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 02:42:40.601 -05:00 [INF] Npcap[ID:2]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 02:42:40.601 -05:00 [INF] Npcap[ID:3]: opening \Device\NPF_{D6D22DA1-562A-43CC-94BB-1ECD9FBE06AB}:TP-Link Wireless USB Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusConnected")
+2026-02-23 02:42:40.602 -05:00 [INF] Npcap[ID:3]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 02:42:40.602 -05:00 [INF] Npcap[ID:4]: opening \Device\NPF_{35362FFE-C704-4C86-9976-1C92D6CAE34F}:Microsoft Wi-Fi Direct Virtual Adapter #2 (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 02:42:40.603 -05:00 [INF] Npcap[ID:4]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 02:42:40.603 -05:00 [INF] Npcap[ID:5]: opening \Device\NPF_{EE51732A-8659-4B13-85DB-A43A48A05DEB}:Microsoft Wi-Fi Direct Virtual Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 02:42:40.604 -05:00 [INF] Npcap[ID:5]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 02:42:40.604 -05:00 [INF] Npcap[ID:6]: opening \Device\NPF_{6FB708B1-6A9F-4341-986A-71A0DAC34D44}:Hyper-V Virtual Ethernet Adapter (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 02:42:40.604 -05:00 [INF] Npcap[ID:6]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 02:42:40.605 -05:00 [INF] Npcap[ID:7]: skip loopback \Device\NPF_Loopback:Adapter for loopback traffic capture
+2026-02-23 02:42:40.605 -05:00 [INF] Npcap[ID:8]: opening \Device\NPF_{E23C1357-44E7-4A11-99A2-D024BE8E7545}:Kaspersky VPN (Type="53", Flags="Up, Running, ConnectionStatusDisconnected")
+2026-02-23 02:42:40.606 -05:00 [INF] Npcap[ID:8]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 02:42:40.612 -05:00 [INF] Npcap: capture started on 8 device(s), filter: (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 02:42:40.631 -05:00 [INF] Npcap: locked to adapter(Device: TP-Link Wireless USB Adapter) after 1 valid packets
+2026-02-23 02:42:41.052 -05:00 [INF] MobileServer started on port 7777. Local IP: 172.17.0.1
+2026-02-23 02:42:41.053 -05:00 [INF] MobileBroadcastService started
+2026-02-23 02:42:41.055 -05:00 [INF] Mobile server started on http://172.17.0.1:7777/mobilehub
+2026-02-23 02:42:55.420 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2209', MainMapIndex='2000', MapType="Unknown", MapGuid=null ===
+2026-02-23 02:42:55.453 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\Settings.json via tmp-swap.
+2026-02-23 02:42:55.459 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Vaults.json via tmp-swap.
+2026-02-23 02:42:55.460 -05:00 [INF] Vault saved
+2026-02-23 02:42:55.518 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Trades.json via tmp-swap.
+2026-02-23 02:42:55.519 -05:00 [INF] Trades saved
+2026-02-23 02:42:55.524 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\TreasureStats.json via tmp-swap.
+2026-02-23 02:42:55.525 -05:00 [INF] Treasure saved
+2026-02-23 02:42:55.529 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Stats.json via tmp-swap.
+2026-02-23 02:42:55.529 -05:00 [INF] Statistics saved
+2026-02-23 02:42:55.545 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 02:42:55.545 -05:00 [INF] Dungeons saved
+2026-02-23 02:42:55.549 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Gathering.json via tmp-swap.
+2026-02-23 02:42:55.550 -05:00 [INF] Gathering saved
+2026-02-23 02:42:55.553 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Guild.json via tmp-swap.
+2026-02-23 02:42:55.553 -05:00 [INF] Guild data saved
+2026-02-23 02:42:55.556 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DamageMeterSnapshots.json via tmp-swap.
+2026-02-23 02:42:55.557 -05:00 [INF] Damage Meter snapshots saved
+2026-02-23 02:42:55.559 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Market.json via tmp-swap.
+2026-02-23 02:42:55.559 -05:00 [INF] Market data saved
+2026-02-23 02:42:55.568 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\EstimatedMarketValues.json via tmp-swap.
+2026-02-23 02:42:55.569 -05:00 [INF] Estimated market values saved
+2026-02-23 02:42:55.572 -05:00 [INF] ClusterChanged broadcast: Lazygrass Plain (index=2209, mainIndex=2000, type=Unknown, zone=Yellow, tier=T5)
+2026-02-23 02:42:55.621 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2000') ===
+2026-02-23 02:42:55.623 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 02:42:55.624 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2000'
+2026-02-23 02:42:55.624 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2000' (from JoinResponse)
+2026-02-23 02:42:55.625 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 02:42:55.625 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2209', MainClusterIndex='2000', MapType="Unknown", Guid=null
+2026-02-23 02:42:55.625 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 02:42:55.626 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 02:42:55.626 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 02:45:49.518 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2208', MainMapIndex='2209', MapType="Unknown", MapGuid=null ===
+2026-02-23 02:45:49.519 -05:00 [INF] ClusterChanged broadcast: Slowtree Plain (index=2208, mainIndex=2209, type=Unknown, zone=Yellow, tier=T5)
+2026-02-23 02:45:49.519 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2209') ===
+2026-02-23 02:45:49.519 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 02:45:49.519 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2209'
+2026-02-23 02:45:49.519 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2209' (from JoinResponse)
+2026-02-23 02:45:49.519 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 02:45:49.519 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2208', MainClusterIndex='2209', MapType="Unknown", Guid=null
+2026-02-23 02:45:49.519 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 02:45:49.519 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 02:45:49.519 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 02:48:02.576 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='@MISTS@a3394f67-f98f-4e94-89e5-47dc1a10a7fa', MainMapIndex='2208', MapType="Mists", MapGuid="a3394f67-f98f-4e94-89e5-47dc1a10a7fa" ===
+2026-02-23 02:48:02.578 -05:00 [INF] ClusterChanged broadcast: Slowtree Plain (index=2208, mainIndex=2209, type=Unknown, zone=Mists, tier=T5)
+2026-02-23 02:48:02.578 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Mists", mapGuid="a3394f67-f98f-4e94-89e5-47dc1a10a7fa", mainMapIndex='2208') ===
+2026-02-23 02:48:02.578 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 02:48:02.578 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Mists", mapGuid="a3394f67-f98f-4e94-89e5-47dc1a10a7fa", mainMapIndex='2208'
+2026-02-23 02:48:02.578 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2208' (from JoinResponse)
+2026-02-23 02:48:02.578 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 02:48:02.578 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2208', MainClusterIndex='2209', MapType="Unknown", Guid="a3394f67-f98f-4e94-89e5-47dc1a10a7fa"
+2026-02-23 02:48:02.579 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=true, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 02:48:02.580 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CREATE NEW dungeon. mapType="Mists", effectiveMainMapIndex='2208'
+2026-02-23 02:48:02.581 -05:00 [INF] [DUNGEON-TRACE] === STEP 2: CreateNewDungeon ===
+2026-02-23 02:48:02.582 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Mists", mainMapIndex='2208', guid="a3394f67-f98f-4e94-89e5-47dc1a10a7fa"
+2026-02-23 02:48:02.583 -05:00 [INF] [DUNGEON-TRACE] Mists: WorldMapDataType='null', MistsRarity="Unknown", tier="0"
+2026-02-23 02:48:02.584 -05:00 [INF] [DUNGEON-TRACE] === DungeonBaseFragment CONSTRUCTOR ===
+2026-02-23 02:48:02.584 -05:00 [INF] [DUNGEON-TRACE] Input: guid="a3394f67-f98f-4e94-89e5-47dc1a10a7fa", mapType="Mists", mode="Mists", mainMapIndex='2208'
+2026-02-23 02:48:02.586 -05:00 [INF] [DUNGEON-TRACE] After init: ClusterType="Yellow", MainMapName='Slowtree Plain' (resolved from WorldData.GetUniqueNameOrDefault('2208'))
+2026-02-23 02:48:02.586 -05:00 [INF] [DUNGEON-TRACE] === STEP 2 RESULT: Type=MistsFragment, MainMapIndex='2208', MainMapName='Slowtree Plain', ClusterType="Yellow" ===
+2026-02-23 02:48:02.587 -05:00 [INF] [DUNGEON-TRACE] New dungeon created: Type=MistsFragment, Mode="Mists", MainMapIndex='2208', MainMapName='Slowtree Plain', Tier="0", Faction="Mists"
+2026-02-23 02:48:02.589 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to "a3394f67-f98f-4e94-89e5-47dc1a10a7fa" ===
+2026-02-23 02:48:04.753 -05:00 [INF] [DUNGEON-TRACE] Tier UPDATED to "T5"
+2026-02-23 02:49:14.621 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2208', MainMapIndex='2208', MapType="Unknown", MapGuid=null ===
+2026-02-23 02:49:14.622 -05:00 [INF] ClusterChanged broadcast: Slowtree Plain (index=2208, mainIndex=2208, type=Unknown, zone=Yellow, tier=T5)
+2026-02-23 02:49:14.622 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2208') ===
+2026-02-23 02:49:14.622 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 02:49:14.622 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2208'
+2026-02-23 02:49:14.622 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2208' (from JoinResponse)
+2026-02-23 02:49:14.622 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid="a3394f67-f98f-4e94-89e5-47dc1a10a7fa", _lastMapGuid="a3394f67-f98f-4e94-89e5-47dc1a10a7fa"
+2026-02-23 02:49:14.622 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2208', MainClusterIndex='2208', MapType="Unknown", Guid=null
+2026-02-23 02:49:14.622 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=true, ExistDungeon(_currentGuid)=false
+2026-02-23 02:49:14.622 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CLOSE dungeon (lastMapGuid="a3394f67-f98f-4e94-89e5-47dc1a10a7fa") - exited to open world
+2026-02-23 02:49:14.623 -05:00 [INF] [DUNGEON-TRACE] Closed: Type=MistsFragment, Mode="Mists", MainMapName='Slowtree Plain', Tier="T5", Fame=0, Silver=0
+2026-02-23 02:49:14.627 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 02:49:14.627 -05:00 [INF] Dungeons saved
+2026-02-23 02:49:14.627 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 02:49:31.845 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='@RANDOMDUNGEON@55c7700c-edfb-4fd6-ba44-892e8b7ffbbc', MainMapIndex='2208', MapType="RandomDungeon", MapGuid="55c7700c-edfb-4fd6-ba44-892e8b7ffbbc" ===
+2026-02-23 02:49:31.845 -05:00 [INF] ClusterChanged broadcast: Slowtree Plain (index=2208, mainIndex=2208, type=Unknown, zone=Unknown, tier=T5)
+2026-02-23 02:49:31.846 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="RandomDungeon", mapGuid="55c7700c-edfb-4fd6-ba44-892e8b7ffbbc", mainMapIndex='2208') ===
+2026-02-23 02:49:31.846 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 02:49:31.846 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="RandomDungeon", mapGuid="55c7700c-edfb-4fd6-ba44-892e8b7ffbbc", mainMapIndex='2208'
+2026-02-23 02:49:31.846 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2208' (from JoinResponse)
+2026-02-23 02:49:31.846 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 02:49:31.846 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2208', MainClusterIndex='2208', MapType="Unknown", Guid="55c7700c-edfb-4fd6-ba44-892e8b7ffbbc"
+2026-02-23 02:49:31.846 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=true, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 02:49:31.846 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CREATE NEW dungeon. mapType="RandomDungeon", effectiveMainMapIndex='2208'
+2026-02-23 02:49:31.846 -05:00 [INF] [DUNGEON-TRACE] === STEP 2: CreateNewDungeon ===
+2026-02-23 02:49:31.846 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="RandomDungeon", mainMapIndex='2208', guid="55c7700c-edfb-4fd6-ba44-892e8b7ffbbc"
+2026-02-23 02:49:31.847 -05:00 [INF] [DUNGEON-TRACE] RandomDungeon: DungeonData.GetDungeonMode('2208') = "Unknown"
+2026-02-23 02:49:31.848 -05:00 [INF] [DUNGEON-TRACE] === DungeonBaseFragment CONSTRUCTOR ===
+2026-02-23 02:49:31.848 -05:00 [INF] [DUNGEON-TRACE] Input: guid="55c7700c-edfb-4fd6-ba44-892e8b7ffbbc", mapType="RandomDungeon", mode="Unknown", mainMapIndex='2208'
+2026-02-23 02:49:31.848 -05:00 [INF] [DUNGEON-TRACE] After init: ClusterType="Yellow", MainMapName='Slowtree Plain' (resolved from WorldData.GetUniqueNameOrDefault('2208'))
+2026-02-23 02:49:31.849 -05:00 [INF] [DUNGEON-TRACE] === STEP 2 RESULT: Type=RandomDungeonFragment, MainMapIndex='2208', MainMapName='Slowtree Plain', ClusterType="Yellow" ===
+2026-02-23 02:49:31.849 -05:00 [INF] [DUNGEON-TRACE] New dungeon created: Type=RandomDungeonFragment, Mode="Unknown", MainMapIndex='2208', MainMapName='Slowtree Plain', Tier="Unknown", Faction="Unknown"
+2026-02-23 02:49:31.850 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to "55c7700c-edfb-4fd6-ba44-892e8b7ffbbc" ===
+2026-02-23 02:49:58.329 -05:00 [INF] [DUNGEON-TRACE] Tier UPDATED to "T5"
+2026-02-23 02:50:04.972 -05:00 [INF] [DUNGEON-TRACE] === STEP 3: SetDungeonEventInformationAsync ===
+2026-02-23 02:50:04.972 -05:00 [INF] [DUNGEON-TRACE] Event id=14, uniqueName='GENERAL_SHRINE_COMBAT_BUFF'
+2026-02-23 02:50:04.975 -05:00 [INF] [DUNGEON-TRACE] Faction detection: DungeonData.GetFaction('GENERAL_SHRINE_COMBAT_BUFF') = "Unknown"
+2026-02-23 02:50:04.975 -05:00 [INF] [DUNGEON-TRACE] Mode detection: DungeonData.GetDungeonMode('GENERAL_SHRINE_COMBAT_BUFF') = "Solo"
+2026-02-23 02:50:04.975 -05:00 [INF] [DUNGEON-TRACE] Dungeon after event: Faction="Unknown", Mode="Solo", Events count=1
+2026-02-23 02:51:26.166 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2208', MainMapIndex='2208', MapType="Unknown", MapGuid=null ===
+2026-02-23 02:51:26.167 -05:00 [INF] ClusterChanged broadcast: Slowtree Plain (index=2208, mainIndex=2208, type=Unknown, zone=Yellow, tier=T5)
+2026-02-23 02:51:26.167 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2208') ===
+2026-02-23 02:51:26.167 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 02:51:26.167 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2208'
+2026-02-23 02:51:26.168 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2208' (from JoinResponse)
+2026-02-23 02:51:26.168 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid="55c7700c-edfb-4fd6-ba44-892e8b7ffbbc", _lastMapGuid="55c7700c-edfb-4fd6-ba44-892e8b7ffbbc"
+2026-02-23 02:51:26.168 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2208', MainClusterIndex='2208', MapType="Unknown", Guid=null
+2026-02-23 02:51:26.168 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=true, ExistDungeon(_currentGuid)=false
+2026-02-23 02:51:26.168 -05:00 [INF] [DUNGEON-TRACE] BRANCH: CLOSE dungeon (lastMapGuid="55c7700c-edfb-4fd6-ba44-892e8b7ffbbc") - exited to open world
+2026-02-23 02:51:26.168 -05:00 [INF] [DUNGEON-TRACE] Closed: Type=RandomDungeonFragment, Mode="Solo", MainMapName='Slowtree Plain', Tier="T5", Fame=2649.5882, Silver=227.90519999999998
+2026-02-23 02:51:26.171 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 02:51:26.171 -05:00 [INF] Dungeons saved
+2026-02-23 02:51:26.172 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 02:52:13.703 -05:00 [INF] MobileBroadcastService stopped
+2026-02-23 12:56:12.619 -05:00 [INF] Tool started with v8.6.7.22770
+2026-02-23 12:56:12.978 -05:00 [INF] OS Version: Microsoft Windows 10.0.26200 - "X64" | Processor: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz | Video: NVIDIA GeForce GTX 1050 Ti | Is Admin: false | Is Debug: false | Active Networks: vEthernet (Default Switch), Ethernet, Loopback Pseudo-Interface 1, vSwitch (Default Switch)-Hyper-V Virtual Switch Extension Filter-0000, vEthernet (Default Switch)-WFP Native MAC Layer LightWeight Filter-0000, vEthernet (Default Switch)-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-Npcap Packet Driver (NPCAP)-0000, vEthernet (Default Switch)-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 8-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 8-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-QoS Packet Scheduler-0000, Conexión de área local* 9-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 9-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-QoS Packet Scheduler-0000, Ethernet-WFP Native MAC Layer LightWeight Filter-0000, Ethernet-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-Npcap Packet Driver (NPCAP)-0000, Ethernet-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 10-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 10-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 10-QoS Packet Scheduler-0000, vEthernet (Default Switch)-Npcap Packet Driver (NPCAP)-0000, Ethernet-QoS Packet Scheduler-0000, vEthernet (Default Switch)-QoS Packet Scheduler-0000, Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 10-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 8, Conexión de área local* 9, Conexión de área local* 10, vSwitch (Default Switch)
+2026-02-23 12:56:25.023 -05:00 [INF] Used packet provider: "Npcap"
+2026-02-23 12:56:25.761 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\ActiveAlerts.json. Returning default.
+2026-02-23 12:56:27.438 -05:00 [INF] Npcap[ID:0]: opening \Device\NPF_{5343C9D7-F0C0-4A5B-A191-24B731D7A11B}:WAN Miniport (Network Monitor) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 12:56:27.492 -05:00 [INF] Npcap[ID:0]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 12:56:27.493 -05:00 [INF] Npcap[ID:1]: opening \Device\NPF_{73F8FA3D-7CF5-47BF-8549-3C8DD7ABACBA}:WAN Miniport (IPv6) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 12:56:27.497 -05:00 [INF] Npcap[ID:1]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 12:56:27.498 -05:00 [INF] Npcap[ID:2]: opening \Device\NPF_{A085B40E-9803-42FD-ACDE-ECD6A3E558A7}:WAN Miniport (IP) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 12:56:27.499 -05:00 [INF] Npcap[ID:2]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 12:56:27.500 -05:00 [INF] Npcap[ID:3]: opening \Device\NPF_{D6D22DA1-562A-43CC-94BB-1ECD9FBE06AB}:TP-Link Wireless USB Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 12:56:27.501 -05:00 [INF] Npcap[ID:3]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 12:56:27.501 -05:00 [INF] Npcap[ID:4]: opening \Device\NPF_{5F29F162-0EF1-4AB5-A605-602675BB0EB0}:Realtek PCIe GbE Family Controller (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 12:56:27.501 -05:00 [INF] Npcap[ID:4]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 12:56:27.501 -05:00 [INF] Npcap[ID:5]: opening \Device\NPF_{35362FFE-C704-4C86-9976-1C92D6CAE34F}:Microsoft Wi-Fi Direct Virtual Adapter #2 (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 12:56:27.502 -05:00 [INF] Npcap[ID:5]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 12:56:27.502 -05:00 [INF] Npcap[ID:6]: opening \Device\NPF_{EE51732A-8659-4B13-85DB-A43A48A05DEB}:Microsoft Wi-Fi Direct Virtual Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 12:56:27.503 -05:00 [INF] Npcap[ID:6]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 12:56:27.503 -05:00 [INF] Npcap[ID:7]: opening \Device\NPF_{6FB708B1-6A9F-4341-986A-71A0DAC34D44}:Hyper-V Virtual Ethernet Adapter (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 12:56:27.504 -05:00 [INF] Npcap[ID:7]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 12:56:27.505 -05:00 [INF] Npcap[ID:8]: skip loopback \Device\NPF_Loopback:Adapter for loopback traffic capture
+2026-02-23 12:56:27.506 -05:00 [INF] Npcap[ID:9]: opening \Device\NPF_{E23C1357-44E7-4A11-99A2-D024BE8E7545}:Kaspersky VPN (Type="53", Flags="Up, Running, ConnectionStatusDisconnected")
+2026-02-23 12:56:27.506 -05:00 [INF] Npcap[ID:9]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 12:56:27.511 -05:00 [INF] Npcap: capture started on 9 device(s), filter: (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 12:56:29.981 -05:00 [INF] MobileServer started on port 7777. Local IP: 172.17.0.1
+2026-02-23 12:56:29.982 -05:00 [INF] MobileBroadcastService started
+2026-02-23 12:56:29.984 -05:00 [INF] Mobile server started on http://172.17.0.1:7777/mobilehub
+2026-02-23 13:05:00.174 -05:00 [INF] Npcap: locked to adapter(Device: Realtek PCIe GbE Family Controller) after 1 valid packets
+2026-02-23 13:07:00.604 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2208', MainMapIndex='2208', MapType="Unknown", MapGuid=null ===
+2026-02-23 13:07:00.635 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\Settings.json via tmp-swap.
+2026-02-23 13:07:00.638 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Vaults.json via tmp-swap.
+2026-02-23 13:07:00.639 -05:00 [INF] Vault saved
+2026-02-23 13:07:00.655 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Trades.json via tmp-swap.
+2026-02-23 13:07:00.656 -05:00 [INF] Trades saved
+2026-02-23 13:07:00.663 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\TreasureStats.json via tmp-swap.
+2026-02-23 13:07:00.663 -05:00 [INF] Treasure saved
+2026-02-23 13:07:00.668 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Stats.json via tmp-swap.
+2026-02-23 13:07:00.668 -05:00 [INF] Statistics saved
+2026-02-23 13:07:00.683 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 13:07:00.683 -05:00 [INF] Dungeons saved
+2026-02-23 13:07:00.685 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Gathering.json via tmp-swap.
+2026-02-23 13:07:00.685 -05:00 [INF] Gathering saved
+2026-02-23 13:07:00.687 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Guild.json via tmp-swap.
+2026-02-23 13:07:00.687 -05:00 [INF] Guild data saved
+2026-02-23 13:07:00.689 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DamageMeterSnapshots.json via tmp-swap.
+2026-02-23 13:07:00.689 -05:00 [INF] Damage Meter snapshots saved
+2026-02-23 13:07:00.690 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Market.json via tmp-swap.
+2026-02-23 13:07:00.690 -05:00 [INF] Market data saved
+2026-02-23 13:07:00.697 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\EstimatedMarketValues.json via tmp-swap.
+2026-02-23 13:07:00.698 -05:00 [INF] Estimated market values saved
+2026-02-23 13:07:00.701 -05:00 [INF] ClusterChanged broadcast:  (index=, mainIndex=2208, type=Unknown, zone=Yellow, tier=T5)
+2026-02-23 13:07:00.770 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2208') ===
+2026-02-23 13:07:00.782 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 13:07:00.784 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2208'
+2026-02-23 13:07:00.786 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2208' (from JoinResponse)
+2026-02-23 13:07:00.787 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 13:07:00.788 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='null', MainClusterIndex='2208', MapType="Unknown", Guid=null
+2026-02-23 13:07:00.790 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 13:07:00.791 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 13:07:00.793 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 13:07:36.083 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2209', MainMapIndex='2208', MapType="Unknown", MapGuid=null ===
+2026-02-23 13:07:36.085 -05:00 [INF] ClusterChanged broadcast: Lazygrass Plain (index=2209, mainIndex=2208, type=Unknown, zone=Yellow, tier=T5)
+2026-02-23 13:07:36.086 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2208') ===
+2026-02-23 13:07:36.087 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 13:07:36.087 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2208'
+2026-02-23 13:07:36.087 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2208' (from JoinResponse)
+2026-02-23 13:07:36.087 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 13:07:36.087 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2209', MainClusterIndex='2208', MapType="Unknown", Guid=null
+2026-02-23 13:07:36.087 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 13:07:36.087 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 13:07:36.087 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 13:08:40.846 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2208', MainMapIndex='2209', MapType="Unknown", MapGuid=null ===
+2026-02-23 13:08:40.846 -05:00 [INF] ClusterChanged broadcast: Slowtree Plain (index=2208, mainIndex=2209, type=Unknown, zone=Yellow, tier=T5)
+2026-02-23 13:08:40.847 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2209') ===
+2026-02-23 13:08:40.847 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 13:08:40.847 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2209'
+2026-02-23 13:08:40.847 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2209' (from JoinResponse)
+2026-02-23 13:08:40.847 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 13:08:40.847 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2208', MainClusterIndex='2209', MapType="Unknown", Guid=null
+2026-02-23 13:08:40.847 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 13:08:40.847 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 13:08:40.847 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 13:22:42.636 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2000', MainMapIndex='2208', MapType="Unknown", MapGuid=null ===
+2026-02-23 13:22:42.642 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\Settings.json via tmp-swap.
+2026-02-23 13:22:42.645 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Vaults.json via tmp-swap.
+2026-02-23 13:22:42.646 -05:00 [INF] Vault saved
+2026-02-23 13:22:42.665 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Trades.json via tmp-swap.
+2026-02-23 13:22:42.665 -05:00 [INF] Trades saved
+2026-02-23 13:22:42.669 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\TreasureStats.json via tmp-swap.
+2026-02-23 13:22:42.669 -05:00 [INF] Treasure saved
+2026-02-23 13:22:42.674 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Stats.json via tmp-swap.
+2026-02-23 13:22:42.674 -05:00 [INF] Statistics saved
+2026-02-23 13:22:42.678 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 13:22:42.678 -05:00 [INF] Dungeons saved
+2026-02-23 13:22:42.686 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Gathering.json via tmp-swap.
+2026-02-23 13:22:42.686 -05:00 [INF] Gathering saved
+2026-02-23 13:22:42.689 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Guild.json via tmp-swap.
+2026-02-23 13:22:42.689 -05:00 [INF] Guild data saved
+2026-02-23 13:22:42.692 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DamageMeterSnapshots.json via tmp-swap.
+2026-02-23 13:22:42.692 -05:00 [INF] Damage Meter snapshots saved
+2026-02-23 13:22:42.695 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Market.json via tmp-swap.
+2026-02-23 13:22:42.695 -05:00 [INF] Market data saved
+2026-02-23 13:22:42.699 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\EstimatedMarketValues.json via tmp-swap.
+2026-02-23 13:22:42.699 -05:00 [INF] Estimated market values saved
+2026-02-23 13:22:42.700 -05:00 [INF] ClusterChanged broadcast: Bridgewatch (index=2000, mainIndex=2208, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-23 13:22:42.700 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2208') ===
+2026-02-23 13:22:42.700 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 13:22:42.700 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2208'
+2026-02-23 13:22:42.700 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2208' (from JoinResponse)
+2026-02-23 13:22:42.700 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 13:22:42.701 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2000', MainClusterIndex='2208', MapType="Unknown", Guid=null
+2026-02-23 13:22:42.701 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 13:22:42.701 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 13:22:42.701 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 13:22:57.805 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2004', MainMapIndex='2000', MapType="Unknown", MapGuid=null ===
+2026-02-23 13:22:57.805 -05:00 [INF] ClusterChanged broadcast: Bridgewatch Market (index=2004, mainIndex=2000, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-23 13:22:57.805 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2000') ===
+2026-02-23 13:22:57.805 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 13:22:57.805 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2000'
+2026-02-23 13:22:57.805 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2000' (from JoinResponse)
+2026-02-23 13:22:57.805 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 13:22:57.805 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2004', MainClusterIndex='2000', MapType="Unknown", Guid=null
+2026-02-23 13:22:57.805 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 13:22:57.806 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 13:22:57.806 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 13:29:31.878 -05:00 [INF] MobileBroadcastService stopped
+2026-02-23 15:04:21.388 -05:00 [INF] Tool started with v8.6.7.27125
+2026-02-23 15:04:21.756 -05:00 [INF] OS Version: Microsoft Windows 10.0.26200 - "X64" | Processor: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz | Video: NVIDIA GeForce GTX 1050 Ti | Is Admin: false | Is Debug: false | Active Networks: vEthernet (Default Switch), Ethernet, Loopback Pseudo-Interface 1, vSwitch (Default Switch)-Hyper-V Virtual Switch Extension Filter-0000, vEthernet (Default Switch)-WFP Native MAC Layer LightWeight Filter-0000, vEthernet (Default Switch)-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-Npcap Packet Driver (NPCAP)-0000, vEthernet (Default Switch)-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 8-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 8-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-QoS Packet Scheduler-0000, Conexión de área local* 9-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 9-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-QoS Packet Scheduler-0000, Ethernet-WFP Native MAC Layer LightWeight Filter-0000, Ethernet-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-Npcap Packet Driver (NPCAP)-0000, Ethernet-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 10-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 10-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 10-QoS Packet Scheduler-0000, vEthernet (Default Switch)-Npcap Packet Driver (NPCAP)-0000, Ethernet-QoS Packet Scheduler-0000, vEthernet (Default Switch)-QoS Packet Scheduler-0000, Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 10-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 8, Conexión de área local* 9, Conexión de área local* 10, vSwitch (Default Switch)
+2026-02-23 15:04:35.914 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\GameFiles\mobs-modified.json via tmp-swap.
+2026-02-23 15:04:38.027 -05:00 [INF] Used packet provider: "Npcap"
+2026-02-23 15:04:38.371 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\ActiveAlerts.json. Returning default.
+2026-02-23 15:04:39.046 -05:00 [INF] Npcap[ID:0]: opening \Device\NPF_{5343C9D7-F0C0-4A5B-A191-24B731D7A11B}:WAN Miniport (Network Monitor) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 15:04:39.083 -05:00 [INF] Npcap[ID:0]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:04:39.084 -05:00 [INF] Npcap[ID:1]: opening \Device\NPF_{73F8FA3D-7CF5-47BF-8549-3C8DD7ABACBA}:WAN Miniport (IPv6) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 15:04:39.088 -05:00 [INF] Npcap[ID:1]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:04:39.088 -05:00 [INF] Npcap[ID:2]: opening \Device\NPF_{A085B40E-9803-42FD-ACDE-ECD6A3E558A7}:WAN Miniport (IP) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 15:04:39.089 -05:00 [INF] Npcap[ID:2]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:04:39.089 -05:00 [INF] Npcap[ID:3]: opening \Device\NPF_{D6D22DA1-562A-43CC-94BB-1ECD9FBE06AB}:TP-Link Wireless USB Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 15:04:39.089 -05:00 [INF] Npcap[ID:3]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:04:39.089 -05:00 [INF] Npcap[ID:4]: opening \Device\NPF_{5F29F162-0EF1-4AB5-A605-602675BB0EB0}:Realtek PCIe GbE Family Controller (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 15:04:39.090 -05:00 [INF] Npcap[ID:4]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:04:39.090 -05:00 [INF] Npcap[ID:5]: opening \Device\NPF_{35362FFE-C704-4C86-9976-1C92D6CAE34F}:Microsoft Wi-Fi Direct Virtual Adapter #2 (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 15:04:39.090 -05:00 [INF] Npcap[ID:5]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:04:39.090 -05:00 [INF] Npcap[ID:6]: opening \Device\NPF_{EE51732A-8659-4B13-85DB-A43A48A05DEB}:Microsoft Wi-Fi Direct Virtual Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 15:04:39.091 -05:00 [INF] Npcap[ID:6]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:04:39.091 -05:00 [INF] Npcap[ID:7]: opening \Device\NPF_{6FB708B1-6A9F-4341-986A-71A0DAC34D44}:Hyper-V Virtual Ethernet Adapter (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 15:04:39.092 -05:00 [INF] Npcap[ID:7]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:04:39.093 -05:00 [INF] Npcap[ID:8]: skip loopback \Device\NPF_Loopback:Adapter for loopback traffic capture
+2026-02-23 15:04:39.093 -05:00 [INF] Npcap[ID:9]: opening \Device\NPF_{E23C1357-44E7-4A11-99A2-D024BE8E7545}:Kaspersky VPN (Type="53", Flags="Up, Running, ConnectionStatusDisconnected")
+2026-02-23 15:04:39.094 -05:00 [INF] Npcap[ID:9]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:04:39.098 -05:00 [INF] Npcap: capture started on 9 device(s), filter: (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:04:39.414 -05:00 [INF] MobileServer started on port 7777. Local IP: 172.17.0.1
+2026-02-23 15:04:39.415 -05:00 [INF] MobileBroadcastService started
+2026-02-23 15:04:39.416 -05:00 [INF] Mobile server started on http://172.17.0.1:7777/mobilehub
+2026-02-23 15:05:50.652 -05:00 [INF] Npcap: locked to adapter(Device: Realtek PCIe GbE Family Controller) after 1 valid packets
+2026-02-23 15:06:16.256 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2004', MainMapIndex='2000', MapType="Unknown", MapGuid=null ===
+2026-02-23 15:06:16.292 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\Settings.json via tmp-swap.
+2026-02-23 15:06:16.296 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Vaults.json via tmp-swap.
+2026-02-23 15:06:16.297 -05:00 [INF] Vault saved
+2026-02-23 15:06:16.326 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Trades.json via tmp-swap.
+2026-02-23 15:06:16.327 -05:00 [INF] Trades saved
+2026-02-23 15:06:16.339 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\TreasureStats.json via tmp-swap.
+2026-02-23 15:06:16.340 -05:00 [INF] Treasure saved
+2026-02-23 15:06:16.349 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Stats.json via tmp-swap.
+2026-02-23 15:06:16.349 -05:00 [INF] Statistics saved
+2026-02-23 15:06:16.369 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 15:06:16.370 -05:00 [INF] Dungeons saved
+2026-02-23 15:06:16.375 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Gathering.json via tmp-swap.
+2026-02-23 15:06:16.376 -05:00 [INF] Gathering saved
+2026-02-23 15:06:16.379 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Guild.json via tmp-swap.
+2026-02-23 15:06:16.379 -05:00 [INF] Guild data saved
+2026-02-23 15:06:16.384 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DamageMeterSnapshots.json via tmp-swap.
+2026-02-23 15:06:16.384 -05:00 [INF] Damage Meter snapshots saved
+2026-02-23 15:06:16.387 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Market.json via tmp-swap.
+2026-02-23 15:06:16.388 -05:00 [INF] Market data saved
+2026-02-23 15:06:16.395 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\EstimatedMarketValues.json via tmp-swap.
+2026-02-23 15:06:16.396 -05:00 [INF] Estimated market values saved
+2026-02-23 15:06:16.399 -05:00 [INF] ClusterChanged broadcast:  (index=, mainIndex=2000, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-23 15:06:16.450 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2000') ===
+2026-02-23 15:06:16.455 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 15:06:16.456 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2000'
+2026-02-23 15:06:16.456 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2000' (from JoinResponse)
+2026-02-23 15:06:16.457 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 15:06:16.457 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='null', MainClusterIndex='2000', MapType="Unknown", Guid=null
+2026-02-23 15:06:16.457 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 15:06:16.457 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 15:06:16.458 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 15:06:42.927 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2000', MainMapIndex='2004', MapType="Unknown", MapGuid=null ===
+2026-02-23 15:06:42.928 -05:00 [INF] ClusterChanged broadcast: Bridgewatch (index=2000, mainIndex=2004, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-23 15:06:42.929 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2004') ===
+2026-02-23 15:06:42.929 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 15:06:42.929 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2004'
+2026-02-23 15:06:42.929 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2004' (from JoinResponse)
+2026-02-23 15:06:42.929 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 15:06:42.929 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2000', MainClusterIndex='2004', MapType="Unknown", Guid=null
+2026-02-23 15:06:42.929 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 15:06:42.929 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 15:06:42.929 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 15:24:16.601 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2003', MainMapIndex='2000', MapType="Unknown", MapGuid=null ===
+2026-02-23 15:24:16.641 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Vaults.json via tmp-swap.
+2026-02-23 15:24:16.641 -05:00 [INF] Vault saved
+2026-02-23 15:24:16.711 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Trades.json via tmp-swap.
+2026-02-23 15:24:16.712 -05:00 [INF] Trades saved
+2026-02-23 15:24:16.716 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\TreasureStats.json via tmp-swap.
+2026-02-23 15:24:16.716 -05:00 [INF] Treasure saved
+2026-02-23 15:24:16.720 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Stats.json via tmp-swap.
+2026-02-23 15:24:16.721 -05:00 [INF] Statistics saved
+2026-02-23 15:24:16.731 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 15:24:16.731 -05:00 [INF] Dungeons saved
+2026-02-23 15:24:16.736 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Gathering.json via tmp-swap.
+2026-02-23 15:24:16.736 -05:00 [INF] Gathering saved
+2026-02-23 15:24:16.880 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Guild.json via tmp-swap.
+2026-02-23 15:24:16.880 -05:00 [INF] Guild data saved
+2026-02-23 15:24:16.885 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DamageMeterSnapshots.json via tmp-swap.
+2026-02-23 15:24:16.885 -05:00 [INF] Damage Meter snapshots saved
+2026-02-23 15:24:16.890 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Market.json via tmp-swap.
+2026-02-23 15:24:16.891 -05:00 [INF] Market data saved
+2026-02-23 15:24:16.905 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\EstimatedMarketValues.json via tmp-swap.
+2026-02-23 15:24:16.905 -05:00 [INF] Estimated market values saved
+2026-02-23 15:24:16.911 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\Settings.json via tmp-swap.
+2026-02-23 15:24:16.912 -05:00 [INF] ClusterChanged broadcast: Bank of Bridgewatch (index=2003, mainIndex=2000, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-23 15:24:16.913 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2000') ===
+2026-02-23 15:24:16.913 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 15:24:16.913 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2000'
+2026-02-23 15:24:16.913 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2000' (from JoinResponse)
+2026-02-23 15:24:16.913 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 15:24:16.913 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2003', MainClusterIndex='2000', MapType="Unknown", Guid=null
+2026-02-23 15:24:16.914 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 15:24:16.914 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 15:24:16.914 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 15:58:21.498 -05:00 [INF] Tool started with v8.6.7.28327
+2026-02-23 15:58:21.912 -05:00 [INF] OS Version: Microsoft Windows 10.0.26200 - "X64" | Processor: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz | Video: NVIDIA GeForce GTX 1050 Ti | Is Admin: false | Is Debug: false | Active Networks: vEthernet (Default Switch), Ethernet, Loopback Pseudo-Interface 1, vSwitch (Default Switch)-Hyper-V Virtual Switch Extension Filter-0000, vEthernet (Default Switch)-WFP Native MAC Layer LightWeight Filter-0000, vEthernet (Default Switch)-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-Npcap Packet Driver (NPCAP)-0000, vEthernet (Default Switch)-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 8-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 8-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-QoS Packet Scheduler-0000, Conexión de área local* 9-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 9-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-QoS Packet Scheduler-0000, Ethernet-WFP Native MAC Layer LightWeight Filter-0000, Ethernet-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-Npcap Packet Driver (NPCAP)-0000, Ethernet-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 10-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 10-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 10-QoS Packet Scheduler-0000, vEthernet (Default Switch)-Npcap Packet Driver (NPCAP)-0000, Ethernet-QoS Packet Scheduler-0000, vEthernet (Default Switch)-QoS Packet Scheduler-0000, Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 10-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 8, Conexión de área local* 9, Conexión de área local* 10, vSwitch (Default Switch)
+2026-02-23 15:58:34.846 -05:00 [INF] Used packet provider: "Npcap"
+2026-02-23 15:58:35.567 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\ActiveAlerts.json. Returning default.
+2026-02-23 15:58:36.776 -05:00 [INF] Npcap[ID:0]: opening \Device\NPF_{5343C9D7-F0C0-4A5B-A191-24B731D7A11B}:WAN Miniport (Network Monitor) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 15:58:36.832 -05:00 [INF] Npcap[ID:0]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:58:36.832 -05:00 [INF] Npcap[ID:1]: opening \Device\NPF_{73F8FA3D-7CF5-47BF-8549-3C8DD7ABACBA}:WAN Miniport (IPv6) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 15:58:36.839 -05:00 [INF] Npcap[ID:1]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:58:36.840 -05:00 [INF] Npcap[ID:2]: opening \Device\NPF_{A085B40E-9803-42FD-ACDE-ECD6A3E558A7}:WAN Miniport (IP) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 15:58:36.841 -05:00 [INF] Npcap[ID:2]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:58:36.841 -05:00 [INF] Npcap[ID:3]: opening \Device\NPF_{D6D22DA1-562A-43CC-94BB-1ECD9FBE06AB}:TP-Link Wireless USB Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 15:58:36.842 -05:00 [INF] Npcap[ID:3]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:58:36.842 -05:00 [INF] Npcap[ID:4]: opening \Device\NPF_{5F29F162-0EF1-4AB5-A605-602675BB0EB0}:Realtek PCIe GbE Family Controller (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 15:58:36.843 -05:00 [INF] Npcap[ID:4]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:58:36.843 -05:00 [INF] Npcap[ID:5]: opening \Device\NPF_{35362FFE-C704-4C86-9976-1C92D6CAE34F}:Microsoft Wi-Fi Direct Virtual Adapter #2 (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 15:58:36.843 -05:00 [INF] Npcap[ID:5]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:58:36.843 -05:00 [INF] Npcap[ID:6]: opening \Device\NPF_{EE51732A-8659-4B13-85DB-A43A48A05DEB}:Microsoft Wi-Fi Direct Virtual Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 15:58:36.844 -05:00 [INF] Npcap[ID:6]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:58:36.844 -05:00 [INF] Npcap[ID:7]: opening \Device\NPF_{6FB708B1-6A9F-4341-986A-71A0DAC34D44}:Hyper-V Virtual Ethernet Adapter (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 15:58:36.845 -05:00 [INF] Npcap[ID:7]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:58:36.846 -05:00 [INF] Npcap[ID:8]: skip loopback \Device\NPF_Loopback:Adapter for loopback traffic capture
+2026-02-23 15:58:36.846 -05:00 [INF] Npcap[ID:9]: opening \Device\NPF_{E23C1357-44E7-4A11-99A2-D024BE8E7545}:Kaspersky VPN (Type="53", Flags="Up, Running, ConnectionStatusDisconnected")
+2026-02-23 15:58:36.847 -05:00 [INF] Npcap[ID:9]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:58:36.853 -05:00 [INF] Npcap: capture started on 9 device(s), filter: (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 15:58:36.980 -05:00 [INF] Npcap: locked to adapter(Device: Realtek PCIe GbE Family Controller) after 1 valid packets
+2026-02-23 15:58:37.433 -05:00 [INF] MobileServer started on port 7777. Local IP: 172.17.0.1
+2026-02-23 15:58:37.434 -05:00 [INF] MobileBroadcastService started
+2026-02-23 15:58:37.435 -05:00 [INF] Mobile server started on http://172.17.0.1:7777/mobilehub
+2026-02-23 16:01:08.338 -05:00 [ERR] Libpcap worker crashed
+Libpcap.PcapException: Failed to call pcap_dispatch: Generic error
+   at Libpcap.PcapDispatcher.Dispatch(Int32 count)
+   at StatisticsAnalysisTool.Network.PacketProviders.LibpcapPacketProvider.Worker() in G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\Network\PacketProviders\LibpcapPacketProvider.cs:line 315
+2026-02-23 16:02:27.035 -05:00 [INF] MobileBroadcastService stopped
+2026-02-23 16:02:45.303 -05:00 [INF] Tool started with v8.6.7.28327
+2026-02-23 16:02:45.793 -05:00 [INF] OS Version: Microsoft Windows 10.0.26200 - "X64" | Processor: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz | Video: NVIDIA GeForce GTX 1050 Ti | Is Admin: false | Is Debug: false | Active Networks: vEthernet (Default Switch), Ethernet 2, Loopback Pseudo-Interface 1, vSwitch (Default Switch)-Hyper-V Virtual Switch Extension Filter-0000, vEthernet (Default Switch)-WFP Native MAC Layer LightWeight Filter-0000, vEthernet (Default Switch)-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-Npcap Packet Driver (NPCAP)-0000, vEthernet (Default Switch)-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 8-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 8-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-QoS Packet Scheduler-0000, Conexión de área local* 9-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 9-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-QoS Packet Scheduler-0000, Conexión de área local* 9-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 10-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 10-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 10-QoS Packet Scheduler-0000, vEthernet (Default Switch)-Npcap Packet Driver (NPCAP)-0000, vEthernet (Default Switch)-QoS Packet Scheduler-0000, Conexión de área local* 10-Npcap Packet Driver (NPCAP)-0000, Ethernet 2-WFP Native MAC Layer LightWeight Filter-0000, Ethernet 2-Kaspersky Lab NDIS 6 Filter-0000, Ethernet 2-Npcap Packet Driver (NPCAP)-0000, Ethernet 2-QoS Packet Scheduler-0000, Ethernet 2-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 8, Conexión de área local* 9, Conexión de área local* 10, vSwitch (Default Switch)
+2026-02-23 16:02:57.728 -05:00 [INF] Used packet provider: "Npcap"
+2026-02-23 16:02:58.716 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\ActiveAlerts.json. Returning default.
+2026-02-23 16:03:00.440 -05:00 [INF] Npcap[ID:0]: opening \Device\NPF_{5343C9D7-F0C0-4A5B-A191-24B731D7A11B}:WAN Miniport (Network Monitor) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 16:03:00.493 -05:00 [INF] Npcap[ID:0]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:03:00.493 -05:00 [INF] Npcap[ID:1]: opening \Device\NPF_{73F8FA3D-7CF5-47BF-8549-3C8DD7ABACBA}:WAN Miniport (IPv6) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 16:03:00.498 -05:00 [INF] Npcap[ID:1]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:03:00.499 -05:00 [INF] Npcap[ID:2]: opening \Device\NPF_{A085B40E-9803-42FD-ACDE-ECD6A3E558A7}:WAN Miniport (IP) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 16:03:00.501 -05:00 [INF] Npcap[ID:2]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:03:00.501 -05:00 [INF] Npcap[ID:3]: opening \Device\NPF_{D6D22DA1-562A-43CC-94BB-1ECD9FBE06AB}:TP-Link Wireless USB Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 16:03:00.502 -05:00 [INF] Npcap[ID:3]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:03:00.502 -05:00 [INF] Npcap[ID:4]: opening \Device\NPF_{35362FFE-C704-4C86-9976-1C92D6CAE34F}:Microsoft Wi-Fi Direct Virtual Adapter #2 (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 16:03:00.503 -05:00 [INF] Npcap[ID:4]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:03:00.503 -05:00 [INF] Npcap[ID:5]: opening \Device\NPF_{EE51732A-8659-4B13-85DB-A43A48A05DEB}:Microsoft Wi-Fi Direct Virtual Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 16:03:00.504 -05:00 [INF] Npcap[ID:5]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:03:00.504 -05:00 [INF] Npcap[ID:6]: opening \Device\NPF_{293AF2D4-FED0-4518-8F8E-BC70B3A41807}:Remote NDIS based Internet Sharing Device (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 16:03:00.505 -05:00 [INF] Npcap[ID:6]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:03:00.505 -05:00 [INF] Npcap[ID:7]: opening \Device\NPF_{6FB708B1-6A9F-4341-986A-71A0DAC34D44}:Hyper-V Virtual Ethernet Adapter (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 16:03:00.506 -05:00 [INF] Npcap[ID:7]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:03:00.506 -05:00 [INF] Npcap[ID:8]: skip loopback \Device\NPF_Loopback:Adapter for loopback traffic capture
+2026-02-23 16:03:00.507 -05:00 [INF] Npcap[ID:9]: opening \Device\NPF_{E23C1357-44E7-4A11-99A2-D024BE8E7545}:Kaspersky VPN (Type="53", Flags="Up, Running, ConnectionStatusDisconnected")
+2026-02-23 16:03:00.508 -05:00 [INF] Npcap[ID:9]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:03:00.511 -05:00 [INF] Npcap: capture started on 9 device(s), filter: (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:03:00.571 -05:00 [INF] Npcap: locked to adapter(Device: Remote NDIS based Internet Sharing Device) after 1 valid packets
+2026-02-23 16:03:01.130 -05:00 [INF] MobileServer started on port 7777. Local IP: 172.17.0.1
+2026-02-23 16:03:01.132 -05:00 [INF] MobileBroadcastService started
+2026-02-23 16:03:01.134 -05:00 [INF] Mobile server started on http://172.17.0.1:7777/mobilehub
+2026-02-23 16:03:10.437 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2003', MainMapIndex='2000', MapType="Unknown", MapGuid=null ===
+2026-02-23 16:03:10.469 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\Settings.json via tmp-swap.
+2026-02-23 16:03:10.475 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Vaults.json via tmp-swap.
+2026-02-23 16:03:10.476 -05:00 [INF] Vault saved
+2026-02-23 16:03:10.506 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Trades.json via tmp-swap.
+2026-02-23 16:03:10.506 -05:00 [INF] Trades saved
+2026-02-23 16:03:10.513 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\TreasureStats.json via tmp-swap.
+2026-02-23 16:03:10.545 -05:00 [INF] Treasure saved
+2026-02-23 16:03:10.549 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Stats.json via tmp-swap.
+2026-02-23 16:03:10.549 -05:00 [INF] Statistics saved
+2026-02-23 16:03:10.565 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 16:03:10.565 -05:00 [INF] Dungeons saved
+2026-02-23 16:03:10.569 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Gathering.json via tmp-swap.
+2026-02-23 16:03:10.569 -05:00 [INF] Gathering saved
+2026-02-23 16:03:10.572 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Guild.json via tmp-swap.
+2026-02-23 16:03:10.572 -05:00 [INF] Guild data saved
+2026-02-23 16:03:10.575 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DamageMeterSnapshots.json via tmp-swap.
+2026-02-23 16:03:10.575 -05:00 [INF] Damage Meter snapshots saved
+2026-02-23 16:03:10.579 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Market.json via tmp-swap.
+2026-02-23 16:03:10.579 -05:00 [INF] Market data saved
+2026-02-23 16:03:10.585 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\EstimatedMarketValues.json via tmp-swap.
+2026-02-23 16:03:10.586 -05:00 [INF] Estimated market values saved
+2026-02-23 16:03:10.588 -05:00 [INF] ClusterChanged broadcast: Bank of Bridgewatch (index=2003, mainIndex=2000, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-23 16:03:10.630 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2000') ===
+2026-02-23 16:03:10.633 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 16:03:10.633 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2000'
+2026-02-23 16:03:10.634 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2000' (from JoinResponse)
+2026-02-23 16:03:10.634 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 16:03:10.634 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2003', MainClusterIndex='null', MapType="Unknown", Guid=null
+2026-02-23 16:03:10.635 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 16:03:10.635 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 16:03:10.635 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 16:03:46.237 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2000', MainMapIndex='2003', MapType="Unknown", MapGuid=null ===
+2026-02-23 16:03:46.238 -05:00 [INF] ClusterChanged broadcast: Bridgewatch (index=2000, mainIndex=2003, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-23 16:03:46.238 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2003') ===
+2026-02-23 16:03:46.238 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 16:03:46.238 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2003'
+2026-02-23 16:03:46.238 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2003' (from JoinResponse)
+2026-02-23 16:03:46.238 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 16:03:46.238 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2000', MainClusterIndex='2003', MapType="Unknown", Guid=null
+2026-02-23 16:03:46.238 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 16:03:46.238 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 16:03:46.239 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 16:04:54.533 -05:00 [ERR] Libpcap worker crashed
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Libpcap.DispatchHelper.PacketCallback(Byte* state, pcap_pkthdr* header, Byte* data)
+   at Libpcap.Native.LibpcapNative.pcap_dispatch(pcap* param0, Int32 param1,  param2, Byte* param3)
+   at Libpcap.PcapDispatcher.Dispatch(Int32 count)
+   at StatisticsAnalysisTool.Network.PacketProviders.LibpcapPacketProvider.Worker() in G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\Network\PacketProviders\LibpcapPacketProvider.cs:line 315
+2026-02-23 16:04:54.563 -05:00 [INF] MobileBroadcastService stopped
+2026-02-23 16:09:02.868 -05:00 [INF] Tool started with v8.6.7.28327
+2026-02-23 16:09:03.201 -05:00 [INF] OS Version: Microsoft Windows 10.0.26200 - "X64" | Processor: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz | Video: NVIDIA GeForce GTX 1050 Ti | Is Admin: false | Is Debug: false | Active Networks: vEthernet (Default Switch), Ethernet 2, Loopback Pseudo-Interface 1, vSwitch (Default Switch)-Hyper-V Virtual Switch Extension Filter-0000, vEthernet (Default Switch)-WFP Native MAC Layer LightWeight Filter-0000, vEthernet (Default Switch)-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-Npcap Packet Driver (NPCAP)-0000, vEthernet (Default Switch)-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 8-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 8-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-QoS Packet Scheduler-0000, Conexión de área local* 9-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 9-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-QoS Packet Scheduler-0000, Ethernet 2-WFP Native MAC Layer LightWeight Filter-0000, Ethernet 2-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-Npcap Packet Driver (NPCAP)-0000, Ethernet 2-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 10-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 10-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 10-QoS Packet Scheduler-0000, vEthernet (Default Switch)-Npcap Packet Driver (NPCAP)-0000, Ethernet 2-QoS Packet Scheduler-0000, vEthernet (Default Switch)-QoS Packet Scheduler-0000, Ethernet 2-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 10-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 8, Conexión de área local* 9, Conexión de área local* 10, vSwitch (Default Switch)
+2026-02-23 16:09:12.421 -05:00 [INF] Used packet provider: "Npcap"
+2026-02-23 16:09:12.785 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\ActiveAlerts.json. Returning default.
+2026-02-23 16:09:13.965 -05:00 [INF] Npcap[ID:0]: opening \Device\NPF_{5343C9D7-F0C0-4A5B-A191-24B731D7A11B}:WAN Miniport (Network Monitor) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 16:09:14.013 -05:00 [INF] Npcap[ID:0]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:09:14.013 -05:00 [INF] Npcap[ID:1]: opening \Device\NPF_{73F8FA3D-7CF5-47BF-8549-3C8DD7ABACBA}:WAN Miniport (IPv6) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 16:09:14.017 -05:00 [INF] Npcap[ID:1]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:09:14.018 -05:00 [INF] Npcap[ID:2]: opening \Device\NPF_{A085B40E-9803-42FD-ACDE-ECD6A3E558A7}:WAN Miniport (IP) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 16:09:14.019 -05:00 [INF] Npcap[ID:2]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:09:14.019 -05:00 [INF] Npcap[ID:3]: opening \Device\NPF_{D6D22DA1-562A-43CC-94BB-1ECD9FBE06AB}:TP-Link Wireless USB Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 16:09:14.020 -05:00 [INF] Npcap[ID:3]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:09:14.020 -05:00 [INF] Npcap[ID:4]: opening \Device\NPF_{35362FFE-C704-4C86-9976-1C92D6CAE34F}:Microsoft Wi-Fi Direct Virtual Adapter #2 (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 16:09:14.021 -05:00 [INF] Npcap[ID:4]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:09:14.021 -05:00 [INF] Npcap[ID:5]: opening \Device\NPF_{EE51732A-8659-4B13-85DB-A43A48A05DEB}:Microsoft Wi-Fi Direct Virtual Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 16:09:14.022 -05:00 [INF] Npcap[ID:5]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:09:14.022 -05:00 [INF] Npcap[ID:6]: opening \Device\NPF_{293AF2D4-FED0-4518-8F8E-BC70B3A41807}:Remote NDIS based Internet Sharing Device (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 16:09:14.023 -05:00 [INF] Npcap[ID:6]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:09:14.023 -05:00 [INF] Npcap[ID:7]: opening \Device\NPF_{6FB708B1-6A9F-4341-986A-71A0DAC34D44}:Hyper-V Virtual Ethernet Adapter (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 16:09:14.023 -05:00 [INF] Npcap[ID:7]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:09:14.024 -05:00 [INF] Npcap[ID:8]: skip loopback \Device\NPF_Loopback:Adapter for loopback traffic capture
+2026-02-23 16:09:14.024 -05:00 [INF] Npcap[ID:9]: opening \Device\NPF_{E23C1357-44E7-4A11-99A2-D024BE8E7545}:Kaspersky VPN (Type="53", Flags="Up, Running, ConnectionStatusDisconnected")
+2026-02-23 16:09:14.025 -05:00 [INF] Npcap[ID:9]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:09:14.029 -05:00 [INF] Npcap: capture started on 9 device(s), filter: (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:09:14.177 -05:00 [INF] Npcap: locked to adapter(Device: Remote NDIS based Internet Sharing Device) after 1 valid packets
+2026-02-23 16:09:14.456 -05:00 [INF] MobileServer started on port 7777. Local IP: 172.17.0.1
+2026-02-23 16:09:14.457 -05:00 [INF] MobileBroadcastService started
+2026-02-23 16:09:14.459 -05:00 [INF] Mobile server started on http://172.17.0.1:7777/mobilehub
+2026-02-23 16:10:45.918 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2003', MainMapIndex='2000', MapType="Unknown", MapGuid=null ===
+2026-02-23 16:10:45.948 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\Settings.json via tmp-swap.
+2026-02-23 16:10:45.950 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Vaults.json via tmp-swap.
+2026-02-23 16:10:45.950 -05:00 [INF] Vault saved
+2026-02-23 16:10:45.969 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Trades.json via tmp-swap.
+2026-02-23 16:10:45.970 -05:00 [INF] Trades saved
+2026-02-23 16:10:45.975 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\TreasureStats.json via tmp-swap.
+2026-02-23 16:10:45.975 -05:00 [INF] Treasure saved
+2026-02-23 16:10:45.979 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Stats.json via tmp-swap.
+2026-02-23 16:10:45.979 -05:00 [INF] Statistics saved
+2026-02-23 16:10:45.993 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 16:10:45.994 -05:00 [INF] Dungeons saved
+2026-02-23 16:10:45.996 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Gathering.json via tmp-swap.
+2026-02-23 16:10:45.997 -05:00 [INF] Gathering saved
+2026-02-23 16:10:45.998 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Guild.json via tmp-swap.
+2026-02-23 16:10:45.998 -05:00 [INF] Guild data saved
+2026-02-23 16:10:46.000 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DamageMeterSnapshots.json via tmp-swap.
+2026-02-23 16:10:46.000 -05:00 [INF] Damage Meter snapshots saved
+2026-02-23 16:10:46.002 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Market.json via tmp-swap.
+2026-02-23 16:10:46.002 -05:00 [INF] Market data saved
+2026-02-23 16:10:46.007 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\EstimatedMarketValues.json via tmp-swap.
+2026-02-23 16:10:46.007 -05:00 [INF] Estimated market values saved
+2026-02-23 16:10:46.009 -05:00 [INF] ClusterChanged broadcast:  (index=, mainIndex=2000, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-23 16:10:46.040 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2000') ===
+2026-02-23 16:10:46.043 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 16:10:46.043 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2000'
+2026-02-23 16:10:46.044 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2000' (from JoinResponse)
+2026-02-23 16:10:46.044 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 16:10:46.044 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='null', MainClusterIndex='2000', MapType="Unknown", Guid=null
+2026-02-23 16:10:46.045 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 16:10:46.045 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 16:10:46.045 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 16:10:54.579 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2000', MainMapIndex='2003', MapType="Unknown", MapGuid=null ===
+2026-02-23 16:10:54.580 -05:00 [INF] ClusterChanged broadcast: Bridgewatch (index=2000, mainIndex=2003, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-23 16:10:54.581 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2003') ===
+2026-02-23 16:10:54.581 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 16:10:54.581 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2003'
+2026-02-23 16:10:54.581 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2003' (from JoinResponse)
+2026-02-23 16:10:54.581 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 16:10:54.581 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2000', MainClusterIndex='2003', MapType="Unknown", Guid=null
+2026-02-23 16:10:54.582 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 16:10:54.582 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 16:10:54.582 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 16:11:07.096 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2211', MainMapIndex='2000', MapType="Unknown", MapGuid=null ===
+2026-02-23 16:11:07.097 -05:00 [INF] ClusterChanged broadcast: Bridgewatch (index=2000, mainIndex=2000, type=Unknown, zone=SafeArea, tier=T4)
+2026-02-23 16:11:07.097 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2000') ===
+2026-02-23 16:11:07.097 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 16:11:07.097 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2000'
+2026-02-23 16:11:07.097 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2000' (from JoinResponse)
+2026-02-23 16:11:07.097 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 16:11:07.097 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2000', MainClusterIndex='2000', MapType="Unknown", Guid=null
+2026-02-23 16:11:07.097 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 16:11:07.097 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 16:11:07.097 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 16:18:16.641 -05:00 [INF] MobileBroadcastService stopped
+2026-02-23 16:51:53.561 -05:00 [INF] Tool started with v8.6.7.28327
+2026-02-23 16:51:53.994 -05:00 [INF] OS Version: Microsoft Windows 10.0.26200 - "X64" | Processor: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz | Video: NVIDIA GeForce GTX 1050 Ti | Is Admin: false | Is Debug: false | Active Networks: vEthernet (Default Switch), Ethernet, Loopback Pseudo-Interface 1, vSwitch (Default Switch)-Hyper-V Virtual Switch Extension Filter-0000, vEthernet (Default Switch)-WFP Native MAC Layer LightWeight Filter-0000, vEthernet (Default Switch)-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-Npcap Packet Driver (NPCAP)-0000, vEthernet (Default Switch)-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 8-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 8-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-QoS Packet Scheduler-0000, Conexión de área local* 9-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 9-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-QoS Packet Scheduler-0000, Conexión de área local* 9-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 10-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 10-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 10-QoS Packet Scheduler-0000, vEthernet (Default Switch)-Npcap Packet Driver (NPCAP)-0000, vEthernet (Default Switch)-QoS Packet Scheduler-0000, Conexión de área local* 10-Npcap Packet Driver (NPCAP)-0000, Ethernet-WFP Native MAC Layer LightWeight Filter-0000, Ethernet-Kaspersky Lab NDIS 6 Filter-0000, Ethernet-Npcap Packet Driver (NPCAP)-0000, Ethernet-QoS Packet Scheduler-0000, Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 8, Conexión de área local* 9, Conexión de área local* 10, vSwitch (Default Switch)
+2026-02-23 16:52:04.729 -05:00 [INF] Used packet provider: "Npcap"
+2026-02-23 16:52:05.209 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\ActiveAlerts.json. Returning default.
+2026-02-23 16:52:06.584 -05:00 [INF] Npcap[ID:0]: opening \Device\NPF_{5343C9D7-F0C0-4A5B-A191-24B731D7A11B}:WAN Miniport (Network Monitor) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 16:52:06.649 -05:00 [INF] Npcap[ID:0]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:52:06.649 -05:00 [INF] Npcap[ID:1]: opening \Device\NPF_{73F8FA3D-7CF5-47BF-8549-3C8DD7ABACBA}:WAN Miniport (IPv6) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 16:52:06.656 -05:00 [INF] Npcap[ID:1]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:52:06.656 -05:00 [INF] Npcap[ID:2]: opening \Device\NPF_{A085B40E-9803-42FD-ACDE-ECD6A3E558A7}:WAN Miniport (IP) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 16:52:06.657 -05:00 [INF] Npcap[ID:2]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:52:06.657 -05:00 [INF] Npcap[ID:3]: opening \Device\NPF_{D6D22DA1-562A-43CC-94BB-1ECD9FBE06AB}:TP-Link Wireless USB Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 16:52:06.657 -05:00 [INF] Npcap[ID:3]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:52:06.657 -05:00 [INF] Npcap[ID:4]: opening \Device\NPF_{5F29F162-0EF1-4AB5-A605-602675BB0EB0}:Realtek PCIe GbE Family Controller (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 16:52:06.658 -05:00 [INF] Npcap[ID:4]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:52:06.658 -05:00 [INF] Npcap[ID:5]: opening \Device\NPF_{35362FFE-C704-4C86-9976-1C92D6CAE34F}:Microsoft Wi-Fi Direct Virtual Adapter #2 (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 16:52:06.659 -05:00 [INF] Npcap[ID:5]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:52:06.659 -05:00 [INF] Npcap[ID:6]: opening \Device\NPF_{EE51732A-8659-4B13-85DB-A43A48A05DEB}:Microsoft Wi-Fi Direct Virtual Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 16:52:06.660 -05:00 [INF] Npcap[ID:6]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:52:06.660 -05:00 [INF] Npcap[ID:7]: opening \Device\NPF_{6FB708B1-6A9F-4341-986A-71A0DAC34D44}:Hyper-V Virtual Ethernet Adapter (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 16:52:06.662 -05:00 [INF] Npcap[ID:7]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:52:06.664 -05:00 [INF] Npcap[ID:8]: skip loopback \Device\NPF_Loopback:Adapter for loopback traffic capture
+2026-02-23 16:52:06.664 -05:00 [INF] Npcap[ID:9]: opening \Device\NPF_{E23C1357-44E7-4A11-99A2-D024BE8E7545}:Kaspersky VPN (Type="53", Flags="Up, Running, ConnectionStatusDisconnected")
+2026-02-23 16:52:06.665 -05:00 [INF] Npcap[ID:9]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:52:06.671 -05:00 [INF] Npcap: capture started on 9 device(s), filter: (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 16:52:06.696 -05:00 [INF] Npcap: locked to adapter(Device: Realtek PCIe GbE Family Controller) after 1 valid packets
+2026-02-23 16:52:07.212 -05:00 [INF] MobileServer started on port 7777. Local IP: 172.17.0.1
+2026-02-23 16:52:07.214 -05:00 [INF] MobileBroadcastService started
+2026-02-23 16:52:07.217 -05:00 [INF] Mobile server started on http://172.17.0.1:7777/mobilehub
+2026-02-23 16:53:01.665 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2000', MainMapIndex='2211', MapType="Unknown", MapGuid=null ===
+2026-02-23 16:53:01.696 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\Settings.json via tmp-swap.
+2026-02-23 16:53:01.700 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Vaults.json via tmp-swap.
+2026-02-23 16:53:01.700 -05:00 [INF] Vault saved
+2026-02-23 16:53:01.732 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Trades.json via tmp-swap.
+2026-02-23 16:53:01.733 -05:00 [INF] Trades saved
+2026-02-23 16:53:01.741 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\TreasureStats.json via tmp-swap.
+2026-02-23 16:53:01.742 -05:00 [INF] Treasure saved
+2026-02-23 16:53:01.748 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Stats.json via tmp-swap.
+2026-02-23 16:53:01.749 -05:00 [INF] Statistics saved
+2026-02-23 16:53:01.773 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 16:53:01.773 -05:00 [INF] Dungeons saved
+2026-02-23 16:53:01.778 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Gathering.json via tmp-swap.
+2026-02-23 16:53:01.779 -05:00 [INF] Gathering saved
+2026-02-23 16:53:01.784 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Guild.json via tmp-swap.
+2026-02-23 16:53:01.784 -05:00 [INF] Guild data saved
+2026-02-23 16:53:01.788 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DamageMeterSnapshots.json via tmp-swap.
+2026-02-23 16:53:01.789 -05:00 [INF] Damage Meter snapshots saved
+2026-02-23 16:53:01.792 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Market.json via tmp-swap.
+2026-02-23 16:53:01.792 -05:00 [INF] Market data saved
+2026-02-23 16:53:01.802 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\EstimatedMarketValues.json via tmp-swap.
+2026-02-23 16:53:01.803 -05:00 [INF] Estimated market values saved
+2026-02-23 16:53:01.805 -05:00 [INF] ClusterChanged broadcast: Bridgewatch (index=2000, mainIndex=2211, type=Unknown, zone=SafeArea, tier=T1)
+2026-02-23 16:53:01.848 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2211') ===
+2026-02-23 16:53:01.854 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 16:53:01.854 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2211'
+2026-02-23 16:53:01.855 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2211' (from JoinResponse)
+2026-02-23 16:53:01.855 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 16:53:01.855 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2000', MainClusterIndex='2211', MapType="Unknown", Guid=null
+2026-02-23 16:53:01.856 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 16:53:01.857 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 16:53:01.857 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 16:53:09.217 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='2211', MainMapIndex='2000', MapType="Unknown", MapGuid=null ===
+2026-02-23 16:53:09.218 -05:00 [INF] ClusterChanged broadcast: Smoothfloor Cleft (index=2211, mainIndex=2000, type=Unknown, zone=SafeArea, tier=T4)
+2026-02-23 16:53:09.218 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='2000') ===
+2026-02-23 16:53:09.218 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 16:53:09.218 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='2000'
+2026-02-23 16:53:09.218 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='2000' (from JoinResponse)
+2026-02-23 16:53:09.218 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 16:53:09.218 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='2211', MainClusterIndex='2000', MapType="Unknown", Guid=null
+2026-02-23 16:53:09.218 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 16:53:09.218 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 16:53:09.218 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 16:59:39.379 -05:00 [INF] MobileBroadcastService stopped
+2026-02-23 18:23:02.515 -05:00 [INF] Tool started with v8.6.7.28327
+2026-02-23 18:23:03.137 -05:00 [INF] OS Version: Microsoft Windows 10.0.26200 - "X64" | Processor: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz | Video: NVIDIA GeForce GTX 1050 Ti | Is Admin: false | Is Debug: false | Active Networks: vEthernet (Default Switch), Ethernet, Loopback Pseudo-Interface 1, vSwitch (Default Switch)-Hyper-V Virtual Switch Extension Filter-0000, vEthernet (Default Switch)-WFP Native MAC Layer LightWeight Filter-0000, vEthernet (Default Switch)-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-Npcap Packet Driver (NPCAP)-0000, vEthernet (Default Switch)-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 8-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 8-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 8-QoS Packet Scheduler-0000, Conexión de área local* 9-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 9-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 9-QoS Packet Scheduler-0000, Conexión de área local* 9-Npcap Packet Driver (NPCAP)-0000, Conexión de área local* 10-WFP Native MAC Layer LightWeight Filter-0000, Conexión de área local* 10-Kaspersky Lab NDIS 6 Filter-0000, Conexión de área local* 10-QoS Packet Scheduler-0000, vEthernet (Default Switch)-Npcap Packet Driver (NPCAP)-0000, vEthernet (Default Switch)-QoS Packet Scheduler-0000, Conexión de área local* 10-Npcap Packet Driver (NPCAP)-0000, Ethernet-WFP Native MAC Layer LightWeight Filter-0000, Ethernet-Kaspersky Lab NDIS 6 Filter-0000, Ethernet-Npcap Packet Driver (NPCAP)-0000, Ethernet-QoS Packet Scheduler-0000, Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000, Conexión de área local* 8, Conexión de área local* 9, Conexión de área local* 10, vSwitch (Default Switch)
+2026-02-23 18:23:17.689 -05:00 [INF] Used packet provider: "Npcap"
+2026-02-23 18:23:18.385 -05:00 [WRN] Load failed for G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\ActiveAlerts.json. Returning default.
+2026-02-23 18:23:20.054 -05:00 [INF] Npcap[ID:0]: opening \Device\NPF_{5343C9D7-F0C0-4A5B-A191-24B731D7A11B}:WAN Miniport (Network Monitor) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 18:23:20.131 -05:00 [INF] Npcap[ID:0]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 18:23:20.132 -05:00 [INF] Npcap[ID:1]: opening \Device\NPF_{73F8FA3D-7CF5-47BF-8549-3C8DD7ABACBA}:WAN Miniport (IPv6) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 18:23:20.142 -05:00 [INF] Npcap[ID:1]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 18:23:20.142 -05:00 [INF] Npcap[ID:2]: opening \Device\NPF_{A085B40E-9803-42FD-ACDE-ECD6A3E558A7}:WAN Miniport (IP) (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 18:23:20.143 -05:00 [INF] Npcap[ID:2]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 18:23:20.143 -05:00 [INF] Npcap[ID:3]: opening \Device\NPF_{D6D22DA1-562A-43CC-94BB-1ECD9FBE06AB}:TP-Link Wireless USB Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 18:23:20.144 -05:00 [INF] Npcap[ID:3]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 18:23:20.145 -05:00 [INF] Npcap[ID:4]: opening \Device\NPF_{5F29F162-0EF1-4AB5-A605-602675BB0EB0}:Realtek PCIe GbE Family Controller (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 18:23:20.146 -05:00 [INF] Npcap[ID:4]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 18:23:20.146 -05:00 [INF] Npcap[ID:5]: opening \Device\NPF_{35362FFE-C704-4C86-9976-1C92D6CAE34F}:Microsoft Wi-Fi Direct Virtual Adapter #2 (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 18:23:20.148 -05:00 [INF] Npcap[ID:5]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 18:23:20.148 -05:00 [INF] Npcap[ID:6]: opening \Device\NPF_{EE51732A-8659-4B13-85DB-A43A48A05DEB}:Microsoft Wi-Fi Direct Virtual Adapter (Type="Wireless80211", Flags="Up, Running, Wireless, ConnectionStatusDisconnected")
+2026-02-23 18:23:20.149 -05:00 [INF] Npcap[ID:6]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 18:23:20.149 -05:00 [INF] Npcap[ID:7]: opening \Device\NPF_{6FB708B1-6A9F-4341-986A-71A0DAC34D44}:Hyper-V Virtual Ethernet Adapter (Type="Ethernet", Flags="Up, Running, ConnectionStatusConnected")
+2026-02-23 18:23:20.150 -05:00 [INF] Npcap[ID:7]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 18:23:20.151 -05:00 [INF] Npcap[ID:8]: skip loopback \Device\NPF_Loopback:Adapter for loopback traffic capture
+2026-02-23 18:23:20.152 -05:00 [INF] Npcap[ID:9]: opening \Device\NPF_{E23C1357-44E7-4A11-99A2-D024BE8E7545}:Kaspersky VPN (Type="53", Flags="Up, Running, ConnectionStatusDisconnected")
+2026-02-23 18:23:20.153 -05:00 [INF] Npcap[ID:9]: filter set => (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 18:23:20.159 -05:00 [INF] Npcap: capture started on 9 device(s), filter: (ip or ip6) and (udp and (port 5055 or port 5056 or port 5058))
+2026-02-23 18:23:20.196 -05:00 [INF] Npcap: locked to adapter(Device: Realtek PCIe GbE Family Controller) after 1 valid packets
+2026-02-23 18:23:20.884 -05:00 [INF] MobileServer started on port 7777. Local IP: 172.17.0.1
+2026-02-23 18:23:20.886 -05:00 [INF] MobileBroadcastService started
+2026-02-23 18:23:20.888 -05:00 [INF] Mobile server started on http://172.17.0.1:7777/mobilehub
+2026-02-23 18:41:01.236 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='4343', MainMapIndex='4343', MapType="Unknown", MapGuid=null ===
+2026-02-23 18:41:01.269 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\Settings.json via tmp-swap.
+2026-02-23 18:41:01.276 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Vaults.json via tmp-swap.
+2026-02-23 18:41:01.277 -05:00 [INF] Vault saved
+2026-02-23 18:41:01.303 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Trades.json via tmp-swap.
+2026-02-23 18:41:01.304 -05:00 [INF] Trades saved
+2026-02-23 18:41:01.316 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\TreasureStats.json via tmp-swap.
+2026-02-23 18:41:01.317 -05:00 [INF] Treasure saved
+2026-02-23 18:41:01.324 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Stats.json via tmp-swap.
+2026-02-23 18:41:01.326 -05:00 [INF] Statistics saved
+2026-02-23 18:41:01.352 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DungeonRuns.json via tmp-swap.
+2026-02-23 18:41:01.353 -05:00 [INF] Dungeons saved
+2026-02-23 18:41:01.359 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Gathering.json via tmp-swap.
+2026-02-23 18:41:01.360 -05:00 [INF] Gathering saved
+2026-02-23 18:41:01.365 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Guild.json via tmp-swap.
+2026-02-23 18:41:01.365 -05:00 [INF] Guild data saved
+2026-02-23 18:41:01.370 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\DamageMeterSnapshots.json via tmp-swap.
+2026-02-23 18:41:01.372 -05:00 [INF] Damage Meter snapshots saved
+2026-02-23 18:41:01.375 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\Market.json via tmp-swap.
+2026-02-23 18:41:01.375 -05:00 [INF] Market data saved
+2026-02-23 18:41:01.384 -05:00 [INF] Saved G:\AlbionProyects\AlbionTracker\AlbionOnline-StatisticsAnalysis\src\StatisticsAnalysisTool\bin\Debug\net9.0-windows\UserData\EstimatedMarketValues.json via tmp-swap.
+2026-02-23 18:41:01.385 -05:00 [INF] Estimated market values saved
+2026-02-23 18:41:01.388 -05:00 [INF] ClusterChanged broadcast: Glacierfall Cross (index=4343, mainIndex=4343, type=Unknown, zone=Black, tier=T7)
+2026-02-23 18:41:01.392 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='4343') ===
+2026-02-23 18:41:01.396 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 18:41:01.396 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='4343'
+2026-02-23 18:41:01.397 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='4343' (from JoinResponse)
+2026-02-23 18:41:01.398 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 18:41:01.398 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='4343', MainClusterIndex='4343', MapType="Unknown", Guid=null
+2026-02-23 18:41:01.399 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 18:41:01.400 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 18:41:01.400 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 18:41:38.287 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='0354', MainMapIndex='4343', MapType="Unknown", MapGuid=null ===
+2026-02-23 18:41:38.288 -05:00 [INF] ClusterChanged broadcast: Meltwater Channel (index=0354, mainIndex=4343, type=Unknown, zone=Black, tier=T8)
+2026-02-23 18:41:38.288 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Unknown", mapGuid=null, mainMapIndex='4343') ===
+2026-02-23 18:41:38.289 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 18:41:38.289 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Unknown", mapGuid=null, mainMapIndex='4343'
+2026-02-23 18:41:38.289 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='4343' (from JoinResponse)
+2026-02-23 18:41:38.289 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 18:41:38.289 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='0354', MainClusterIndex='4343', MapType="Unknown", Guid=null
+2026-02-23 18:41:38.289 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 18:41:38.289 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 18:41:38.289 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to null ===
+2026-02-23 18:42:43.951 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: MapIndex='@HIDEOUT@0354@af4f45b9-3235-4ee1-8815-985a27faaaa3', MainMapIndex='0354', MapType="Hideout", MapGuid="af4f45b9-3235-4ee1-8815-985a27faaaa3" ===
+2026-02-23 18:42:43.953 -05:00 [INF] ClusterChanged broadcast:  (index=, mainIndex=0354, type=Hideout, zone=SafeArea, tier=T8)
+2026-02-23 18:42:43.953 -05:00 [INF] [DUNGEON-TRACE] === JoinResponseHandler: Calling AddDungeonAsync(mapType="Hideout", mapGuid="af4f45b9-3235-4ee1-8815-985a27faaaa3", mainMapIndex='0354') ===
+2026-02-23 18:42:43.953 -05:00 [INF] [DUNGEON-TRACE] === STEP 1: AddDungeonAsync START ===
+2026-02-23 18:42:43.953 -05:00 [INF] [DUNGEON-TRACE] Input: mapType="Hideout", mapGuid="af4f45b9-3235-4ee1-8815-985a27faaaa3", mainMapIndex='0354'
+2026-02-23 18:42:43.953 -05:00 [INF] [DUNGEON-TRACE] EffectiveMainMapIndex='0354' (from JoinResponse)
+2026-02-23 18:42:43.953 -05:00 [INF] [DUNGEON-TRACE] State: _currentGuid=null, _lastMapGuid=null
+2026-02-23 18:42:43.953 -05:00 [INF] [DUNGEON-TRACE] CurrentCluster: Index='null', MainClusterIndex='0354', MapType="Hideout", Guid="af4f45b9-3235-4ee1-8815-985a27faaaa3"
+2026-02-23 18:42:43.954 -05:00 [INF] [DUNGEON-TRACE] Evaluation: IsDungeonCluster=false, ExistDungeon(_lastMapGuid)=false, ExistDungeon(_currentGuid)=false
+2026-02-23 18:42:43.954 -05:00 [INF] [DUNGEON-TRACE] BRANCH: NO MATCH - not a dungeon transition or no action taken
+2026-02-23 18:42:43.954 -05:00 [INF] [DUNGEON-TRACE] === STEP 1 END: _lastMapGuid updated to "af4f45b9-3235-4ee1-8815-985a27faaaa3" ===
+2026-02-23 18:57:22.158 -05:00 [INF] MobileBroadcastService stopped
